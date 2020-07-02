@@ -6,109 +6,110 @@ permalink: /software
 
 ## Servers / Brokers
 
-Akiro by Sentienz
+# Akiro by Sentienz
 Akiro MQTT Broker is a high scale MQTT broker and needs a 10 node cluster for 10 Million active MQTT connections. It's written in Java with Vert.X's async paradigm.
 
-Apache ActiveMQ
-Details of “classic” ActiveMQ’s support for MQTT are available here.
+# Apache ActiveMQ
+Details of "classic" ActiveMQ’s support for MQTT are available here.
 
-Apache ActiveMQ Artemis
-The “next generation” of ActiveMQ, Artemis is a multi protocol messaging broker that supports MQTT.
+# Apache ActiveMQ Artemis
+The "next generation" of ActiveMQ, Artemis is a multi protocol messaging broker that supports MQTT.
 
-Bevywise MQTT Broker
+# Bevywise MQTT Broker
 MQTTRoute is a high performance broker. The Secure MQTT Broker is written in C & Python and works with all standard MQTT Clients. Bevywise MQTT Broker has a FREE and affordable premium version. MQTTRoute can be customized to write data to any data store using standard connectors or custom implementations. Try the publicly hosted MQTTRoute
 
-ejabberd
+<a href="#hivemq">HiveMQ</a>
+
+# ejabberd
 ejabberd is an open-source MQTT broker written in Erlang and supported by ProcessOne. ejabberd introduced MQTT 5.0 broker services on top of its renowned XMPP server starting with version 19.02 through mod_mqtt. It relies on ejabberd infrastructure code that has been battle tested for 15+ years, like the clustering engine. ejabberd MQTT broker has been verified on large scale systems and can support millions of concurrent connections highly efficiently.
 
 Emitter
 Emitter is clustered and open-source MQTT broker, written entirely in Go. It proposes several additional features on top of a traditional MQTT broker, as it includes custom per-topic security and shared-nothing scalable architecture which helps you avoid single points of failure. Full source-code available on GitHub.
 
-EMQ X
+# EMQ X
 EMQ X MQTT Broker is a fully open source, highly scalable, highly available distributed MQTT messaging broker for IoT, M2M and Mobile applications that can handle tens of millions of concurrent clients.
 
 Starting from 3.0 release, EMQ X broker fully supports MQTT V5.0 protocol specifications and backward compatible with MQTT V3.1 and V3.1.1, as well as other communication protocols such as MQTT-SN, CoAP, LwM2M, WebSocket and STOMP. The 3.0 release of the EMQ X broker can scaled to 10+ million concurrent MQTT connections on one cluster.
 
-@emqtt
-
+# @emqtt
 Eurotech Everywhere Device Cloud
 Eurotech Everywhere Device Cloud is a cloud-based service provided by Eurotech.
 
-flespi
+# flespi
 flespi is a public and free cloud-based MQTT broker service with declared 3.1, 3.1.1, 5.0 protocols compliance. High-volume targeted architecture, isolated MQTT namespace, WebSockets/SSL support, configurable ACL, commercial and free SLA, managed by HTTP REST API.
 
-HBMQTT
+# HBMQTT
 HBMQTT is an open-source implementation of MQTT broker and client. It uses Python 3.4+ asyncio library for providing a mono-threaded, non-blocking implementation of the protocol.
 
-HiveMQ
+<h1 id="hivemq" >HiveMQ</h1>
 HiveMQ is a MQTT broker which was built from the ground up with maximum scalability and enterprise-ready security in mind. It comes with native web socket support and an open source plugin SDK to extend its functionality or integrate it with other components. A public test server is also available (more information).
 
-Jmqtt
+# Jmqtt
 Jmqtt is a MQTT broker which implemented by java and netty,support persistence and cluster.
 
-IBM Integration Bus
+# IBM Integration Bus
 IBM Integration Bus V9 has Telemetry feature built-in as optional licensed feature. IBM WebSphere MessageBroker V7 & V8 also include it as optionally licensed feature.
 
 Really Small Message Broker 75KB MQTT broker runtime free download as binaries from IBM alphaWorks, RSMB is a C implementation of a tiny MQTT server suitable for development, embedded systems, concentrators or small to medium sized deployments. It provides complete MQTT v3.1 support, bridging, and a C client API.
 
-IBM WIoTP Message Gateway
+# IBM WIoTP Message Gateway
 IBM WIoTP Message Gateway is a scalable, hightly available messaging broker for MQTT (including MQTT v5, HTML5 WebSockets, JMS. Also connects/bridges IBM MQ, IBM Integration Bus. (Was formerly called IBM IoT MessageSight)
 
-IBM Websphere MQ Telemetry
+# IBM Websphere MQ Telemetry
 The Telemetry MQTT feature is built-in optionally licensed feature in WebSphere MQ version 7.1 and above. It provides full MQTT v3.1 support, IBM MQ and JMS support. IBM WebSphere MQ Advanced includes the MQTT license at no charge. It ships with reference Java (MIDP and above), C and JavaScript (MQTT over WebSocket) clients.
 
-JoramMQ
+# JoramMQ
 JoramMQ is an offering by ScalAgent providing a message broker that fully supports MQTT 3.1, JMS 2.0, and AMQP 1.0. Interoperability between these standards is ensured by the message broker. MQTT can be used over TCP/IP, TLS (SSL), WebSocket, and secure WebSocket. JoramMQ is particularly appropriate for applications that need to scale with the number of MQTT clients while allowing the publishers to reliably transmit a large volume of messages with a low latency.
 
-Litmus Automation Loop
+# Litmus Automation Loop
 Loop is a cloud based MQTT broker with scalability, high availability and security at core. Loop provides full MQTT 3.1 support and JMS connectivity. It can handle extremely large numbers of connected clients. On the other side it can be connected to any ERP, CRM and enterprise architecture with ESB or NoSQL databases for blazing fast data storage.
 
-Moquette
+# Moquette
 Moquette is a Java MQTT broker based on an eventing model with Netty.
 
-Mosca
+# Mosca
 As node.js MQTT broker can Mosca be plugged on top of Redis, AMQP, MQTT, or ZeroMQ.
 
-Mosquitto
+# Mosquitto
 Mosquitto is an Open Source MQTT server. A public, hosted test server is also available (more information)
 
-MyQttHub.com
+# MyQttHub.com
 MyQttHub.com Cloud MQTT platform to build your IoT projects. It includes support for MQTT, MQTT-TLS, Web Interface and REST API for full HTTP+MQTT integration.
 
-MQTTnet
+# MQTTnet
 MQTTnet is a .NET library for MQTT based communication. It provides a MQTT client and a MQTT server (broker).
 
-MqttWk
+# MqttWk
 MqttWk is a Java MQTT broker based on NutzBoot + Netty + Redis + Kafka(Optional).The broker supports QoS 0, QoS 1 and QoS 2.It uses Netty for the protocol encoding and decoding part.Using NutzBoot to provide dependency injection and attribute configuration, using Redis to implement message caching and clustering, and using Kafka to implement message proxy.
 
-RabbitMQ
+# RabbitMQ
 RabbitMQ is an AMQP message broker – with an MQTT plugin (bundled in version 3.x onwards). A public test server is also available (more information).
 
-Solace
+# Solace
 Solace Message Routers (available as hardware and software) are message brokers that support MQTT, JMS, and REST among other APIs, protocols and qualities of service for enterprise messaging, data collection and web/mobile streaming. They support very high connection counts and throughput with built-in buffering to handle bursty traffic, and offer enterprise-class monitoring, high availability and security.
 
-SwiftMQ
+# SwiftMQ
 SwiftMQ Universal Router is an enterprise message system with integrated micro services and realtime streaming analytics platform (SwiftMQ Streams, SwiftMQ Dashboard). It supports MQTT 3.1/3.1.1, AMQP 1.0/0.9.1, JMS 1.1 and is fully interoperable between these protocols. It has a built-in Dynamic Routing Architecture to build large Federated Router Networks and Clusters. SwiftMQ High Availability Router is the High and Continuous Availability version of SwiftMQ Universal Router with active replication and transparent client failover.
 
-ThingScale IoT message broker
+# ThingScale IoT message broker
 ThingScale IoT message broker is a fully-managed IoT messaging service provided by Sensinics,LLC. ThingScale provides a messaging system for IoT connected devices. The API is used to retrieve events, users, devices, sessions, and channels in JSON format. ThingScale supports TLS payload encryption, scheme-less and cyclic data sampling, and trigger-based notifications. A 30days trial license is offered free of charge. MQTT is the preferred messaging protocol. Dev Portal & API Portal
 
-VerneMQ
+# VerneMQ
 VerneMQ is an enterprise ready, high-performance, distributed MQTT message broker. It scales horizontally and vertically on commodity hardware to support a high number of concurrent publishers and consumers while maintaining low and predictable latency and fault tolerance. VerneMQ plugins can be developed in Erlang, Elixir, Lua, and any programming language that can implement HTTP WebHooks. VerneMQ uses modern broadcast protocols and LevelDB for state replication in a cluster. VerneMQ is Open Source and Apache2 licensed.
 
-Vert.x MQTT Broker
+# Vert.x MQTT Broker
 Vert.x MQTT Broker is an open-source implementation of MQTT server. It implements protocol versions 3.1.1 and 3.1, supports QoS 2, and uses OAuth2 for autentication. It uses vert.x as library for tcp managemnet, non-blocking / actor-model, clustering and auth plugin system.
 
-Yunba.io
+# Yunba.io
 Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol, The services include bi-directional push for Instant-Messaging; real-time analyzing; real-time online monitoring.
 
-Cassandana
+# Cassandana
 Cassandana is an open source MQTT message broker which is entirely written in Java. This project began its life as a fork of Moquette , and later underwent some cleanup, optimization and adding extra features. Now it’s ready to work as an enterprise message broker. Features: MQTT compliant broker. Supports QoS 0, QoS 1 and QoS 2 TLS (SSL) Encryption PostgreSQL, MySQL and MongoDB Authentication and Authorization Supports HTTP REST API for Authentication and Authorization MQTT message archiver (Silo integrated in Cassandana) Easy configurable (YAML based) Supports WebSocket
 
-Erl.mqtt.server
+# Erl.mqtt.server
 erl.mqtt.server MQTT server is designed for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts and implements MQTT protocol versions 3.1 and 3.1.1. The server is written in Erlang as OTP application.
 
-Device-Specific
+# Device-Specific
 Arduino (more information)
 
 Espduino (tailored Arduino library for the ESP8266)
@@ -325,7 +326,8 @@ Tcl
 tcl-mqtt
 
 
-Tools
+# Tools
+
 A number of tools make it simple to publish or subscribe on MQTT topics. Some are web-based, others are desktop.
 
 Web

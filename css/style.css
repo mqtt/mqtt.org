@@ -6,24 +6,82 @@ body {
 
 #default-header {
    background-image: url("/img/header-gradient.jpg");
-   background-size: 100%;
+   background-size: cover;
+   width: 100%;
    height: 80px;
+   position: fixed;
 }
 
 #mqtt-logo-header {
    width: 125px;
-   padding-left: 25px;
    padding-top: 30px;
 }
 
+.width-container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding-left: 20px;
+   box-sizing: border-box;
+}
+
+/* Navigation */
+#main-nav.default-nav {
+   position: fixed;
+   top: 100px;
+}
+
+.nav-item a {
+   text-decoration: none;
+}
+
+.nav-item:not(.last) {
+   border-bottom: 1px solid #660066;
+   font-size: 16px;
+   padding: 10px 10px 10px 0;
+}
+
+
+.content-wrap {
+   display: flex;
+   flex-direction: row;
+}
+
+.content {
+   width: 100%;
+   max-width: 900px;
+   margin-left: 200px;
+   padding-top: 90px;
+
+}
 
 footer {
    background-color: #660066;
    color: #fff;
-   position: absolute;
+   position: relative;
    bottom: 0;
    width: 100%;
    height: 40px;
-   padding-top: 10px;
-   padding-left: 25px;
+   padding-top: 15px;
+   font-size: 16px;
+}
+
+/* Homepage */
+#homepage-header {
+   background-image: url("/img/homepage-gradient.jpg");
+   height: 530px;
+}
+
+#main-nav.homepage-nav {
+   position: absolute;
+   top: 100px;
+}
+
+.homepage-nav a,
+.homepage-nav a:visited {
+   color: #fff;
+}
+
+.homepage-nav .nav-item:not(.last) {
+   border-bottom: 1px solid #fff;
 }

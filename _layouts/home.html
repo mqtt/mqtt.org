@@ -7,15 +7,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header id="homepage-header">
+    <header id="homepage-header" class="width-container">
       <img src="/img/mqtt-logo-neg.svg" id="mqtt-logo-header">
+      {% include homepage-header.html %}
+    </header>
+    <section class="width-container content-wrap">
       <nav id="main-nav" class="homepage-nav">
         {% include nav.html %}
       </nav>
-    </header>
-    <section>
-      {{ content }}
+      <section class="content">
+        {{ content }}
+      </section>
     </section>
-      {% include nav.html %}
+      {% include footer.html %}
   </body>
 </html>
