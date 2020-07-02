@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="homepage-header">
+      <img src="/img/mqtt-logo-neg.svg" id="mqtt-logo-header">
+      <nav id="main-nav" class="homepage-nav">
+        {% include nav.html %}
+      </nav>
+    </header>
+    <section>
+      {{ content }}
+    </section>
+      {% include nav.html %}
+  </body>
+</html>

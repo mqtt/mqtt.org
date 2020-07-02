@@ -1,0 +1,29 @@
+body {
+   font-family: 'Lato', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+#default-header {
+   background-image: url("/img/header-gradient.jpg");
+   background-size: 100%;
+   height: 80px;
+}
+
+#mqtt-logo-header {
+   width: 125px;
+   padding-left: 25px;
+   padding-top: 30px;
+}
+
+
+footer {
+   background-color: #660066;
+   color: #fff;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 40px;
+   padding-top: 10px;
+   padding-left: 25px;
+}
