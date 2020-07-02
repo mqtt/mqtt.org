@@ -52,7 +52,6 @@ body {
    max-width: 900px;
    margin-left: 200px;
    padding-top: 90px;
-
 }
 
 footer {
@@ -84,4 +83,11 @@ footer {
 
 .homepage-nav .nav-item:not(.last) {
    border-bottom: 1px solid #fff;
+}
+
+#homepage-intro {
+   color: #fff;
+   width: 70%;
+   margin-left: 200px;
+   margin-right: 50px;
 }
