@@ -6,16 +6,16 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <header id="homepage-header" class="width-container">
+  <body id="mqtt-home">
+    <header id="homepage-header">
       <img src="/img/mqtt-logo-neg.svg" id="mqtt-logo-header">
       {% include homepage-header.html %}
     </header>
-    <section class="width-container content-wrap">
+    <section class="content-wrap">
       <nav id="main-nav" class="homepage-nav">
         {% include nav.html %}
       </nav>
-      <section class="content">
+      <section id="homepage-content">
         {{ content }}
       </section>
     </section>

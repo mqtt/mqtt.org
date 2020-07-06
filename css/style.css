@@ -2,33 +2,53 @@ body {
    font-family: 'Lato', sans-serif;
    margin: 0;
    padding: 0;
+   font-size: 15px;
+   line-height: 1.5rem;
+   font-weight: 300;
 }
 
-#default-header {
-   background-image: url("/img/header-gradient.jpg");
-   background-size: cover;
-   width: 100%;
-   height: 80px;
-   position: fixed;
+/* Typography */
+h1 {
+   font-size: 32px;
+}
+
+h2 {
+   font-size: 28px;
+}
+
+h3 {
+   font-size: 24px;
+   color: #ff8800;
+   font-weight: 300;
+}
+
+h4 {
+   font-size: 20px;
+   font-weight: 300;
+}
+
+h5 {
+   font-size: 20px;
+   color: #660066;
+}
+
+/* Global */
+.centered-80 {
+   width: 80%;
+   margin: 0 auto;
 }
 
 #mqtt-logo-header {
    width: 125px;
    padding-top: 30px;
-}
-
-.width-container {
-   width: 100%;
-   max-width: 1200px;
-   margin: 0 auto;
-   padding-left: 20px;
-   box-sizing: border-box;
+   padding-left: 30px;
 }
 
 /* Navigation */
 #main-nav.default-nav {
    position: fixed;
    top: 100px;
+   padding-left: 30px;
 }
 
 .nav-item a {
@@ -41,7 +61,6 @@ body {
    padding: 10px 10px 10px 0;
 }
 
-
 .content-wrap {
    display: flex;
    flex-direction: row;
@@ -49,8 +68,8 @@ body {
 
 .content {
    width: 100%;
-   max-width: 900px;
-   margin-left: 200px;
+   max-width: 1100px;
+   margin-left: 266px;
    padding-top: 90px;
 }
 
@@ -63,9 +82,18 @@ footer {
    height: 40px;
    padding-top: 15px;
    font-size: 16px;
+   padding-left: 30px;
 }
 
 /* Homepage */
+#mqtt-home {
+   width: 80%;
+   margin: 0 10%;
+   max-width: 1366px;
+   box-shadow: 2px 2px 4px #afafaf;
+   border: 1px solid #afafaf;
+}
+
 #homepage-header {
    background-image: url("/img/homepage-gradient.jpg");
    height: 530px;
@@ -74,6 +102,7 @@ footer {
 #main-nav.homepage-nav {
    position: absolute;
    top: 100px;
+   padding-left: 30px;
 }
 
 .homepage-nav a,
@@ -87,7 +116,67 @@ footer {
 
 #homepage-intro {
    color: #fff;
-   width: 70%;
-   margin-left: 200px;
-   margin-right: 50px;
+   width: 60%;
+   margin: 50px 20%;
+   text-align: center;
+   line-height: 32px;
+   font-size: 17px;
+}
+#homepage-content {
+   padding-top: 25px;
+}
+
+.major-cta {
+   padding: 10px;
+   border: 1px solid #fff;
+   border-radius: 10px;
+   background-color: transparent;
+   color: #fff;
+   font-size: 18px;
+}
+
+#keyfeature-list {
+   width: 100%;
+   margin: 25px 0;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.keyfeature {
+   flex-basis: 25%;
+   margin: 0 8% 50px 0;
+   display: block;
+}
+
+#mqtt-in-action {
+   background-color: #eceeef;
+   padding: 25px 10% 75px;
+}
+
+.mqtt-in-action-box {
+   width: 282px;
+   height: 189px;
+   display: inline-block;
+   margin: 5px;
+   padding: 2px 10px;
+   box-sizing: border-box;
+   color: #fff;
+}
+
+/* Default Pages */
+#default-header {
+   background-image: url("/img/header-gradient.jpg");
+   background-size: cover;
+   width: 100%;
+   height: 80px;
+   position: fixed;
+}
+
+.width-container {
+   width: 100%;
+   max-width: 1366px;
+   margin: 0 auto;
+   box-sizing: border-box;
 }
