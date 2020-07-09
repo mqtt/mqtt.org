@@ -226,8 +226,13 @@ footer {
 
 /* Accordions START */
 .accordion-wrapper {
-   width: 80%;
+   width: 90%;
 }
+
+.accordion-wrapper.software {
+   width: 90%;
+}
+
 .accordion {
    background-color: #eee;
    color: #444;
@@ -269,6 +274,19 @@ footer {
    max-height: 0;
    overflow: hidden;
    transition: max-height 0.2s ease-out;
+ }
+
+ .panel-item {
+   padding-bottom: 15px;
+   padding-right: 25px;
+   border-bottom: #afafaf 1px dotted;
+ }
+
+ .subhead {
+    background-color:#666;
+    color: #fff;
+    width: 100%;
+    padding: 5px 15px;
  }
 
  /* Accordions END */
