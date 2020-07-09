@@ -287,7 +287,222 @@ permalink: /software
    <!-- End of Broker / Server Panel -->
    <button class="accordion">Client libraries</button>
    <div class="panel">
-      <p>MQTT was invented by Dr Andy Stanford-Clark of IBM, and Arlen Nipper of Arcom (now Eurotech), in 1999.</p>
+      <p>Arduino (more information)
+
+Espduino (tailored Arduino library for the ESP8266)
+
+mbed (more information)
+
+mbed (simple port of the Arduino pubsubclient)
+
+mbed (native implementation)
+
+mbed (Paho Embedded C++ port) (more information)
+
+mbed (Paho Embedded C port) (more information)
+
+Nanode
+
+Netduino
+
+M2MQTT (works with .Net Micro Framework)
+
+(see also devices page for more on hardware with built-in support)
+
+Actionscript
+as3MQTT
+Bash
+see Shell Script, below
+C
+Eclipse Paho C
+
+Eclipse Paho Embedded C
+
+libmosquitto
+
+libemqtt - an embedded C client
+
+MQTT-C - A portable MQTT C client for embedded systems and PCs alike.
+
+wolfMQTT - Embedded C client
+
+MQTT over lwIP - MQTT C client for embedded systems using FreeRTOS, lwIP and mbedtls
+
+libsmartfactory - easy to use library for different Smart Factory/Industry 4.0 technologies including a MQTT client implementation
+
+libumqtt - A Lightweight and fully asynchronous MQTT client C library based on libev
+
+C++
+Eclipse Paho C++
+
+libmosquittopp
+
+Eclipse Paho Embedded C++
+
+mqtt_cpp - MQTT client and server library based on C++14 and Boost.Asio. It supports MQTT v3.1.1 and v5.
+
+Clojure
+Machine Head
+
+Clojure MQTT Codec for Netty
+
+Dart
+mqtt.dart
+mqtt_client
+Delphi
+TMQTTClient (more information)
+Erlang
+erlmqtt
+
+emqttc - Erlang MQTT Client
+
+mqtt4erl
+
+my-mqtt4erl - updated fork of mqtt4erl
+
+erl.mqtt.client - Erlang MQTT client
+
+Elixir
+hulaaki - An Elixir library (driver) for clients communicating with MQTT brokers(via the MQTT 3.1.1 protocol).
+
+Exmqttc - Elixir wrapper for the emqttc library.
+
+tortoise - A MQTT Client written in Elixir
+
+Go
+Eclipse Paho Go
+mqtt by jeffallen
+Haskell
+mqtt-hs
+net-mqtt (3.1.1 and 5.0 client)
+Java
+Eclipse Paho Java
+
+Xenqtt - documentation Includes a client library, mock broker for unit/integration testing, and applications to support enterprise needs like using a cluster of servers as a single client, an HTTP gateway, etc.
+
+MeQanTT
+
+Fusesource mqtt-client
+
+moquette
+
+MqttWk
+
+"MA9B" zip of 1/2 dozen mobile clients source code. Includes Android-optimized Java source that works with Android notifications, based on Paho
+
+IA92 - deprecated IBM IA92 support pack, use Eclipse Paho GUI client instead. A useful MQTT Java swing GUI for publishing & subscribing. The Eclipse Paho GUI is identical but uses newer client code
+
+vertx-mqtt-client is an open-source, high performance, non-blocking MQTT client built as a part of vert.x's JVM toolkit.
+
+Qatja is a Java client library for MQTT 3.1.1 with specific implementation for Android and Processing
+
+HiveMQ MQTT Client - MQTT 5.0 and MQTT 3.1.1 compatible and feature-rich high-performance Java client library with different API flavours and backpressure support
+
+ActiveMQ Client
+
+Sentienz Akiro MQTT Client - MQTT 3.1.1 compatible Akiro MQTT broker Java client with callbacks.
+
+Javascript / Node.js
+Eclipse Paho HTML5 JavaScript over WebSocket.
+
+mqtt.js
+
+node_mqtt_client (more information)
+
+IBM-provided PhoneGap / Apache Cordova MQTT plug-in for Android - JavaScript API is identical to Eclipse Paho HTML5 JavaScript
+
+Ascoltatori - a node.js pub/sub library that allows access to Redis, AMQP, MQTT, and ZeroMQ with the same API.
+
+LotusScript
+MQTT From LotusScript
+Lua
+Eclipse Paho Lua
+luamqtt - Pure-lua MQTT client
+libumqtt
+lua-mosquitto
+.NET / dotNET
+Paho.MqttDotnet
+
+MQTTnet
+
+MqttDotNet
+
+nMQTT
+
+M2MQTT
+
+KittyHawkMQ
+
+StriderMqtt
+
+xamarin mqtt
+
+Objective-C
+mqttIO-objC
+
+libmosquitto - via wrappers (example)
+
+MQTTKit (sample app)
+
+"MA9B" zip of 1/2 dozen mobile clients source code including Objective-C
+
+OCaml
+ocaml-mqtt
+
+mqtt_client
+
+Perl
+net-mqtt-perl
+
+anyevent-mqtt-perl
+
+WebSphere-MQTT-Client
+
+Net::MQTT::Simple cpan github
+
+PHP
+phpMQTT
+
+Mosquitto-PHP
+
+sskaje's MQTT library
+
+Python
+Eclipse Paho Python - originally the mosquitto Python client
+
+gmqtt
+
+nyamuk
+
+MQTT for twisted python
+
+HBMQTT
+
+mqttools
+
+REXX
+REXX MQTT
+Prolog
+MQTT Pack - Mosquitto library as a SWI-Prolog pack
+Ruby
+ruby-mqtt
+
+em-mqtt
+
+mosquitto
+
+Qt
+qmqtt - MQTT Client for Qt
+Shell Script
+bish-bosh, supports bash, ash (including BusyBox), pdksh and mksh.
+Smalltalk
+MQTT client for Squeak, for Squeak 5.1
+Swift
+CocoaMQTT - An MQTT client for iOS and OS X written with Swift
+Tcl
+tcl-mqtt
+Creative Commons Licence MQ
+</p>
    </div>
    <button class="accordion">Tools and applications</button>
    <div class="panel">
