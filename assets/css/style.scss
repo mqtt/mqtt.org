@@ -1,4 +1,5 @@
 ---
 ---
-$header: "{{ 'assets/img/homepage-gradient.jpg' | relative_url }}";
+$home-header: "{{ 'assets/img/homepage-gradient.jpg' | relative_url }}";
+$header: "{{ 'assets/img/header-gradient.jpg' | relative_url }}";
 @import "style";

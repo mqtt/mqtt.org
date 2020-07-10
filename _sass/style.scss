@@ -103,7 +103,7 @@ footer {
 }
 
 #homepage-header {
-   background-image: url($header);
+   background-image: url($home-header);
    height: 530px;
 }
 
@@ -192,7 +192,7 @@ footer {
 
 /* Default Pages */
 #default-header {
-   background-image: url("/assets/img/header-gradient.jpg");
+   background-image: url($header);
    background-size: cover;
    width: 100%;
    height: 80px;
