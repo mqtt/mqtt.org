@@ -40,7 +40,7 @@ permalink: /
 </section>
 <h2>MQTT Publish / Subscribe Architecture</h2> 
    <section id="pub-sub-graphic">
-      <img src="/assets/img/mqtt-pub-sub.jpg" alt="MQTT: publish / subscribe architecture" title="MQTT: publish / subscribe architecture">
+      <img src="{{ 'assets/img/mqtt-pub-sub.jpg' | relative_url }}" alt="MQTT: publish / subscribe architecture" title="MQTT: publish / subscribe architecture">
    </section>
 </div>
 
