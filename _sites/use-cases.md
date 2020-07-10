@@ -1,7 +1,6 @@
 ---
-layout: default
 title: Use Cases
-permalink: /use-cases
+index: 4
 ---
 
 MQTT is used in a large variety of use cases and industries. 

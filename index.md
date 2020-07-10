@@ -40,7 +40,7 @@ permalink: /
 </section>
 <h2>MQTT Publish / Subscribe Architecture</h2> 
    <section id="pub-sub-graphic">
-      <img src="/assets/img/mqtt-pub-sub.jpg" alt="MQTT: publish / subscribe architecture" title="MQTT: publish / subscribe architecture">
+      <img src="{{ 'assets/img/mqtt-pub-sub.jpg' | relative_url }}" alt="MQTT: publish / subscribe architecture" title="MQTT: publish / subscribe architecture">
    </section>
 </div>
 
@@ -48,11 +48,11 @@ permalink: /
 <h2>MQTT in action</h2>
 <p>MQTT is used in a wide variety of industries</p>
    <div class="flex-wrap-centered">
-      <div class="mqtt-in-action-box" style="background-image: url('/assets/img/automotive.jpg');">Automotive</div>
-      <div class="mqtt-in-action-box" style="background-image: url('/assets/img/transport.jpg');">Transport & Logistics</div>
-      <div class="mqtt-in-action-box" style="background-image: url('/assets/img/manufacturing.jpg');"><span style="color: #000">Manufacturing</span></div>
-      <div class="mqtt-in-action-box" style="background-image: url('/assets/img/oil-and-gas.jpg');">Oil and Gas</div>
-      <div class="mqtt-in-action-box" style="background-image: url('/assets/img/smart-home.jpg');">Smart Home</div>
+      <div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/automotive.jpg' | relative_link }}');">Automotive</div>
+      <div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/transport.jpg' | relative_link }}');">Transport & Logistics</div>
+      <div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/manufacturing.jpg' | relative_link }}');"><span style="color: #000">Manufacturing</span></div>
+      <div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/oil-and-gas.jpg' | relative_link }}');">Oil and Gas</div>
+      <div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/smart-home.jpg' | relative_link }}');">Smart Home</div>
    </div>
 </section>
 

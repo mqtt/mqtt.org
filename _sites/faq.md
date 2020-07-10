@@ -1,7 +1,6 @@
 ---
-layout: default
 title: FAQ
-permalink: /faq
+index: 5
 ---
 
 <div class="accordion-wrapper" style="margin-bottom: 50px;">
