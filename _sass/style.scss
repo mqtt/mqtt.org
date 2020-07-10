@@ -65,9 +65,11 @@ h5 {
 .nav-item {
    font-size: 16px;
    padding: 10px 10px 10px 0;
-}
-.nav-item:not(.last) {
    border-bottom: 1px solid #660066;
+
+   &:last-child {
+     border-bottom: none;
+   }
 }
 
 .content-wrap {
@@ -118,8 +120,12 @@ footer {
    color: #fff;
 }
 
-.homepage-nav .nav-item:not(.last) {
+.homepage-nav .nav-item {
    border-bottom: 1px solid #fff;
+
+   &:last-child {
+     border-bottom: none;
+   }
 }
 
 #homepage-intro {

@@ -1,7 +1,6 @@
 ---
-layout: default
 title: Software
-permalink: /software
+index: 3
 ---
 
 <div class="accordion-wrapper" style="margin-bottom: 50px;">

@@ -1,5 +1,4 @@
-<div class="nav-item"><a href="{{ site.baseurl }}/getting-started">Getting Started</a></div>
-<div class="nav-item"><a href="{{ site.baseurl }}/specification/">MQTT Specification</a></div>
-<div class="nav-item"><a href="{{ site.baseurl }}/software/">Software</a></div>
-<div class="nav-item"><a href="{{ site.baseurl }}/use-cases/">Use Cases</a></div>
-<div class="nav-item last"> <a href="{{ site.baseurl }}/faq/">FAQ</a></div>
+{% assign sites = site.sites | sort: "index" %}
+{% for page in sites %}
+  <div class="nav-item"><a href="{{ page.url | relative_url }}">{{ page.title }}</a></div>
+{% endfor %}

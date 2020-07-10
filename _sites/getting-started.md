@@ -1,7 +1,6 @@
 ---
-layout: default
 title: Getting started
-permalink: /getting-started
+index: 1
 ---
 
 ## Step 1 - Basic Concepts

@@ -1,7 +1,6 @@
 ---
-layout: default
 title: MQTT Specification
-permalink: /specification
+index: 2
 ---
 
 MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Technical Committee.
