@@ -40,3 +40,7 @@ description: "MQTT: The Standard for IoT Messaging"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
