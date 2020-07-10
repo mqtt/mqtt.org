@@ -10,21 +10,24 @@ body {
 /* Typography */
 h1 {
    font-size: 32px;
+   margin: 2rem 0;
 }
 
 h2 {
    font-size: 28px;
+   margin: 1.5rem 0;
 }
 
 h3 {
    font-size: 24px;
-   color: #ff8800;
    font-weight: 300;
+   margin: .5rem 0;
 }
 
 h4 {
    font-size: 20px;
    font-weight: 300;
+   margin: .5rem 0;
 }
 
 h5 {
@@ -34,6 +37,7 @@ h5 {
 
 a, a:link, a:visited {
    color: #ff8800;
+   text-decoration: none;
 }
 
 /* Global */
@@ -55,6 +59,24 @@ a, a:link, a:visited {
    flex-wrap: wrap;
 }
 
+.round-number {
+   height: 36px;
+   width: 36px;
+   background-color: #660066;
+   color: #fff;
+   font-size: 20px;
+   padding: 5px;
+   box-sizing: border-box;
+   text-align: center;
+   border-radius: 18px;
+   float: left;
+   position: relative;
+   top: -5px;
+}
+
+.indented {
+   padding-left: 60px;
+}
 /* Navigation */
 #main-nav.default-nav {
    position: fixed;
