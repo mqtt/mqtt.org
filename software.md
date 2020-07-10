@@ -278,34 +278,207 @@ permalink: /software
       </ul>
       <div class="subhead">C</div>
       <ul>
-         <li><a href="https://www.eclipse.org/paho/clients/c/" rel="nofollow">Eclipse Paho C</a></li>
-         <li><a href="https://www.eclipse.org/paho/clients/c/embedded/" rel="nofollow">Eclipse Paho Embedded C</a></li>
-         <li><a href="http://mosquitto.org" rel="nofollow">libmosquitto</a></li>
+         <li><a href="https://www.eclipse.org/paho/clients/c/">Eclipse Paho C</a></li>
+         <li><a href="https://www.eclipse.org/paho/clients/c/embedded/">Eclipse Paho Embedded C</a></li>
+         <li><a href="http://mosquitto.org">libmosquitto</a></li>
          <li><a href="https://github.com/menudoproblema/libemqtt">libemqtt</a> - an embedded C client</li>
          <li><a href="https://github.com/LiamBindle/MQTT-C">MQTT-C</a> - A portable MQTT C client for embedded systems and PCs alike.</li>
          <li><a href="https://github.com/wolfSSL/wolfMQTT">wolfMQTT</a> - Embedded C client</li>
-         <li><a href="https://gitlab.com/rts_nepal/embedded/lwIP_mbedtls_mqtt_c" rel="nofollow">MQTT over lwIP</a> - MQTT C client for embedded systems using FreeRTOS, lwIP and mbedtls</li>
-         <li><a href="http://smartfactory.openapc.com" rel="nofollow">libsmartfactory</a> - easy to use library for different Smart Factory/Industry 4.0 technologies including a MQTT client implementation</li>
+         <li><a href="https://gitlab.com/rts_nepal/embedded/lwIP_mbedtls_mqtt_c">MQTT over lwIP</a> - MQTT C client for embedded systems using FreeRTOS, lwIP and mbedtls</li>
+         <li><a href="http://smartfactory.openapc.com">libsmartfactory</a> - easy to use library for different Smart Factory/Industry 4.0 technologies including a MQTT client implementation</li>
          <li><a href="https://github.com/zhaojh329/libumqtt">libumqtt</a> - A Lightweight and fully asynchronous MQTT client C library based on libev</li>
       </ul>
       <div class="subhead">C++</div>
       <ul>
-      <li><a href="https://www.eclipse.org/paho/clients/cpp/" rel="nofollow">Eclipse Paho C++</a></li>
-      <li><a href="http://mosquitto.org" rel="nofollow">libmosquittopp</a></li>
-      <li><a href="https://www.eclipse.org/paho/clients/c/embedded/" rel="nofollow">Eclipse Paho Embedded C++</a></li>
+      <li><a href="https://www.eclipse.org/paho/clients/cpp/">Eclipse Paho C++</a></li>
+      <li><a href="http://mosquitto.org">libmosquittopp</a></li>
+      <li><a href="https://www.eclipse.org/paho/clients/c/embedded/">Eclipse Paho Embedded C++</a></li>
       <li><a href="https://github.com/redboltz/mqtt_cpp">mqtt_cpp</a> - MQTT client and server library based on C++14 and Boost.Asio. It supports MQTT v3.1.1 and v5.</li>
       </ul>
-      <div class="subhead">Clojure/div>
+      <div class="subhead">Clojure</div>
       <ul>
-         <li><a href="http://clojuremqtt.info" rel="nofollow">Machine Head</a></li>
+         <li><a href="http://clojuremqtt.info">Machine Head</a></li>
          <li><a href="https://github.com/xively/clj-mqtt/">Clojure MQTT Codec for Netty</a></li>
+      </ul>
+      <div class="subhead">Dart</div>
+      <ul>
+         <li><a href="http://pub.dartlang.org/packages/mqtt">mqtt.dart</a></li>
+         <li><a href="https://pub.dev/packages/mqtt_client">mqtt_client</a></li>
+      </ul>
+      <div class="subhead">Delphi</div>
+      <ul>
+      <li><a href="http://jamiei.com/code/TMQTTClient.zip">TMQTTClient</a> (<a href="http://jamiei.com/blog/code/mqtt-client-library-for-delphi/">more information</a>)</li>
+      </ul>
+      <div class="subhead">Erlang</div>
+      <ul>
+         <li><a href="https://github.com/squaremo/erlmqtt">erlmqtt</a></li>
+         <li><a href="https://github.com/emqtt/emqttc">emqttc</a> - Erlang MQTT Client</li>
+         <li><a href="http://code.google.com/p/mqtt4erl/">mqtt4erl</a></li>
+         <li><a href="http://code.google.com/p/my-mqtt4erl/">my-mqtt4erl</a> - updated fork of mqtt4erl</li>
+         <li><a href="https://github.com/alekras/mqtt_client">erl.mqtt.client</a> - Erlang MQTT client</li>
+      </ul>
+      <div class="subhead">Elixir</div>
+      <ul>
+         <li><a href="https://github.com/suvash/hulaaki">hulaaki</a> - An Elixir library (driver) for clients communicating with MQTT brokers(via the MQTT 3.1.1 protocol).</li>
+         <li><a href="https://github.com/timbuchwaldt/exmqttc">Exmqttc</a> - Elixir wrapper for the emqttc library.</li>
+         <li><a href="https://github.com/gausby/tortoise">tortoise</a> - A MQTT Client written in Elixir</li>
+      </ul>
+      <div class="subhead">Go</div>
+      <ul>
+         <li><a href="https://github.com/eclipse/paho.mqtt.golang">Eclipse Paho Go</a></li>
+         <li><a href="https://github.com/jeffallen/mqtt">mqtt by jeffallen</a></li>
+      </ul>
+      <div class="subhead">Haskell</div>
+      <ul>
+         <li><a href="http://hackage.haskell.org/package/mqtt-hs">mqtt-hs</a></li>
+         <li><a href="http://hackage.haskell.org/package/net-mqtt">net-mqtt</a> (3.1.1 and 5.0 client)</li>
+      </ul>
+      <div class="subhead">Java</div>
+      <ul>
+         <li><a href="https://github.com/apache/activemq/tree/master/activemq-client">ActiveMQ Client</a></li>
+         <li><a href="https://www.eclipse.org/paho/clients/java/">Eclipse Paho Java</a></li>
+         <li><a href="https://github.com/fusesource/mqtt-client">Fusesource mqtt-client</a></li>
+         <li><a href="http://www-933.ibm.com/support/fixcentral/swg/selectFix?product=ibm%2FWebSphere%2FWebSphere+MQ&amp;fixids=1.0.0.1-WS-MQCP-MA9B&amp;source=dbluesearch&amp;function=fixId&amp;parent=ibm/WebSphere"> "MA9B" zip of 1/2 dozen mobile clients source code.</a> Includes Android-optimized Java source that works with Android notifications, based on Paho</li>
+         <li><a href="https://github.com/AlbinTheander/MeQanTT">MeQanTT</a></li>
+         <li><a href="https://github.com/andsel/moquette">moquette</a></li>
+         <li><a href="https://github.com/Wizzercn/MqttWk">MqttWk</a></li>
+         <li><a href="https://github.com/hivemq/hivemq-mqtt-client">HiveMQ MQTT Client</a> - MQTT 5.0 and MQTT 3.1.1 compatible and feature-rich high-performance Java client library with different API flavours and backpressure support</li>
+         <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006006&amp;loc=en_US&amp;cs=utf-8&amp;lang=en">IA92</a> - <em>deprecated</em> IBM IA92 support pack, use Eclipse Paho GUI client instead. A useful MQTT Java swing GUI for publishing &amp; subscribing. The Eclipse Paho GUI is identical but uses newer client code</li>
+         <li><a href="https://github.com/Qatja">Qatja</a> is a Java client library for MQTT 3.1.1 with specific implementation for Android and Processing</li>
+         <li><a href="https://github.com/Sentienz/akiro-clients">Sentienz Akiro MQTT Client</a> - MQTT 3.1.1 compatible <a href="https://theakiro.com/">Akiro MQTT broker</a> Java client with callbacks.</li>
+         <li><a href="https://github.com/vert-x3/vertx-mqtt-client">vertx-mqtt-client</a> is an open-source, high performance, non-blocking MQTT client built as a part of vert.x's JVM toolkit.</li>
+         <li><a href="https://github.com/TwoGuysFromKabul/xenqtt">Xenqtt</a> - <a href="http://xenqtt.sf.net/">documentation</a> Includes a client library, mock broker for unit/integration testing, and applications to support enterprise needs like using a cluster of servers as a single client, an HTTP gateway, etc.</li>
+      </ul>
+      <div class="subhead">Javascript / Node.js</div>
+      <ul>
+         <li><a href="https://github.com/mcollina/ascoltatori">Ascoltatori</a> - a node.js pub/sub library that allows access to Redis, AMQP, MQTT, and ZeroMQ with the same API.</li>
+         <li><a href="https://github.com/eclipse/paho.mqtt.javascript">Eclipse Paho HTML5 JavaScript over WebSocket.</a></li>
+         <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24033580&amp;loc=en_US&amp;cs=utf-8&amp;lang=en" >IBM-provided PhoneGap / Apache Cordova MQTT plug-in for Android</a> - JavaScript API is identical to Eclipse Paho HTML5 JavaScript</li>
+         <li><a href="https://github.com/adamvr/MQTT.js">mqtt.js</a></li>
+         <li><a href="https://github.com/yilun/node_mqtt_client">node_mqtt_client</a> (<a href="http://ceit.uq.edu.au/content/simple-mqtt-cient-nodejs" >more information</a>)</li>
+      </ul>
+      <div class="subhead">LotusScript</div>
+      <ul>
+         <li><a href="https://tingenek.wordpress.com/2011/11/30/mqtt-with-lotus-notes/" >MQTT From LotusScript</a></li>
+      </ul>
+      <div class="subhead">Lua</div>
+      <ul>
+         <li><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.lua.git/" >Eclipse Paho Lua</a></li>
+         <li><a href="https://github.com/xHasKx/luamqtt/">luamqtt - Pure-lua MQTT client</a></li>
+         <li><a href="https://github.com/zhaojh329/libumqtt">libumqtt</a></li>
+         <li><a href="https://luarocks.org/modules/karlp/lua-mosquitto" >lua-mosquitto</a></li>
+      </ul>
+      <div class="subhead">.NET / dotNET</div>
+      <ul>
+         <li><a href="https://github.com/mFourLabs/KittyHawkMQ">KittyHawkMQ</a></li>
+         <li><a href="https://github.com/chkr1011/MQTTnet">MQTTnet</a></li>
+         <li><a href="http://sourceforge.net/projects/mqttdotnet/">MqttDotNet</a></li>
+         <li><a href="https://github.com/markallanson/nmqtt">nMQTT</a></li>
+         <li><a href="https://github.com/eclipse/paho.mqtt.m2mqtt">M2MQTT</a></li>
+         <li><a href="https://github.com/xljiulang/Paho.MqttDotnet/">Paho.MqttDotnet</a></li>
+         <li><a href="https://github.com/ericvoid/StriderMqtt">StriderMqtt</a></li>
+         <li><a href="https://github.com/xamarin/mqtt">xamarin mqtt</a></li>
+      </ul>
+      <div class="subhead">Objective-C</div>
+      <ul>
+         <li><a href="https://github.com/GrayWang/mqttIO-objC">mqttIO-objC</a></li>
+         <li><a href="https://mosquitto.org">libmosquitto</a> - via wrappers (<a href="https:///github.com/njh/marquette">example</a>)</li>
+         <li><a href="https://github.com/jmesnil/MQTTKit">MQTTKit</a> (<a href="https:///github.com/jmesnil/MQTTExample">sample app</a>)</li>
+         <li><a href="http://www-933.ibm.com/support/fixcentral/swg/selectFix?product=ibm%2FWebSphere%2FWebSphere+MQ&amp;fixids=1.0.0.1-WS-MQCP-MA9B&amp;source=dbluesearch&amp;function=fixId&amp;parent=ibm/WebSphere">"MA9B" zip of 1/2 dozen mobile clients source code including Objective-C</a></li>
+      </ul>
+      <div class="subhead">OCaml</div>
+      <ul>
+         <li><a href="https://github.com/j0sh/ocaml-mqtt">ocaml-mqtt</a></li>
+         <li><a href="https://github.com/philtomson/mqtt_client">mqtt_client</a></li>
+      </ul>
+      <div class="subhead">Perl</div>
+      <ul>
+         <li><a href="https://github.com/beanz/net-mqtt-perl">net-mqtt-perl</a></li>
+         <li><a href="https://github.com/beanz/anyevent-mqtt-perl">anyevent-mqtt-perl</a></li>
+         <li><a href="http://search.cpan.org/dist/WebSphere-MQTT-Client/">WebSphere-MQTT-Client</a></li>
+         <li>Net::MQTT::Simple <a href="https://metacpan.org/pod/Net::MQTT::Simple">cpan</a> <a href="https://github.com/Juerd/Net-MQTT-Simple">github</a></li>
+      </ul>
+      <div class="subhead">PHP</div>
+      <ul>
+         <li><a href="http://github.com/bluerhinos/phpMQTT">phpMQTT</a></li>
+         <li><a href="https://github.com/mgdm/Mosquitto-PHP">Mosquitto-PHP</a></li>
+         <li><a href="http://github.com/sskaje/mqtt">sskaje's MQTT library</a></li>
+      </ul>
+      <div class="subhead">Python</div>
+      <ul>
+         <li><a href="https://github.com/eclipse/paho.mqtt.python">Eclipse Paho Python</a> - originally the mosquitto Python client</li>
+         <li><a href="https://github.com/wialon/gmqtt">gmqtt</a></li>
+         <li><a href="https://github.com/iwanbk/nyamuk">nyamuk</a></li>
+         <li><a href="https://github.com/adamvr/MQTT-For-Twisted-Python">MQTT for twisted python</a></li>
+         <li><a href="https://github.com/beerfactory/hbmqtt">HBMQTT</a></li>
+         <li><a href="https://github.com/eerimoq/mqttools">mqttools</a></li>
+      </ul>
+      <div class="subhead">REXX</div>
+      <ul>
+         <li><a href="https://github.com/DougieLawson/REXX_MQTT">REXX MQTT</a></li>
+      </ul>
+      <div class="subhead">Prolog</div>
+      <ul>
+         <li><a href="https://github.com/olsky/swi-mqtt-pack">MQTT Pack</a> - Mosquitto library as a SWI-Prolog pack</li>
+      </ul>
+      <div class="subhead">Qt</div>
+      <ul>
+         <li><a href="https://github.com/emqtt/qmqtt">qmqtt</a> - MQTT Client for Qt</li>
+      </ul>
+      <div class="subhead">Ruby</div>
+      <ul>
+         <li><a href="https://github.com/njh/ruby-mqtt">ruby-mqtt</a></li>
+         <li><a href="https://rubygems.org/gems/em-mqtt">em-mqtt</a></li>
+         <li><a href="https://github.com/xively/mosquitto">mosquitto</a></li>
+      </ul>
+      <div class="subhead">Shell Script</div>
+      <ul>
+         <li><a href="https://github.com/raphaelcohn/bish-bosh">bish-bosh</a>, supports bash, ash (including BusyBox), pdksh and mksh.</li>
+      </ul>
+      <div class="subhead">Smalltalk</div>
+      <ul>
+         <li><a href="http://www.squeaksource.com/MQTTClient.html">MQTT client for Squeak</a>, for Squeak 5.1</li>
+      </ul>
+      <div class="subhead">Swift</div>
+      <ul>
+         <li><a href="https://github.com/emqtt/CocoaMQTT">CocoaMQTT</a> - An MQTT client for iOS and OS X written with Swift</li>
+      </ul>
+      <div class="subhead">Tcl</div>
+      <ul>
+         <li><a href="https://github.com/Tingenek/tcl-mqtt">tcl-mqtt</a></li>
       </ul>
    </div>
    <!-- End of Client Libraries Panel -->
    <!-- Tools and Applications Start -->
    <button class="accordion">Tools and Applications</button>
    <div class="panel">
-      <p>MQTT has been widely implemented across a variety of industries since 1999. A few of the more interesting examples are listed on the <a href="/use-cases" alt="Use Cases" title="Use Cases">Use Case page.</a></p>
+      <div class="subhead">Web</div>
+         <ul>
+            <li><a href="https://mqttboard.flespi.io" rel="nofollow">MQTT Board</a> - diagnostic oriented MQTT 5.0 client tool based on <a href="https://github.com/mqttjs">mqtt.js</a>. Available in <a href="https://github.com/flespi-software/mqtt-board">open source</a>.</li>
+            <li><a href="http://test.mosquitto.org/ws.html" rel="nofollow">MQTT over websockets</a> (experimental) - from the mosquitto project.</li>
+            <li><a href="http://www.hivemq.com/demos/websocket-client/" rel="nofollow">HiveMQ Websockets Client</a> - a websocket based client for your browser which supports publishing &amp; subscribing.</li>
+            <li><a href="https://github.com/jpmens/mqtt-svg-dash">mqtt-svg-dash</a> - SVG "live" dashboard from MQTT.</li>
+            <li><a href="https://github.com/fabaff/mqtt-panel">mqtt-panel</a> - a web interface for MQTT.</li>
+            <li><a href="http://www.thingstud.io" rel="nofollow">ThingStudio</a> - ThingStudio allows you create real-time HTML5 user interfaces for MQTT devices by writing simple HTML templates.</li>
+            <li><a href="https://github.com/andsel/moquette">Moquette</a> - an open source JAVA broker for MQTT protocol.</li>
+            <li><a href="http://mqttlab.iotsim.io" rel="nofollow">IOTSIM.IO</a> - SaaS MQTT lab for web-based MQTT testing.</li>
+            <li><a href="http://tools.emqx.io" rel="nofollow">MQTT WebSocket Toolkit</a> - MQTT WebSocket Toolkit adopts the form of chat interface, simplifies the page operation logic, and facilitates users to test and verify MQTT application scenarios quickly.</li>
+            <li><a href="https://testclient-cloud.mqtt.cool/" rel="nofollow">MQTT.Cool Test Client</a> - A web interface for testing interaction between MQTT.Cool and any MQTT broker.</li>
+         </ul>
+         <div class="subhead">Mobile platforms</div>
+         <ul>
+            <li><a href="mqtt_on_the_android_platform">MQTT on Android</a></li>
+            <li><a href="mqtt_on_ios">MQTT on iOS</a></li>
+         </ul>
+         <div class="subhead">Desktop tools</div>
+            <ul>
+            <li><a href="https://mqtt-explorer.com" rel="nofollow">MQTT Explorer</a> - MQTT client to visualize, publish, subscribe, plot topics. Visualizes topics in a topic hierarchy. Intended for service integration, maintenance and refactorings.</li>
+            <li><a href="https://github.com/francoisvdm/TT3">TT3</a> - a full featured windows MQTT client application using Paho libs.  Several additional features like performance testing and alerts.</li>
+            <li><a href="http://kamilfb.github.io/mqtt-spy/" rel="nofollow">mqtt-spy</a> - the most advanced open source utility for monitoring activity on MQTT topics; based on the Paho Java client; for details see the <a href="http://kamilfb.github.io/mqtt-spy/" rel="nofollow">project's home page</a>.</li>
+            <li><a href="http://mqttfx.org/" rel="nofollow">MQTT.fx</a> - MQTT.fx is a MQTT Client written in Java based on Eclipse Paho.</li>
+            <li><a href="https://github.com/gambitcomminc/mqtt-stats">mqtt-stats</a> - MQTT Topic Statistics</li>
+            <li><a href="https://github.com/emqx/MQTTX">MQTT X</a> - MQTT X is a cross-platform MQTT desktop client open sourced by EMQ, which supports macOS, Linux, and Windows. MQTT X adopts the form of chat interface, which simplifies the page operation, facilitates the user to quickly test the MQTT/MQTTS connection, publish and subscribe to MQTT messages.</li>
+         </ul>
    </div>
    <!-- Tools and Applications Panel -->
    <!-- Plugins to other software Start -->
