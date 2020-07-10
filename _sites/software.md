@@ -227,12 +227,15 @@ index: 3
          </div>
       </div>
    <!-- Entry -->
-      <div class="panel-item last">
-         <img src="{{ 'assets/img/software/mqtt.png' | relative_url }}" class="software-logo">
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/yunba.png' | relative_url }}" class="software-logo">
          <div><a href="http://yunba.io/"><h3>Yunba.io</h3></a>
          Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol, The services include bi-directional push for Instant-Messaging; real-time analyzing; real-time online monitoring.
-         <br/>&nbsp;
          </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item last">
+         <br/>&nbsp;
       </div>
    <!-- closing div -->
    </div>
