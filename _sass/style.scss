@@ -229,17 +229,29 @@ footer {
    display: flex;
    flex-direction: row;
    align-items: center;
+   padding: 5px 25px 15px 0;
+}
+
+.panel-item:not(.last) {
+   border-bottom: #afafaf 1px dotted;
 }
 
 .software-logo {
    width: 150px;
    height: 65px;
+   margin: 0 10px;
 }
 .panel-item h3,
 .panel-item a {
-   margin: 10px 0 5px 0;
-   font-size: 18px;
    text-decoration: none;
+}
+
+.panel-item h3 {
+   color: #660066;
+   font-size: 18px;
+   font-weight: bold;
+   line-height: 20px;
+   margin: 10px 0 5px 0;
 }
 
 /* Accordions START */
@@ -293,13 +305,6 @@ footer {
    overflow: hidden;
    transition: max-height 0.2s ease-out;
  }
-
- .panel-item {
-   padding-bottom: 15px;
-   padding-right: 25px;
-   border-bottom: #afafaf 1px dotted;
- }
-
  .subhead {
     background-color:#959ba5;
     color: #fff;
