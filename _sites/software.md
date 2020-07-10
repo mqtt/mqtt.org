@@ -227,15 +227,11 @@ index: 3
          </div>
       </div>
    <!-- Entry -->
-      <div class="panel-item">
+      <div class="panel-item last">
          <img src="{{ 'assets/img/software/yunba.png' | relative_url }}" class="software-logo">
          <div><a href="http://yunba.io/"><h3>Yunba.io</h3></a>
          Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol, The services include bi-directional push for Instant-Messaging; real-time analyzing; real-time online monitoring.
          </div>
-      </div>
-   <!-- Entry -->
-      <div class="panel-item last">
-         <br/>&nbsp;
       </div>
    <!-- closing div -->
    </div>
@@ -551,5 +547,22 @@ index: 3
    </div>
 </section>
 
-{% include accordion-js.html %}
+<script>
+   try {
+     const acc = document.getElementsByClassName("accordion");
+     for (let i = 0; i < acc.length; i++) {
+       acc[i].addEventListener("click", function () {
+         this.classList.toggle("active");
+         const panel = this.nextElementSibling;
+         if (panel.style.maxHeight) {
+           panel.style.maxHeight = null;
+         } else {
+           panel.style.maxHeight = panel.scrollHeight + "px";
+         }
+       });
+     }
+   } catch (e) {
+     //ignore exception
+   }
+   </script>
 
