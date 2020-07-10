@@ -32,6 +32,10 @@ h5 {
    color: #660066;
 }
 
+a, a:link, a:visited {
+   color: #ff8800;
+}
+
 /* Global */
 .centered-80 {
    width: 80%;
@@ -58,8 +62,16 @@ h5 {
    padding-left: 30px;
 }
 
-.nav-item a {
+.nav-item a,
+.nav-item a:visited,
+.nav-item a:active {
    text-decoration: none;
+   color: #660066;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+   color: #ff8800;
 }
 
 .nav-item {
@@ -289,7 +301,7 @@ footer {
  }
 
  .subhead {
-    background-color:#666;
+    background-color:#959ba5;
     color: #fff;
     width: 100%;
     padding: 5px 15px;
