@@ -42,15 +42,16 @@ a, a:link, a:visited {
 }
 
 /* Global */
-.centered-80 {
-   width: 80%;
-   margin: 0 auto;
+.content-floating {
+   width: 72.5%;
+   max-width: 900px;
+   padding-left: 27.5%;
+   padding-top: 90px;
+   display: block;
 }
 
-#mqtt-logo-header {
-   width: 125px;
-   padding-left: 30px;
-   padding-top: 30px;
+.float-left {
+   padding-left: 10%;
 }
 
 .flex-wrap-centered {
@@ -60,23 +61,20 @@ a, a:link, a:visited {
    flex-wrap: wrap;
 }
 
-.round-number {
-   height: 36px;
-   width: 36px;
-   background-color: #660066;
-   color: #fff;
-   font-size: 20px;
-   padding: 5px;
-   box-sizing: border-box;
-   text-align: center;
-   border-radius: 18px;
-   float: left;
-   position: relative;
-   top: -5px;
+#mqtt-logo-header {
+   width: 125px;
+   padding-top: 30px;
 }
 
-.indented {
-   padding-left: 60px;
+footer {
+   background-color: #959ba5;
+   color: #fff;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+   padding: 15px 30px;
+   font-size: 16px;
+   box-sizing: border-box;
 }
 
 .major-cta {
@@ -110,6 +108,25 @@ a, a:link, a:visited {
    background-color: rgba(255, 255, 255, 0.2);
    outline: none;
 } 
+.round-number {
+   height: 36px;
+   width: 36px;
+   background-color: #660066;
+   color: #fff;
+   font-size: 20px;
+   padding: 5px;
+   box-sizing: border-box;
+   text-align: center;
+   border-radius: 18px;
+   float: left;
+   position: relative;
+   top: -5px;
+}
+
+.indented {
+   padding-left: 60px;
+}
+
 
 /* Accordions START */
 .accordion-wrapper {
@@ -171,15 +188,9 @@ a, a:link, a:visited {
  /* Accordions END */
 
 /* Navigation */
-
-#main-nav {
-   padding-left: 30px;
-}
-
 #main-nav.default-nav {
    position: fixed;
    top: 100px;
-   padding-left: 30px;
 }
 
 .nav-item a,
@@ -204,25 +215,6 @@ a, a:link, a:visited {
    }
 }
 
-.content-floating {
-   width: 100%;
-   max-width: 900px;
-   margin-left: 300px;
-   padding-top: 90px;
-   display: block;
-}
-
-footer {
-   background-color: #959ba5;
-   color: #fff;
-   position: relative;
-   bottom: 0;
-   width: 100%;
-   padding: 15px 30px;
-   font-size: 16px;
-   box-sizing: border-box;
-}
-
 /* Homepage */
 #homepage-header {
    background-color: #660066;
@@ -237,7 +229,6 @@ footer {
    width: 100%;
    height: 530px;
 }
-
 
 #main-nav.homepage-nav {
    position: absolute;
@@ -259,11 +250,11 @@ footer {
 
 #homepage-intro {
    color: #fff;
-   width: 60%;
-   margin: 50px 20%;
+   width: 40%;
+   margin: 30px 30%;
    text-align: center;
    line-height: 32px;
-   font-size: 17px;
+   font-size: 16px;
 }
 #homepage-content {
    padding-top: 25px;
