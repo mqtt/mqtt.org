@@ -111,6 +111,65 @@ a, a:link, a:visited {
    outline: none;
 } 
 
+/* Accordions START */
+.accordion-wrapper {
+   width: 90%;
+}
+
+.accordion-wrapper.software {
+   width: 90%;
+}
+
+.accordion {
+   background-color: #eee;
+   color: #444;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   border: none;
+   text-align: left;
+   outline: none;
+   font-size: 15px;
+   transition: 0.4s;
+ }
+ 
+ .active, .accordion:hover {
+   background-color: #660066;
+   color: #fff;
+ }
+ 
+ .accordion:after {
+   content: '\002B';
+   color: #444;
+   font-weight: bold;
+   float: right;
+   margin-left: 5px;
+ }
+ 
+ .active, .accordion:hover:after {
+   color: #fff;
+ }
+ 
+ .active:after {
+   content: "\2212";
+   color: #fff;
+ }
+ 
+ .panel {
+   padding: 0 18px;
+   background-color: white;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+ }
+ .subhead {
+    background-color:#959ba5;
+    color: #fff;
+    width: 100%;
+    padding: 5px 15px;
+ }
+ /* Accordions END */
+
 /* Navigation */
 
 #main-nav {
@@ -154,7 +213,7 @@ a, a:link, a:visited {
 }
 
 footer {
-   background-color: #660066;
+   background-color: #959ba5;
    color: #fff;
    position: relative;
    bottom: 0;
@@ -348,61 +407,10 @@ footer {
    margin: 6px;
 }
 
-/* Accordions START */
-.accordion-wrapper {
-   width: 90%;
+.use-case {
+   display: flex;
 }
 
-.accordion-wrapper.software {
-   width: 90%;
+.use-case-description {
+   margin-left: 50px;
 }
-
-.accordion {
-   background-color: #eee;
-   color: #444;
-   cursor: pointer;
-   padding: 18px;
-   width: 100%;
-   border: none;
-   text-align: left;
-   outline: none;
-   font-size: 15px;
-   transition: 0.4s;
- }
- 
- .active, .accordion:hover {
-   background-color: #660066;
-   color: #fff;
- }
- 
- .accordion:after {
-   content: '\002B';
-   color: #444;
-   font-weight: bold;
-   float: right;
-   margin-left: 5px;
- }
- 
- .active, .accordion:hover:after {
-   color: #fff;
- }
- 
- .active:after {
-   content: "\2212";
-   color: #fff;
- }
- 
- .panel {
-   padding: 0 18px;
-   background-color: white;
-   max-height: 0;
-   overflow: hidden;
-   transition: max-height 0.2s ease-out;
- }
- .subhead {
-    background-color:#959ba5;
-    color: #fff;
-    width: 100%;
-    padding: 5px 15px;
- }
- /* Accordions END */
