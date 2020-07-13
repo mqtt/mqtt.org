@@ -56,8 +56,8 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
          <a href="https://www.microsoft.com" target="_blank"><img src=" {{ 'assets/img/tc-microsoft.png' | relative_url }}" class="tc-logo" alt="Microsoft logo" title="Microsoft"></a>
          <a href="https://www.ninefx.com" target="_blank"><img src=" {{ 'assets/img/tc-ninefx.png' | relative_url }}" class="tc-logo" alt="Ninefx Logo logo" title="Ninefx"></a>
          <a href="https://www.softwareag.com/" target="_blank"><img src=" {{ 'assets/img/tc-software-ag.png' | relative_url }}" class="tc-logo" alt="Software-AG logo" title="Software-AG"></a>
-         <a href="https://thingstream.io/" target="_blank"><img src=" {{ 'assets/img/tc-thingstream.png' | relative_url }}" class="tc-logo" alt="Thingstream logo" title="Thingstream"></a>
          <a href="https://www.solace.com/" target="_blank"><img src=" {{ 'assets/img/tc-solace.png' | relative_url }}" class="tc-logo" alt="Solace logo" title="Solace"></a>
+         <a href="https://thingstream.io/" target="_blank"><img src=" {{ 'assets/img/tc-thingstream.png' | relative_url }}" class="tc-logo" alt="Thingstream logo" title="Thingstream"></a>
       </div>
       <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt"><button class="major-cta major-cta-orange" style="margin: 25px 0;">Join the Technical Committee</button></a>
    </div>
