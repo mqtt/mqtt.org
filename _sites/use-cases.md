@@ -3,6 +3,10 @@ title: Use Cases
 index: 4
 ---
 
+<section class="content-floating">
+<h1>Use Cases</h1>
+
+
 MQTT is used in a large variety of use cases and industries. 
 
 SECTION for each industry
@@ -22,5 +26,7 @@ CASO Design creates Smart Kitchen Appliances https://www.hivemq.com/case-studies
 Transportation
 Deploying IoT on Germany's DB Railway System https://iot.eclipse.org/community/resources/case-studies/iot-on-railway-systems-db/
 Other
+
+</section>
 
 {% include community-contributions.html %}

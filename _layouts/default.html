@@ -11,20 +11,13 @@
   </head>
   <body>
     <header id="default-header">
-      <div class="width-container">
         <a href="{{ '/' | relative_url }}"><img src="{{ '/assets/img/mqtt-logo-transp.svg' | relative_url }}" id="mqtt-logo-header"></a>
-      </div>
     </header>
-    <section class="width-container content-wrap">
-      <nav id="main-nav" class="default-nav">
-        {% include nav.html %}
-      </nav>
-      <section class="content">
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-      </section>
-    </section>
-      {% include footer.html %}
+    <nav id="main-nav" class="default-nav">
+      {% include nav.html %}
+    </nav>
+    {{ content }}
+    {% include footer.html %}
   </body>
   
   <!-- Sticky navigation hides an offset for anchor link targets. This script resolves this issue -->

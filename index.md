@@ -4,7 +4,7 @@ title: MQTT - The Standard for IoT Messaging
 permalink: /
 ---
 
-<div class="centered-80">
+<div class="width-container">
    <h2>Why MQTT?</h2> 
    <section id="keyfeature-list">
    <div class="keyfeature">

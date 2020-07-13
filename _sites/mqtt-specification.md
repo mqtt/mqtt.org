@@ -3,6 +3,8 @@ title: MQTT Specification
 index: 2
 ---
 
+<section class="content-floating">
+<h1>MQTT Specifications</h1>
 
 <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt"><img src="{{ 'assets/img/oasis-logo.png' | relative_url }}" alt="Oasis Logo" title="Oasis"></a><br/><br/>
 MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Technical Committee.
@@ -42,6 +44,7 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
       <a href="http://www.zurich.ibm.com/sys/energy/middleware.html">Read more about it at the IBM Zurich Research website</a>.
    </article>
 </section>
+</section>
 
 <section class="technical-committee">
    <h2>TC Member Organizations</h2>
@@ -59,3 +62,4 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
       <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt"><button class="major-cta major-cta-orange" style="margin: 25px 0;">Join the Technical Committee</button></a>
    </div>
 </section>
+

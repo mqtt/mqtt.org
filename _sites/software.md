@@ -3,6 +3,9 @@ title: Software
 index: 3
 ---
 
+<section class="content-floating">
+<h1>MQTT Specifications</h1>
+
 <section class="accordion-wrapper software" style="margin-bottom: 50px;">
    <button class="accordion">Servers / Brokers</button>
    <div class="panel">
@@ -545,6 +548,7 @@ index: 3
             <li><a href="http://www.owasys.com">Owasys</a> - The owa11 model is an IP67 asset tracking and telemetry unit reporting location, events and IO information using MQTT</li>
          </ul>
    </div>
+</section>
 </section>
 
 {% include community-contributions.html %}

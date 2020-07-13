@@ -1,5 +1,6 @@
 body {
    font-family: 'Lato', sans-serif;
+   width: 100%;
    margin: 0;
    padding: 0;
    font-size: 15px;
@@ -48,8 +49,8 @@ a, a:link, a:visited {
 
 #mqtt-logo-header {
    width: 125px;
-   padding-top: 30px;
    padding-left: 30px;
+   padding-top: 30px;
 }
 
 .flex-wrap-centered {
@@ -100,7 +101,6 @@ a, a:link, a:visited {
 .major-cta:active,
 .major-cta:focus {
    transition: all 0.5s;
-   transform: scale(1.02);
    outline: none;
 }
 
@@ -112,6 +112,11 @@ a, a:link, a:visited {
 } 
 
 /* Navigation */
+
+#main-nav {
+   padding-left: 30px;
+}
+
 #main-nav.default-nav {
    position: fixed;
    top: 100px;
@@ -140,16 +145,12 @@ a, a:link, a:visited {
    }
 }
 
-.content-wrap {
-   display: flex;
-   flex-direction: row;
-}
-
-.content {
+.content-floating {
    width: 100%;
-   max-width: 1100px;
-   margin-left: 266px;
+   max-width: 900px;
+   margin-left: 300px;
    padding-top: 90px;
+   display: block;
 }
 
 footer {
@@ -164,22 +165,24 @@ footer {
 }
 
 /* Homepage */
-#mqtt-home {
-   width: 80%;
-   padding: 0 10%;
-}
-
 #homepage-header {
-   background-image: url($home-header);
+   background-color: #660066;
    height: 530px;
-   width: 100%;
    padding: 0;
 }
+
+#homepage-header-img {
+   background-image: url($home-header);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 100%;
+   height: 530px;
+}
+
 
 #main-nav.homepage-nav {
    position: absolute;
    top: 100px;
-   padding-left: 30px;
 }
 
 .homepage-nav a,
@@ -266,9 +269,9 @@ footer {
 }
 
 .width-container {
-   width: 100%;
-   max-width: 1366px;
-   margin: 0 auto;
+   width: 70%;
+   max-width: 1200px;
+   margin: 0 15%;
    box-sizing: border-box;
 }
 
@@ -307,8 +310,10 @@ footer {
    background-size: cover;
    text-align: center;
    color: #fff;
-   padding: 50px;
-   box-sizing: border-box;;
+   padding: 20px 0 50px;
+   box-sizing: border-box;
+   margin: 50px 0;
+
 }
 
 /* Specification page */

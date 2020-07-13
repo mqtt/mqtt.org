@@ -3,6 +3,8 @@ title: FAQ
 index: 5
 ---
 
+<section class="content-floating">
+<h1>FAQ</h1>
 <div class="accordion-wrapper" style="margin-bottom: 50px;">
    <button class="accordion">What is MQTT?</button>
    <div class="panel">
@@ -33,5 +35,6 @@ index: 5
       <p>The specification and other documentation are available via the Specification page. Ask questions via one of the methods on StackOverflow. Try code via one of the projects on the Software page.</p>
    </div>
 </div>
+</section>
 
 {% include accordion-js.html %}

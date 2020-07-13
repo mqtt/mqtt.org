@@ -3,6 +3,8 @@ title: Getting started
 index: 1
 ---
 
+<section class="content-floating">
+<h1>Getting started</h1>
 <section style="margin: 50px 0;">
    <div class="round-number">1</div>
    <article class="indented">
@@ -25,4 +27,5 @@ index: 1
       <h3>Getting Started with MQTT</h3>
       A blog post written by <a href="https://www.hivemq.com/blog/how-to-get-started-with-mqtt/" alt="HiveMQ" title="HiveMQ.com">hivemq.com</a>
    </article>
+</section>
 </section>
