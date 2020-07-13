@@ -77,6 +77,40 @@ a, a:link, a:visited {
 .indented {
    padding-left: 60px;
 }
+
+.major-cta {
+   padding: 10px;
+   border-radius: 8px;
+   color: #fff;
+   font-size: 18px;
+   cursor: pointer;
+}
+
+.major-cta-tranpsparent {
+   background-color: transparent;
+   border: 1px solid #fff;
+} 
+
+.major-cta-orange {
+   background-color: #ff8800;
+   border: 1px solid #afafaf;
+}
+
+.major-cta:hover,
+.major-cta:active,
+.major-cta:focus {
+   transition: all 0.5s;
+   transform: scale(1.02);
+   outline: none;
+}
+
+.major-cta-tranpsparent:hover,
+.major-cta-tranpsparent:active,
+.major-cta-tranpsparent:focus {
+   background-color: rgba(255, 255, 255, 0.2);
+   outline: none;
+} 
+
 /* Navigation */
 #main-nav.default-nav {
    position: fixed;
@@ -132,15 +166,14 @@ footer {
 /* Homepage */
 #mqtt-home {
    width: 80%;
-   margin: 0 10%;
-   max-width: 1366px;
-   box-shadow: 2px 2px 4px #afafaf;
-   border: 1px solid #afafaf;
+   padding: 0 10%;
 }
 
 #homepage-header {
    background-image: url($home-header);
    height: 530px;
+   width: 100%;
+   padding: 0;
 }
 
 #main-nav.homepage-nav {
@@ -174,24 +207,6 @@ footer {
    padding-top: 25px;
 }
 
-.major-cta {
-   padding: 10px;
-   border: 1px solid #fff;
-   border-radius: 10px;
-   background-color: transparent;
-   color: #fff;
-   font-size: 18px;
-   cursor: pointer;
-}
-
-.major-cta:hover,
-.major-cta:active,
-.major-cta:focus {
-   transition: all 0.5s;
-   transform: scale(1.02);
-   background-color: rgba(255, 255, 255, 0.2);
-}
-
 #keyfeature-list {
    width: 100%;
    margin: 25px 0;
@@ -208,7 +223,6 @@ footer {
    margin-bottom: 30px;
    display: block;
    box-sizing: border-box;
-
 }
 
 .keyfeature.mid {
@@ -289,7 +303,12 @@ footer {
 }
 
 .community-contributions {
+   width: 100%;
    background-size: cover;
+   text-align: center;
+   color: #fff;
+   padding: 50px;
+   box-sizing: border-box;;
 }
 
 /* Specification page */
@@ -307,14 +326,27 @@ footer {
    width: 100%;
    background-color: #eceef0;
    text-align: center;
+   padding: 25px 25px 100px 25px;
+   margin-top: 50px;
+}
+
+#tc-members {
+   width: 80%;
+   margin: 0 auto;
+   background-color: #fff;
+   padding: 40px 20px 15px 20px;
+   box-sizing: border-box;
+   box-shadow: 2px 2px 4px rgba(153, 153, 153, 0.5);
+}
+
+.tc-logo {
+   margin: 6px;
 }
 
 /* Accordions START */
 .accordion-wrapper {
    width: 90%;
 }
-
-.major-cta-orange
 
 .accordion-wrapper.software {
    width: 90%;

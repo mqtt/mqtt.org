@@ -547,6 +547,8 @@ index: 3
    </div>
 </section>
 
+{% include community-contributions.html %}
+
 <script>
    try {
      const acc = document.getElementsByClassName("accordion");
@@ -564,5 +566,5 @@ index: 3
    } catch (e) {
      //ignore exception
    }
-   </script>
+</script>
 

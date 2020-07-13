@@ -36,12 +36,26 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
          <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="specs-logo"><h3>MQTT-SN v1.2</h3>
       </div>
       formerly known as MQTT-S, is available as<br/>
-      &gt; <a href="http://mqtt.org/new/wp-content/uploads/2009/06/MQTT-SN_spec_v1.2.pdf">PDF</a>.<br/>
-      MQTT for Sensor Networks is aimed at embedded devices on non-TCP/IP networks, such as Zigbee. MQTT-SN is a publish/subscribe messaging protocol for wireless sensor networks (WSN), with the aim of extending the MQTT protocol beyond the reach of TCP/IP infrastructure for Sensor and Actuator solutions. <a href="http://www.zurich.ibm.com/sys/energy/middleware.html">Read more about it at the IBM Zurich Research website</a>.
+      &gt; <a href="http://mqtt.org/new/wp-content/uploads/2009/06/MQTT-SN_spec_v1.2.pdf">PDF</a>.
+      <br/><br/>
+      MQTT for Sensor Networks is aimed at embedded devices on non-TCP/IP networks, such as Zigbee. MQTT-SN is a publish/subscribe messaging protocol for wireless sensor networks (WSN), with the aim of extending the MQTT protocol beyond the reach of TCP/IP infrastructure for Sensor and Actuator solutions.<br/>
+      <a href="http://www.zurich.ibm.com/sys/energy/middleware.html">Read more about it at the IBM Zurich Research website</a>.
    </article>
 </section>
 
 <section class="technical-committee">
    <h2>TC Member Organizations</h2>
-   <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt"><button class="major-cta-orange">Join the Technical Committee</button></a>
+   <div id="tc-members">
+      <div id="tc-member-logos">
+         <a href="#"><img src=" {{ 'assets/img/tc-cisco.png' | relative_url }}" class="tc-logo" alt="Cisco logo" title="Cisco"></a>
+         <a href="#"><img src=" {{ 'assets/img/tc-hivemq.png' | relative_url }}" class="tc-logo" alt="HiveMQ logo" title="HiveMQ"></a>
+         <a href="#"><img src=" {{ 'assets/img/tc-ibm.png' | relative_url }}" class="tc-logo" alt="IBM logo" title="IBM"></a>
+         <a href="#"><img src=" {{ 'assets/img/tc-microsoft.png' | relative_url }}" class="tc-logo" alt="Microsoft logo" title="Microsoft"></a>
+         <a href="#"><img src=" {{ 'assets/img/tc-ninefx.png' | relative_url }}" class="tc-logo" alt="Ninefx Logo logo" title="Ninefx"></a>
+         <a href="#"><img src=" {{ 'assets/img/tc-software-ag.png' | relative_url }}" class="tc-logo" alt="Software-AG logo" title="Software-AG"></a>
+         <a href="#"><img src=" {{ 'assets/img/tc-thingstream.png' | relative_url }}" class="tc-logo" alt="Thingstream logo" title="Thingstream"></a>
+         <a href="#"><img src=" {{ 'assets/img/tc-solace.png' | relative_url }}" class="tc-logo" alt="Solace logo" title="Solace"></a>
+      </div>
+      <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt"><button class="major-cta major-cta-orange" style="margin: 25px 0;">Join the Technical Committee</button></a>
+   </div>
 </section>

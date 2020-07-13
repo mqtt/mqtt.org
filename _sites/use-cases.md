@@ -23,7 +23,4 @@ Transportation
 Deploying IoT on Germany's DB Railway System https://iot.eclipse.org/community/resources/case-studies/iot-on-railway-systems-db/
 Other
 
-
-Section: Community Contributions
-
-To add a listing to this page, please submit a pull request with the appropriate content.
+{% include community-contributions.html %}
