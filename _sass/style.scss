@@ -181,11 +181,20 @@ footer {
    background-color: transparent;
    color: #fff;
    font-size: 18px;
+   cursor: pointer;
+}
+
+.major-cta:hover,
+.major-cta:active,
+.major-cta:focus {
+   transition: all 0.5s;
+   transform: scale(1.02);
+   background-color: rgba(255, 255, 255, 0.2);
 }
 
 #keyfeature-list {
    width: 100%;
-   margin: 25px 0 75px;
+   margin: 25px 0;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -196,8 +205,10 @@ footer {
    flex-basis: 33%;
    padding-left: 0;
    padding-right: 8%;
+   margin-bottom: 30px;
    display: block;
    box-sizing: border-box;
+
 }
 
 .keyfeature.mid {
@@ -237,6 +248,7 @@ footer {
    width: 100%;
    height: 80px;
    position: fixed;
+   box-shadow: 0 2px 4px rgba(153, 153, 153, 0.5);
 }
 
 .width-container {
@@ -276,10 +288,33 @@ footer {
    margin: 10px 0 5px 0;
 }
 
+.community-contributions {
+   background-size: cover;
+}
+
+/* Specification page */
+.spec-hl {
+   display: flex;
+   width: 100%;
+   margin: 20px 0 5px;
+}
+.specs-logo {
+   width: 100px;
+   margin-right: 15px;
+}
+
+.technical-committee {
+   width: 100%;
+   background-color: #eceef0;
+   text-align: center;
+}
+
 /* Accordions START */
 .accordion-wrapper {
    width: 90%;
 }
+
+.major-cta-orange
 
 .accordion-wrapper.software {
    width: 90%;
@@ -333,5 +368,4 @@ footer {
     width: 100%;
     padding: 5px 15px;
  }
-
  /* Accordions END */
