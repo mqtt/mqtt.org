@@ -207,13 +207,16 @@ footer {
 
 .nav-item {
    font-size: 16px;
-   padding: 10px 10px 10px 0;
+   padding: 10px;
    border-bottom: 1px solid #660066;
 
    &:last-child {
      border-bottom: none;
    }
 }
+.default-nav .nav-item {
+   background-color:rgba(255, 255, 255, 0.5);
+ }
 
 /* Homepage */
 #homepage-header {
@@ -329,7 +332,6 @@ footer {
 
 .panel-item {
    padding: 5px 25px 15px 0;
-
 }
 
 .panel-item-description {
