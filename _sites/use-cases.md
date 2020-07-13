@@ -9,7 +9,7 @@ MQTT is used in a large variety of use cases and industries.
 <br/><br/>
 <section id="use-cases">
    <article class="use-case">
-      <img src="{{ '/assets/img/automotive.jpg' | relative_url }}">
+      <img src="{{ '/assets/img/automotive.jpg' | relative_url }}" class="use-case-img">
       <div class="use-case-description">
       <h2>Automotive</h2>
       <ul>
@@ -20,7 +20,7 @@ MQTT is used in a large variety of use cases and industries.
    </article>
 <!-- Use Case Category -->
    <article class="use-case">
-      <img src="{{ '/assets/img/transport.jpg' | relative_url }}">
+      <img src="{{ '/assets/img/logistics.jpg' | relative_url }}" class="use-case-img">
       <div class="use-case-description">
          <h2>Logistics</h2>
          <ul>
@@ -31,7 +31,7 @@ MQTT is used in a large variety of use cases and industries.
    </article>
 <!-- Use Case Category -->
    <article class="use-case">
-      <img src="{{ '/assets/img/smart-home.jpg' | relative_url }}">
+      <img src="{{ '/assets/img/smart-home.jpg' | relative_url }}" class="use-case-img">
       <div class="use-case-description">
          <h2>Home energy monitoring</h2>
          <ul>
@@ -44,31 +44,29 @@ MQTT is used in a large variety of use cases and industries.
    </article>
 <!-- Use Case Category -->
    <article class="use-case">
-      <img src="{{ '/assets/img/manufacturing.jpg' | relative_url }}">
+      <img src="{{ '/assets/img/manufacturing.jpg' | relative_url }}" class="use-case-img">
       <div class="use-case-description">
          <h2>Manufacturing</h2>
       </div>
    </article>
 <!-- Use Case Category -->
    <article class="use-case">
-      <img src="{{ '/assets/img/transport.jpg' | relative_url }}">
+      <img src="{{ '/assets/img/consumer-products.jpg' | relative_url }}" class="use-case-img">
       <div class="use-case-description">
          <h2>Consumer Products</h2>
          <ul>
-            <li>CASO Design creates Smart Kitchen Appliances<br/>
-            <a href="https://www.hivemq.com/case-studies/caso/">Case Study</a>
+            <li>CASO Design creates Smart Kitchen Appliances. <a href="https://www.hivemq.com/case-studies/caso/">Case Study</a>
             </li>
          </ul>
       </div>
    </article>
 <!-- Use Case Category -->
    <article class="use-case">
-      <img src="{{ '/assets/img/transport.jpg' | relative_url }}">
+      <img src="{{ '/assets/img/transportation.jpg' | relative_url }}" class="use-case-img">
       <div class="use-case-description">
       <h2>Transportation</h2>
       <ul>
-         <li>Deploying IoT on Germany's DB Railway System<br/>
-         <a href="https://iot.eclipse.org/community/resources/case-studies/iot-on-railway-systems-db/">Website</a>
+         <li>Deploying IoT on Germany's DB Railway System. <a href="https://iot.eclipse.org/community/resources/case-studies/iot-on-railway-systems-db/">Website</a>
          </li>
       </ul>
    </div>

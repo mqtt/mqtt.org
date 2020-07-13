@@ -335,11 +335,15 @@ footer {
 }
 
 /* Software Page */
+
 .panel-item {
-   display: flex;
-   flex-direction: row;
-   align-items: center;
    padding: 5px 25px 15px 0;
+
+}
+
+.panel-item-description {
+   display: block;
+   margin-left: 200px;
 }
 
 .panel-item:not(.last) {
@@ -350,7 +354,9 @@ footer {
    width: 150px;
    height: 65px;
    margin: 0 10px;
+   float: left;
 }
+
 .panel-item h3,
 .panel-item a {
    text-decoration: none;
@@ -390,12 +396,12 @@ footer {
    width: 100%;
    background-color: #eceef0;
    text-align: center;
-   padding: 25px 25px 100px 25px;
+   padding: 25px 0 100px;
    margin-top: 50px;
 }
 
 #tc-members {
-   width: 80%;
+   width: 60%;
    margin: 0 auto;
    background-color: #fff;
    padding: 40px 20px 15px 20px;
@@ -409,8 +415,17 @@ footer {
 
 .use-case {
    display: flex;
+   align-items: flex-start;
 }
 
 .use-case-description {
-   margin-left: 50px;
+   margin-left: 40px;
+}
+
+.use-case-description h2 {
+   margin-top: 0;
+}
+
+.use-case-img {
+   margin-bottom: 20px;
 }
