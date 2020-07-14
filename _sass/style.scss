@@ -503,6 +503,13 @@ footer {
    .width-container {
       width: 80%;
    }
+   #homepage-intro {
+      width: 50%;
+      margin: 30px 30%;
+      text-align: left;
+      line-height: 30px;
+      font-size: 15px;
+  }
 }
 
 @media all and (max-width: 1024px){
@@ -517,6 +524,13 @@ footer {
    }
    .width-container {
       width: 90%;
+   }
+   .keyfeature,
+   .keyfeature.mid,
+   .keyfeature.last {
+      flex-basis: 45%;
+      padding-left: 0;
+      padding-right: 5%;
    }
 }
 
@@ -533,4 +547,18 @@ footer {
    #mobile-nav-open {
       display: none;
    }
+   #homepage-intro {
+      width: 90%;
+      margin: 60px 5%;
+  }
+  #keyfeature-list {
+   flex-direction: column;
+  }
+  .keyfeature,
+  .keyfeature.mid,
+  .keyfeature.last {
+     flex-basis: 90%;
+     padding-left: 0;
+     padding-right: 0%;
+  }
 }
