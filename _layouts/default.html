@@ -3,12 +3,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="robots" content="noindex">
-    <title>{{ page.title }}</title>
-    <link href="{{ 'assets/css/style.css' | relative_url }}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    {% include head.html %}
   </head>
   <body>
     <header id="default-header">
@@ -23,84 +18,17 @@
   
   <!-- Sticky navigation hides an offset for anchor link targets. This script resolves this issue -->
   <script>
-    (function(document, history, location) {
-      var HISTORY_SUPPORT = !!(history && history.pushState);
-    
-      var anchorScrolls = {
-        ANCHOR_REGEX: /^#[^ ]+$/,
-        OFFSET_HEIGHT_PX: 90,
-    
-        /**
-         * Establish events, and fix initial scroll position if a hash is provided.
-         */
-        init: function() {
-          this.scrollToCurrent();
-          window.addEventListener('hashchange', this.scrollToCurrent.bind(this));
-          document.body.addEventListener('click', this.delegateAnchors.bind(this));
-        },
-    
-        /**
-         * Return the offset amount to deduct from the normal scroll position.
-         * Modify as appropriate to allow for dynamic calculations
-         */
-        getFixedOffset: function() {
-          return this.OFFSET_HEIGHT_PX;
-        },
-    
-        /**
-         * If the provided href is an anchor which resolves to an element on the
-         * page, scroll to it.
-         * @param  {String} href
-         * @return {Boolean} - Was the href an anchor.
-         */
-        scrollIfAnchor: function(href, pushToHistory) {
-          var match, rect, anchorOffset;
-    
-          if(!this.ANCHOR_REGEX.test(href)) {
-            return false;
-          }
-    
-          match = document.getElementById(href.slice(1));
-    
-          if(match) {
-            rect = match.getBoundingClientRect();
-            anchorOffset = window.pageYOffset + rect.top - this.getFixedOffset();
-            window.scrollTo(window.pageXOffset, anchorOffset);
-    
-            // Add the state to history as-per normal anchor links
-            if(HISTORY_SUPPORT && pushToHistory) {
-              history.pushState({}, document.title, location.pathname + href);
-            }
-          }
-    
-          return !!match;
-        },
-    
-        /**
-         * Attempt to scroll to the current location's hash.
-         */
-        scrollToCurrent: function() {
-          this.scrollIfAnchor(window.location.hash);
-        },
-    
-        /**
-         * If the click event's target was an anchor, fix the scroll position.
-         */
-        delegateAnchors: function(e) {
-          var elem = e.target;
-    
-          if(
-            elem.nodeName === 'A' &&
-            this.scrollIfAnchor(elem.getAttribute('href'), true)
-          ) {
-            e.preventDefault();
-          }
+    jQuery(document).ready(function($) {
+  
+      // set a variable for the anchor link which is the location.hash
+      var anchorLink = $(window.location.hash);
+        // test to see if the link is a anchor link, if not the length will have no value, this is done to avoid js errors on non anchor links
+        if ( anchorLink.length ) {
+          // set an element as the fixed entity, header in this case and get its height
+          var offsetSize = $("header").innerHeight();
+          // fire the animation from the top of the page to the anchor link offsetting by the fixed elements height, the number is the speed of the animation
+          $("html, body").animate({scrollTop: anchorLink.offset().top - offsetSize }, 500);
         }
-      };
-    
-      window.addEventListener(
-        'DOMContentLoaded', anchorScrolls.init.bind(anchorScrolls)
-      );
-    })(window.document, window.history, window.location);
+    });
     </script>
 </html>

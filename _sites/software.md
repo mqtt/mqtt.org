@@ -4,7 +4,7 @@ index: 3
 ---
 
 <section class="content-floating">
-<h1>MQTT Specifications</h1>
+<h1>MQTT Software</h1>
 
 <section class="accordion-wrapper software" style="margin-bottom: 50px;">
    <button class="accordion">Servers / Brokers</button>
