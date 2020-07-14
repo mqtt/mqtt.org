@@ -3,15 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <meta name="robots" content="noindex">
     <link href="{{ 'assets/css/style.css' | relative_url }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header id="homepage-header">
-      <div id="homepage-header-img">
-        <img src="{{ 'assets/img/mqtt-logo-transp.svg' | relative_url }}" id="mqtt-logo-header" class="float-left">
         {% include homepage-header.html %}
-      </div>
     </header>
     <nav id="main-nav" class="homepage-nav float-left">
       {% include nav.html %}
