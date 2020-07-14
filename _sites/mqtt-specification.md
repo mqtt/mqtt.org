@@ -1,6 +1,7 @@
 ---
 title: MQTT Specification
 index: 2
+description: Links to documentation on the MQTT specification and APIs. High quality MQTT logo download.
 ---
 
 <section class="content-floating">

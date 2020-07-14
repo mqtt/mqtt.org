@@ -1,6 +1,7 @@
 ---
 title: Software
 index: 3
+description: A collection of links to all important MQTT brokers/servers, MQTT client libaries, tools and plugins.
 ---
 
 <section class="content-floating">

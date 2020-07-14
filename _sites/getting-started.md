@@ -1,6 +1,7 @@
 ---
 title: Getting started
 index: 1
+description: Useful resources to get you started with MQTT, the standard messaging and data exchange protocol for the Internet of Things (IoT).
 ---
 
 <section class="content-floating">

@@ -1,6 +1,7 @@
 ---
 title: FAQ
 index: 5
+description: Frequently asked questions about MQTT and a dictionary of terms and acronyms.
 ---
 
 <section class="content-floating">
@@ -32,7 +33,47 @@ index: 5
    </div>
    <button class="accordion">Where can I find out more?</button>
    <div class="panel">
-      <p>The specification and other documentation are available via the Specification page. Ask questions via one of the methods on StackOverflow. Try code via one of the projects on the Software page.</p>
+      <p>The specification and other documentation are available via the <a href="{{ '/mqtt-specification' | relative_url }}">Specification page</a>. Ask questions via one of the methods on StackOverflow. Try code via one of the projects on the <a href="{{ '/mqtt-specification' | relative_url }}">Software page.</a></p>
+   </div>
+</div>
+
+<h1>Terms and acronyms</h1>
+<div class="accordion-wrapper" style="margin-bottom: 50px;">
+   <button class="accordion">Broker</button>
+   <div class="panel">
+      <p>A <a href="http://en.wikipedia.org/wiki/Message_broker">broker</a> is a server that routes published messages to subscribers.</p>
+   </div>
+   <button class="accordion">Bridge</button>
+   <div class="panel">
+      <p>A connection between two MQTT brokers</p>
+   </div>
+   <button class="accordion">RSMB</button>
+   <div class="panel">
+      <p>Really Small Message Broker from IBM, now part of the Eclipse Mosquitto project</p>
+   </div>
+   <button class="accordion">LWT</button>
+   <div class="panel">
+      <p><a href="https://www.hivemq.com/blog/mqtt-essentials-part-9-last-will-and-testament/">Last Will and Testament.</a></p>
+   </div>
+   <button class="accordion">M2M</button>
+   <div class="panel">
+      <p><a href="http://en.wikipedia.org/wiki/Machine-to-Machine" rel="nofollow">Machine-to-Machine</a></p>
+   </div>
+   <button class="accordion">M2M IWG</button>
+   <div class="panel">
+      <p><a href="mqtt_at_eclipse">Machine-to-Machine Industry Working Group</a> at Eclipse</p>
+   </div>
+   <button class="accordion">IoT</button>
+   <div class="panel">
+      <p><a href="http://en.wikipedia.org/wiki/Internet_of_things" rel="nofollow">Internet of Things</a></p>
+   </div>
+   <button class="accordion">Paho</button>
+   <div class="panel">
+      <p>Eclipse Paho messaging project.</p>
+   </div>
+   <button class="accordion">QoS</button>
+   <div class="panel">
+           <p><a href="https://www.hivemq.com/blog/mqtt-essentials-part-6-mqtt-quality-of-service-levels/">Quality of Service</a> levels</p>
    </div>
 </div>
 </section>
