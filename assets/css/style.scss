@@ -1,6 +1,6 @@
 ---
 ---
 $home-header: "{{ 'assets/img/homepage-gradient.jpg' | relative_url }}";
+$home-header-mobile: "{{ 'assets/img/homepage-gradient-mobile.jpg' | relative_url }}";
 $header: "{{ 'assets/img/header-gradient.jpg' | relative_url }}";
-$shadow: 2px 2px 4px rbga(153, 153, 153, 0.25); 
 @import "style";

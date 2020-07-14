@@ -191,6 +191,10 @@ footer {
     z-index: 1;
  }
 
+ #mobile-nav.mobile-nav-home {
+   position: absolute;
+}
+
  .mobile-nav-item {
     font-size: 22px;
     line-height: 4rem;
@@ -211,6 +215,10 @@ footer {
    left: 50%;
    margin-left: -16px;
    cursor: pointer;
+}
+.mobile-nav-home > #burger-menu {
+   position: absolute;
+   top: -50px;
 }
 /* Accordions START */
 .accordion-wrapper {
@@ -510,6 +518,11 @@ footer {
       line-height: 30px;
       font-size: 15px;
   }
+  #homepage-header-img {
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+   }
 }
 
 @media all and (max-width: 1024px){
@@ -531,6 +544,15 @@ footer {
       flex-basis: 45%;
       padding-left: 0;
       padding-right: 5%;
+   }
+   #homepage-header {
+      height: 500px;
+   }
+   #homepage-header-img {
+      background-image: url($home-header-mobile);
+   }
+   #homepage-intro {
+      width: 65%;
    }
 }
 
@@ -560,5 +582,14 @@ footer {
      flex-basis: 90%;
      padding-left: 0;
      padding-right: 0%;
+  }
+}
+
+@media all and (max-width: 768px){
+   #homepage-intro {
+      width: 90%;
+      margin: 50px 5%;
+      font-size: 14px;
+      line-height: 24px;
   }
 }

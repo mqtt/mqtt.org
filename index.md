@@ -2,6 +2,7 @@
 layout: home
 title: MQTT - The Standard for IoT Messaging 
 permalink: /
+description: A lightweight messaging protocol for small sensors and mobile devices, optimized for high-latency or unreliable networks, enabling a Connected World and the Internet of Things
 ---
 
 <div class="width-container">
