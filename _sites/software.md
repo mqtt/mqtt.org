@@ -231,7 +231,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </div>
       </div>
    <!-- Entry -->
-      <div class="panel-item">
+      <div class="panel-item last">
          <img src="{{ 'assets/img/software/yunba.png' | relative_url }}" class="software-logo">
          <div class="panel-item-description"><a href="http://yunba.io/"><h3>Yunba.io</h3></a>
          Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol, The services include bi-directional push for Instant-Messaging; real-time analyzing; real-time online monitoring.
@@ -471,6 +471,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <ul>
                <li><a href="http://mosquitto.org">mosquitto_pub/mosquitto_sub</a> - Publish/Subscribe command line clients, provided with the mosquitto package.</li>
                <li><a href="http://kamilfb.github.io/mqtt-spy/">mqtt-spy-daemon</a> - a headless (command-line) version of mqtt-spy; for details see the <a href="http://kamilfb.github.io/mqtt-spy/">project's home page</a>.</li>
+               <li><a href="https://github.com/hivemq/mqtt-cli/">MQTT CLI</a> is a useful command line interface for connecting various MQTT clients supporting MQTT 5.0 and 3.1.1 backed by the HiveMQ team.</li>  
             </ul>
          <div class="subhead">Commercial Applications</div>
          <ul>
