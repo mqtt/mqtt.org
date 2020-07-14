@@ -1,0 +1,19 @@
+<div id="burger-menu"><img src="{{ 'assets/img/burger-menu.svg' | relative_url }}"></div>
+<div id="mobile-nav-open">
+{% assign sites = site.sites | sort: "index" %}
+{% for page in sites %}
+<a href="{{ page.url | relative_url }}"><div class="mobile-nav-item">{{ page.title }}</div></a>
+{% endfor %}
+</div>
+
+<script>
+   $('#burger-menu').click(function(){
+      if ( $('#mobile-nav-open').css('display') == 'none' )
+        $('#mobile-nav-open').css('display','block');
+      else
+        $('#mobile-nav-open').css('display','none');
+    });
+    $('.mobile-nav-item').click(function(){
+        $('#mobile-nav-open').css('display','block');
+    });
+</script>
