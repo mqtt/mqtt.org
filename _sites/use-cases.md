@@ -1,7 +1,7 @@
 ---
 title: Use Cases
 index: 4
-layout: default
+description: MQTT is the top choice of major companies worldwide for data exchange with constrained devices and server applications.
 ---
 
 <div class="content-floating">
