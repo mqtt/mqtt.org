@@ -45,14 +45,14 @@ permalink: /
 </div>
 
 <section id="mqtt-in-action">
-<h2>MQTT n Action</h2>
+<h2>MQTT in Action</h2>
 <p>MQTT is used in a wide variety of industries</p>
    <div class="flex-wrap-centered">
       <a href="{{ '/use-cases#automotive' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/automotive.jpg' | relative_link }}');">Automotive</div></a>
       <a href="{{ '/use-cases#logistics' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/logistics.jpg' | relative_link }}');">Logistics</div></a>
       <a href="{{ '/use-cases#manufacturing' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/manufacturing.jpg' | relative_link }}');"><span style="color: #000">Manufacturing</span></div></a>
       <a href="{{ '/use-cases#smarthome' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/smart-home.jpg' | relative_link }}');">Smart Home</div></a>
-      <a href="{{ '/use-cases#cosmer-products' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/consumer-products.jpg' | relative_link }}');"><span style="color: #000">Consumer Products</span></div></a>
+      <a href="{{ '/use-cases#consumer-products' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/consumer-products.jpg' | relative_link }}');"><span style="color: #000">Consumer Products</span></div></a>
       <a href="{{ '/use-cases#transportation' | relative_url }}"><div class="mqtt-in-action-box" style="background-image: url('{{ 'assets/img/transportation.jpg' | relative_link }}');">Transportation</div></a>
    </div>
 </section>

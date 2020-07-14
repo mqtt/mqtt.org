@@ -8,6 +8,10 @@ body {
    font-weight: 300;
 }
 
+img {
+   max-width: 100%;
+}
+
 /* Typography */
 h1 {
    font-size: 32px;
@@ -25,6 +29,7 @@ h3 {
    margin: .5rem 0;
 }
 
+
 h4 {
    font-size: 20px;
    font-weight: 300;
@@ -40,6 +45,21 @@ a, a:link, a:visited {
    color: #ff8800;
    text-decoration: none;
 }
+
+h3 a,
+h3 a:link,
+h3 a:visited {
+   color: #660066;
+   text-decoration: none;
+}
+
+h3 a:hover,
+h3 a:active,
+h3 a:focus {
+   color: #ff8800;
+   text-decoration: none;
+}
+
 
 /* Global */
 .content-floating {
@@ -72,9 +92,10 @@ footer {
    position: relative;
    bottom: 0;
    width: 100%;
-   padding: 15px 30px;
+   padding: 10px 0;
    font-size: 16px;
    box-sizing: border-box;
+   margin-top: 100px;
 }
 
 .major-cta {
@@ -350,11 +371,6 @@ footer {
    float: left;
 }
 
-.panel-item h3,
-.panel-item a {
-   text-decoration: none;
-}
-
 .panel-item h3 {
    color: #660066;
    font-size: 18px;
@@ -421,4 +437,7 @@ footer {
 
 .use-case-img {
    margin-bottom: 20px;
+   display: block;
+   width: 282px !important;
+   height: 202px !important;
 }
