@@ -63,15 +63,19 @@ h3 a:focus {
 
 /* Global */
 .content-floating {
-   width: 72.5%;
-   max-width: 900px;
-   padding-left: 27.5%;
+   max-width: 960px;
+   /* width of side navigation */
+   margin-left: 15%;
+   padding-left: 225px;
+   /* height of top bar */
    padding-top: 90px;
+   /* indentical with float-lefts padding-left to center content */
+   padding-right: 15%;
    display: block;
 }
 
 .float-left {
-   padding-left: 10%;
+   padding-left: 15%;
 }
 
 .flex-wrap-centered {
@@ -92,7 +96,7 @@ footer {
    position: relative;
    bottom: 0;
    width: 100%;
-   padding: 10px 0;
+   padding: 5px 0;
    font-size: 16px;
    box-sizing: border-box;
    margin-top: 100px;
@@ -318,7 +322,8 @@ footer {
 
 #mqtt-in-action {
    background-color: #eceeef;
-   padding: 25px 10% 75px;
+   padding: 25px 10% 150px;
+   margin-bottom: -100px;
    text-align: center;
 }
 
