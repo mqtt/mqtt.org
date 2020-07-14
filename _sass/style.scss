@@ -320,6 +320,15 @@ footer {
    line-height: 32px;
    font-size: 16px;
 }
+
+@media all and (min-width:1366px){
+   #header-hr {
+      width: 100%;
+      max-width: unset;
+   }
+}
+
+
 #homepage-content {
    padding-top: 25px;
 }
@@ -385,7 +394,7 @@ footer {
 
 .width-container {
    width: 70%;
-   max-width: 1200px;
+   max-width: 1366px;
    margin: 0 auto;
    box-sizing: border-box;
 }
