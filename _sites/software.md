@@ -569,9 +569,6 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          }
        });
      }
-      if(acc.length > 0) {
-      acc[0].click();
-      }
    } catch (e) {
      //ignore exception
    }
