@@ -67,7 +67,7 @@ h3 a:focus {
    max-width: 1000px;
    /* width of side navigation */
    margin-left: 12.5%;
-   padding-left: 20%;
+   padding-left: 250px;
    /* height of top bar */
    padding-top: 90px;
    /* indentical with float-lefts padding-left to center content */
@@ -78,7 +78,7 @@ h3 a:focus {
 .floating-right {
    max-width: 1000px;
    margin-left: 12.5%;
-   padding-left: 20%;
+   padding-left: 250px;
    padding-right: 12.5%;
    display: block;
 }
@@ -487,7 +487,7 @@ main {
 .tc-logo {
    width: 190px;
    height: 60px;
-   margin: 4px;
+   margin: 10px 5px;
 }
 
 #mqtt-logos div {
