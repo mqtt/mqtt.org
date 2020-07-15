@@ -64,3 +64,17 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
    </div>
 </section>
 
+<section  class="content-floating">
+   <h2>MQTT Logos</h2>
+   Feel free to download the MQTT logo assets in .png, .svg, .eps and .jpg format.
+   <div id="mqtt-logos">
+      <div class="logo-container hor"><img src=" {{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo logo" title="Cisco"></div>
+      <div class="logo-container black hor"><img src=" {{ 'assets/img/mqtt-hor-neg.svg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo logo" title="Cisco"></div>
+      <div class="logo-container ver"><img src=" {{ 'assets/img/mqtt-ver.svg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo logo" title="Cisco"></div>
+      <div class="logo-container black ver"><img src=" {{ 'assets/img/mqtt-ver-neg.svg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo logo" title="Cisco"></div>
+   </div>
+   <div >
+   <a href="{{ 'assets/downloads/mqtt-logo-assets.zip' | relative_url }}"><button class="major-cta major-cta-orange" style="margin: 25px 0;">Download MQTT logo assets</button></a>
+   </div>
+</section>
+

@@ -15,8 +15,10 @@
     <nav id="main-nav" class="default-nav float-left">
       {% include nav.html %}
     </nav>
-    {{ content }}
+    <main>
+      {{ content }}
     {% include footer.html %}
+    </main>
   </body>
   
   <!-- Sticky navigation hides an offset for anchor link targets. This script resolves this issue -->
