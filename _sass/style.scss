@@ -64,19 +64,27 @@ h3 a:focus {
 
 /* Global */
 .content-floating {
-   max-width: 960px;
+   max-width: 1000px;
    /* width of side navigation */
-   margin-left: 15%;
-   padding-left: 225px;
+   margin-left: 12.5%;
+   padding-left: 20%;
    /* height of top bar */
    padding-top: 90px;
    /* indentical with float-lefts padding-left to center content */
-   padding-right: 15%;
+   padding-right: 12.5%;
+   display: block;
+}
+
+.floating-right {
+   max-width: 1000px;
+   margin-left: 12.5%;
+   padding-left: 20%;
+   padding-right: 12.5%;
    display: block;
 }
 
 .float-left {
-   padding-left: 15%;
+   padding-left: 12.5%;
 }
 
 .flex-wrap-centered {
@@ -399,7 +407,7 @@ main {
 }
 
 .width-container {
-   width: 70%;
+   width: 75%;
    max-width: 1366px;
    margin: 0 auto;
    box-sizing: border-box;
@@ -460,22 +468,26 @@ main {
 .technical-committee {
    width: 100%;
    background-color: #eceef0;
-   text-align: center;
-   padding: 25px 0 100px;
+   text-align: left;
+   padding: 25px 0 50px;
    margin-top: 50px;
 }
 
 #tc-members {
-   width: 45%;
-   margin: 0 auto;
    background-color: #fff;
-   padding: 40px 20px 15px 20px;
+   display: flex;
+   justify-content: space-around;
+   justify-items: center;
+   flex-wrap: wrap;
+   padding: 25px;
    box-sizing: border-box;
    box-shadow: 2px 2px 4px rgba(153, 153, 153, 0.5);
 }
 
 .tc-logo {
-   margin: 6px;
+   width: 190px;
+   height: 60px;
+   margin: 4px;
 }
 
 #mqtt-logos div {
@@ -496,7 +508,6 @@ main {
 .logo-container.black {
    background-color: #000;
 }
-
 
 /* Use Cases Page */
 .use-case {
@@ -521,7 +532,7 @@ main {
 
 @media all and (max-width: 1366px){
    .content-floating {
-      max-width: 960px;
+      max-width: 1000px;
       /* indentical with float-lefts padding-left to center content */
       margin-left: 12.5%;
       padding-right: 12.5%;
@@ -536,7 +547,7 @@ main {
 
 @media all and (max-width: 1280px){
    .content-floating {
-      max-width: 800px;
+      max-width: 900px;
       /* indentical with float-lefts padding-left to center content */
       margin-left: 10%;
       padding-right: 10%;
@@ -562,7 +573,8 @@ main {
 }
 
 @media all and (max-width: 1024px){
-   .content-floating {
+   .content-floating,
+   .floating-right {
       max-width: 800px;
       /* indentical with float-lefts padding-left to center content */
       margin-left: 5%;
@@ -596,7 +608,8 @@ main {
    #main-nav {
       display: none;
    }
-   .content-floating {
+   .content-floating,
+   .floating-right {
       padding-left: 0;
    };
    #mobile-nav {
@@ -619,10 +632,6 @@ main {
      padding-left: 0;
      padding-right: 0%;
   }
-  #tc-members {
-      width: 90%;
-      margin: 0 auto;
-   }
 }
 
 @media all and (max-width: 768px){

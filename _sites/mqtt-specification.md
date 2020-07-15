@@ -48,9 +48,9 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
 </section>
 
 <section class="technical-committee">
+   <div class="floating-right">
    <h2>TC Member Organizations</h2>
    <div id="tc-members">
-      <div id="tc-member-logos">
          <a href="https://www.cisco.com/" target="_blank"><img src=" {{ 'assets/img/tc-cisco.png' | relative_url }}" class="tc-logo" alt="Cisco logo" title="Cisco"></a>
          <a href="https://www.hivemq.com" target="_blank" ><img src=" {{ 'assets/img/tc-hivemq.png' | relative_url }}" class="tc-logo" alt="HiveMQ logo" title="HiveMQ"></a>
          <a href="https://www.ibm.com" target="_blank"><img src=" {{ 'assets/img/tc-ibm.png' | relative_url }}" class="tc-logo" alt="IBM logo" title="IBM"></a>
@@ -59,12 +59,12 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
          <a href="https://www.softwareag.com/" target="_blank"><img src=" {{ 'assets/img/tc-software-ag.png' | relative_url }}" class="tc-logo" alt="Software-AG logo" title="Software-AG"></a>
          <a href="https://www.solace.com/" target="_blank"><img src=" {{ 'assets/img/tc-solace.png' | relative_url }}" class="tc-logo" alt="Solace logo" title="Solace"></a>
          <a href="https://thingstream.io/" target="_blank"><img src=" {{ 'assets/img/tc-thingstream.png' | relative_url }}" class="tc-logo" alt="Thingstream logo" title="Thingstream"></a>
-      </div>
-      <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt"><button class="major-cta major-cta-orange" style="margin: 25px 0;">Join the Technical Committee</button></a>
+   </div>
+         <a href="https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=mqtt"><button class="major-cta major-cta-orange" style="margin: 25px 0;">Join the Technical Committee</button></a>
    </div>
 </section>
 
-<section  class="content-floating">
+<section  class="floating-right" style="margin-top: 50px;">
    <h2>MQTT Logos</h2>
    Feel free to download the MQTT logo assets in .png, .svg, .eps and .jpg format.
    <div id="mqtt-logos">
