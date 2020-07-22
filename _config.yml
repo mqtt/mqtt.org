@@ -35,6 +35,9 @@ defaults:
     values:
       layout: default
 
+plugins:
+  - jekyll-redirect-from
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

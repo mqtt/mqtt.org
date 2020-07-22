@@ -24,3 +24,10 @@ layout: default
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
+
+<script>
+  var path = window.location.pathname;
+  if (path.startsWith("/GO/")) {
+    window.location = "https://hivemq.com" + path;
+  }
+  </script>
