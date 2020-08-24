@@ -5,4 +5,4 @@ Redesign for MQTT.org
 >$bundle exec jekyll serve
 
 ## Update Dependencies
->$bundle install
+>$bundle update
