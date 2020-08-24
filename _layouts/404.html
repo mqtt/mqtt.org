@@ -1,0 +1,29 @@
+---
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <script>
+      var path = window.location.pathname;
+      if (path.startsWith("/GO/")) {
+        window.location = "https://stanford-clark.com" + path;
+      }
+    </script>
+    {% include head.html %}
+  </head>
+  <body>
+    <header id="default-header">
+        <a href="{{ '/' | relative_url }}"><img src="{{ '/assets/img/mqtt-logo-transp.svg' | relative_url }}" id="mqtt-logo-header" class="float-left"></a>
+    </header>
+    <nav id="mobile-nav">
+      {% include mobile-nav.html %}
+    </nav>
+    <nav id="main-nav" class="default-nav float-left">
+      {% include nav.html %}
+    </nav>
+    <main>
+      {{ content }}
+    {% include footer.html %}
+    </main>
+  </body>
+</html>
