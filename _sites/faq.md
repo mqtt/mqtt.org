@@ -61,7 +61,7 @@ description: Frequently asked questions about MQTT and a dictionary of terms and
    </div>
    <button class="accordion">M2M IWG</button>
    <div class="panel">
-      <p><a href="mqtt_at_eclipse">Machine-to-Machine Industry Working Group</a> at Eclipse</p>
+      <p><a href="https://blogs.eclipse.org/post/ian-skerrett/m2m-industry-working-group-has-been-created">Machine-to-Machine Industry Working Group</a> at Eclipse</p>
    </div>
    <button class="accordion">IoT</button>
    <div class="panel">
@@ -73,7 +73,7 @@ description: Frequently asked questions about MQTT and a dictionary of terms and
    </div>
    <button class="accordion">QoS</button>
    <div class="panel">
-           <p><a href="https://www.hivemq.com/blog/mqtt-essentials-part-6-mqtt-quality-of-service-levels/">Quality of Service</a> levels</p>
+      <p><a href="https://www.hivemq.com/blog/mqtt-essentials-part-6-mqtt-quality-of-service-levels/">Quality of Service</a> levels</p>
    </div>
 </div>
 </section>

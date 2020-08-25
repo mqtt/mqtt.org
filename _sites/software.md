@@ -78,7 +78,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/everywhere-cloud.png' | relative_url }}" class="software-logo">
-         <div class="panel-item-description"><a href="http://www.eurotech.com/en/solutions/device+to+cloud/mqtt+protocol"><h3>Eurotech Everywhere Device Cloud</h3></a>
+         <div class="panel-item-description"><a href="https://www.eurotech.com/en/products/iot/iot-integration-platform/everyware-cloud"><h3>Eurotech Everywhere Cloud</h3></a>
          Eurotech Everywhere Device Cloud is a cloud-based service provided by <a href="http://www.eurotech.com">Eurotech</a>.
          </div>
       </div>
@@ -247,11 +247,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <ul>
          <li><a href="https://github.com/knolleary/pubsubclient">Arduino</a> (<a href="http://pubsubclient.knolleary.net/">more information</a>)</li>
          <li><a href="https://github.com/tuanpmt/espduino">Espduino</a> (tailored Arduino library for the ESP8266)</li>
-         <li><a href="https://github.com/yilun/MQTT-client-on-mbed">mbed</a> (<a href="http://ceit.uq.edu.au/content/mqttclient-mbed-version-20">more information</a>)</li>
          <li><a href="http://mbed.org/users/jwende/code/MQTT/">mbed (simple port of the Arduino pubsubclient)</a></li>
          <li><a href="http://mbed.org/users/Nim65s/code/niMQTT/">mbed (native implementation)</a></li>
-         <li><a href="http://developer.mbed.org/teams/mqtt/code/MQTT/">mbed (Paho Embedded C++ port)</a> (<a href="https://www.eclipse.org/paho/clients/c/embedded/">more information</a>)</li>
-         <li><a href="http://developer.mbed.org/teams/mqtt/code/MQTTPacket/">mbed (Paho Embedded C port)</a> (<a href="https://www.eclipse.org/paho/clients/c/embedded/">more information</a>)</li>
+         <li><a href="http://developer.mbed.org/teams/mqtt/code/MQTT/">mbed (Paho Embedded C++ port)</a></li>
+         <li><a href="http://developer.mbed.org/teams/mqtt/code/MQTTPacket/">mbed (Paho Embedded C port)</a></li>
          <li><a href="http://github.com/njh/NanodeMQTT/">Nanode</a></li>
          <li><a href="https://github.com/danielan/NetduinoMQTT">Netduino</a></li>
          <li><a href="https://github.com/eclipse/paho.mqtt.m2mqtt">M2MQTT (works with .Net Micro Framework)</a></li>
@@ -295,7 +294,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </ul>
       <div class="subhead">Delphi</div>
       <ul>
-      <li><a href="http://jamiei.com/code/TMQTTClient.zip">TMQTTClient</a> (<a href="http://jamiei.com/blog/code/mqtt-client-library-for-delphi/">more information</a>)</li>
+      <li><a href="https://github.com/jamiei/Delphi-TMQTT2">Delphi-TMQTT2</a></li>
       </ul>
       <div class="subhead">Erlang</div>
       <ul>
@@ -324,7 +323,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="subhead">Java</div>
       <ul>
          <li><a href="https://github.com/apache/activemq/tree/master/activemq-client">ActiveMQ Client</a></li>
-         <li><a href="https://www.eclipse.org/paho/clients/java/">Eclipse Paho Java</a></li>
+         <li><a href="https://projects.eclipse.org/projects/iot.paho/downloads">Eclipse Paho Java</a></li>
          <li><a href="https://github.com/fusesource/mqtt-client">Fusesource mqtt-client</a></li>
          <li><a href="http://www-933.ibm.com/support/fixcentral/swg/selectFix?product=ibm%2FWebSphere%2FWebSphere+MQ&amp;fixids=1.0.0.1-WS-MQCP-MA9B&amp;source=dbluesearch&amp;function=fixId&amp;parent=ibm/WebSphere"> "MA9B" zip of 1/2 dozen mobile clients source code.</a> Includes Android-optimized Java source that works with Android notifications, based on Paho</li>
          <li><a href="https://github.com/AlbinTheander/MeQanTT">MeQanTT</a></li>
@@ -334,7 +333,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006006&amp;loc=en_US&amp;cs=utf-8&amp;lang=en">IA92</a> - <em>deprecated</em> IBM IA92 support pack, use Eclipse Paho GUI client instead. A useful MQTT Java swing GUI for publishing &amp; subscribing. The Eclipse Paho GUI is identical but uses newer client code</li>
          <li><a href="https://github.com/Qatja">Qatja</a> is a Java client library for MQTT 3.1.1 with specific implementation for Android and Processing</li>
          <li><a href="https://github.com/Sentienz/akiro-clients">Sentienz Akiro MQTT Client</a> - MQTT 3.1.1 compatible <a href="https://theakiro.com/">Akiro MQTT broker</a> Java client with callbacks.</li>
-         <li><a href="https://github.com/vert-x3/vertx-mqtt-client">vertx-mqtt-client</a> is an open-source, high performance, non-blocking MQTT client built as a part of vert.x's JVM toolkit.</li>
+         <li><a href="https://vertx.io/docs/vertx-mqtt/java/#_vert_x_mqtt_client">vertx-mqtt-client</a> is an open-source, high performance, non-blocking MQTT client built as a part of vert.x's JVM toolkit.</li>
          <li><a href="https://github.com/TwoGuysFromKabul/xenqtt">Xenqtt</a> - <a href="http://xenqtt.sf.net/">documentation</a> Includes a client library, mock broker for unit/integration testing, and applications to support enterprise needs like using a cluster of servers as a single client, an HTTP gateway, etc.</li>
       </ul>
       <div class="subhead">Javascript / Node.js</div>
@@ -343,7 +342,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/eclipse/paho.mqtt.javascript">Eclipse Paho HTML5 JavaScript over WebSocket.</a></li>
          <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24033580&amp;loc=en_US&amp;cs=utf-8&amp;lang=en" >IBM-provided PhoneGap / Apache Cordova MQTT plug-in for Android</a> - JavaScript API is identical to Eclipse Paho HTML5 JavaScript</li>
          <li><a href="https://github.com/adamvr/MQTT.js">mqtt.js</a></li>
-         <li><a href="https://github.com/yilun/node_mqtt_client">node_mqtt_client</a> (<a href="http://ceit.uq.edu.au/content/simple-mqtt-cient-nodejs" >more information</a>)</li>
+         <li><a href="https://github.com/yilun/node_mqtt_client">node_mqtt_client</a></li>
       </ul>
       <div class="subhead">LotusScript</div>
       <ul>
@@ -455,8 +454,8 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </ul>
          <div class="subhead">Mobile platforms</div>
          <ul>
-            <li><a href="mqtt_on_the_android_platform">MQTT on Android</a></li>
-            <li><a href="mqtt_on_ios">MQTT on iOS</a></li>
+            <li><a href="https://github.com/eclipse/paho.mqtt.android">MQTT on Android</a></li>
+            <li><a href="https://github.com/emqx/CocoaMQTT">MQTT on iOS</a></li>
          </ul>
          <div class="subhead">Desktop tools</div>
             <ul>
@@ -481,8 +480,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </ul>
          <div class="subhead">Desktop notification tools</div>
          <ul>
-            <li><a href="http://ceit.uq.edu.au/content/mqtt-and-growl">OS X desktop notifications</a> using Growl.</li>
-            <li><a href="http://chemicaloliver.net/programming/first-steps-using-python-and-mqtt/">Ubuntu desktop notifications</a> using pynotify.</li>
+            <li><a href="https://chemicaloliver.net/technology/2010/08/15/first-steps-using-python-and-mqtt/">Ubuntu desktop notifications</a> using pynotify.</li>
             <li><a href="http://fabian-affolter.ch/blog/zenity-notifications-for-mqtt-messages/">Zenity notifications</a> for MQTT messages.</li>
             <li><a href="http://fabian-affolter.ch/blog/desktop-notifications-for-mqtt-messages/">Desktop notifications</a> for MQTT messages with DBUS.</li>
             <li><a href="http://fabian-affolter.ch/blog/mqtt-and-desktop-notifications/">Desktop notifications</a> with libnotify.</li>
@@ -492,9 +490,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="http://xenqtt.sf.net">Xenqtt</a> - includes a client library, mock broker for unit/integration testing, and applications to support enterprise needs like using a cluster of servers as a single client, an HTTP gateway, etc.</li>
             <li><a href="https://github.com/jpmens/twitter2mqtt">twitter2mqtt</a> - a Twitter to MQTT gateway (1-shot) which is using mosquitto.</li>
             <li><a href="https://github.com/njh/mqtt-http-bridge">mqtt-http-bridge</a> - this simple web application provides a bridge between HTTP and MQTT using a RESTish interface.</li>
-            <li><a href="https://github.com/bluewindthings/mqtt-to-twitter-daemon">mqtt-to-twitter-daemon</a> - a MQTT to Twitter ruby daemon.</li>
-            <li><a href="https://github.com/bluewindthings/twitter-to-mqtt-daemon">twitter-to-mqtt-daemon</a> - a Twitter User-streams to MQTT ruby daemon.</li>
-            <li><a href="https://github.com/bluewindthings/mqtt-republisher-daemon">mqtt-republisher-daemon</a> - a small MQTT topics republisher.</li>
+            <li><a href="https://github.com/knolleary/twitter-to-mqtt">twitter-to-mqtt</a> - A python daemon that uses the Twitter Streaming API to access tweets and republishes them to an MQTT topic.</li>
             <li><a href="https://www.opc-router.com/4_1-mqtt-client-opc-router-plug-in-en/">OPC Router</a> - MQTT Gateway (publisher/subscriber) with various plug-ins</li>
             <li><a href="https://github.com/Koenkk/zigbee2mqtt">zigbee2mqtt</a> - ZigBee gateway that exposes ZigBee certified devices (Philis Hue, Xiaomi Aqara, ...) via mqtt. Commonly used for home automation. <a href="https://www.zigbee2mqtt.io/information/supported_devices.html">list of supported devices</a></li>
             <li><a href="https://mqtt.cool">MQTT.Cool</a> - A web gateway that optimizes any MQTT broker when sending real-time data to web clients with automatic throttling.</li>
@@ -514,17 +510,15 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <p>MQTT has been incorporated into various runtimes and frameworks via modules or plugins. The projects listed below therefore depend on additional packages and are not necessarily standalone or for general use. As with the list of clients, some may not provide full support for all of the features of the latest MQTT specification – check with the project in question.</p>
          <ul>
             <li><a href="http://tingenek.wordpress.com/2009/10/14/mqtt-ant-task/">Ant</a> – an Ant task (using the IA92 Java client)</li>
-            <li><a href="http://daubers.co.uk/2011/12/31/bzrmqttwin-o/">bzr-mqtt</a> – an MQTT commit plugin for Bazaar/bzr servers (uses the Python API from mosquitto)</li>
-            <li><a href="https///github.com/github/github-services/blob/master/services/mqtt.rb">Github</a> – an MQTT service hook for Github (<a href="http://mqtt.org/2012/05/mqtt-service-hook-added-to-github">more on the blog</a>)</li>
-            <li><a href="https///code.google.com/p/moquette-mqtt/">moquette-mqtt</a> – an MQTT plugin for Apache Mina, written in Java</li>
+            <li><a href="https://code.google.com/p/moquette-mqtt/">moquette-mqtt</a> – an MQTT plugin for Apache Mina, written in Java</li>
             <li><a href="https://plugins.octoprint.org/plugins/mqtt/">MQTT</a> - An <a href="https://octoprint.org">OctoPrint</a> plugin to add support for subscribing and publishing to MQTT topics.</li>
-            <li><a href="https///github.com/dmiller44/mule-module-mqtt">mule-module-mqtt</a> – a Mule ESB Connector</li>
+            <li><a href="https://github.com/dmiller44/mule-module-mqtt">mule-module-mqtt</a> – a Mule ESB Connector</li>
             <li><a href="https://plugins.octoprint.org/plugins/mqttpublish/">OctoPrint-MQTTPublish</a> - An <a href="https://octoprint.org">OctoPrint</a> plugin to add buttons to the navbar to publish messages to an MQTT server.</li>
             <li><a href="https://plugins.octoprint.org/plugins/tasmota_mqtt/">OctoPrint-TasmotaMQTT</a> - An <a href="https://octoprint.org">OctoPrint</a> plugin to control Tasmota devices via the MQTT protocol.</li>
             <li><a href="http://blog.stephen-swann.co.uk/2012/06/tdi-and-mqtt-to-rsmb.html">TDI MQTT</a> – a Tivoli Directory Integrator plugin based on (the deprecated) IA92 SupportPac client</li>
             <li><a href="http://false.ekta.is/2011/06/mqtt-dissector-decoder-for-wireshark/">Wireshark</a> - a partial MQTT dissector/decoder for Wireshark</li>
             <li><a href="https://github.com/Johann-Angeli/wireshark-plugin-mqtt">Wireshark</a> - a full MQTT dissector/decoder for Wireshark</li>
-            <li><a href="https///code.google.com/p/zmqtt/">zmqtt</a> – an MQTT module for Zotonic, an Erlang framework</li>
+            <li><a href="https://code.google.com/p/zmqtt/">zmqtt</a> – an MQTT module for Zotonic, an Erlang framework</li>
          </ul>
    </div>
    <!-- End of Plugins Panel -->
@@ -541,10 +535,9 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="http://www.libelium.com/products/meshlium/">Libelium&gt;Meshlium</a> - Libelium, specifically Meshlium uses MQTT natively to communicate from the field.</li>
             <li><a href="http://www.eurotech.com">Eurotech</a> - SCADA, monitoring, controllers, etc</li>
             <li><a href="http://www.celllabs.com/">Cell Labs</a> - Automated Meter Reading</li>
-            <li><a href="http://www.cirrus-link.com">Cirrus Link</a> - Arlen Nipper's company (helped to produce ODB2 GSM/GPS/MQTT dongles for <a href="http://www.mobile-devices.com/our-products/c4-obd2-dongle/">Mobile Devices</a>)</li>
-            <li><a href="http://www.shaspa.com">Shaspa</a> - Shaspa home automation</li>
+            <li><a href="http://www.cirrus-link.com">Cirrus Link</a> - Arlen Nipper's company (helped to produce ODB2 GSM/GPS/MQTT dongles for Mobile Devices</li>
             <li><a href="http://www.choral.it">Choral</a> - Choral GPS/GSM tracking module (check which models have MQTT)</li>
-            <li><a href="http://www.elecsyscorp.com/scada/mqtt.html">Elecsys</a> - Elecsys Industrial Communications Gateway and Remote Monitors</li>
+            <li><a href="https://www.lindsay.com/lam/en/irrigation/brands/elecsys/our-solutions/monitoring-control-solutions/oil-gas-water/industrial-data-communications/">Elecsys</a> - Elecsys Industrial Communications Gateway and Remote Monitors</li>
             <li><a href="https://www.flukso.net/">Flukso</a> - Fluksometer, an electricity metering device with native MQTT support</li>
             <li><a href="http://www.remakeelectric.com/">ReMake</a> - ReMake Electric electricity metering systems publish all readings to the on-device MQTT broker.</li>
             <li><a href="http://www.owasys.com">Owasys</a> - The owa11 model is an IP67 asset tracking and telemetry unit reporting location, events and IO information using MQTT</li>
