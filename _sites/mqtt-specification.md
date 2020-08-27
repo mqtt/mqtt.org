@@ -67,14 +67,28 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
 <section  class="floating-right" style="margin-top: 50px;">
    <h2 id="logos">MQTT Logos</h2>
    Feel free to download the MQTT logo assets in .png, .svg, .eps and .jpg format.
-   <div id="mqtt-logos">
-      <div class="logo-container hor"><img src=" {{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo logo" title="MQTT Logo"></div>
-      <div class="logo-container black hor"><img src=" {{ 'assets/img/mqtt-hor-neg.svg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo logo" title="MQTT Logo"></div>
-      <div class="logo-container ver"><img src=" {{ 'assets/img/mqtt-ver.svg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo logo" title="MQTT Logo"></div>
-      <div class="logo-container black ver"><img src=" {{ 'assets/img/mqtt-ver-neg.svg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo logo" title="MQTT Logo"></div>
-   </div>
-   <div >
-   <a href="{{ 'assets/downloads/mqtt-logo-assets.zip' | relative_url }}"><button class="major-cta major-cta-orange" style="margin: 25px 0;">Download MQTT logo assets</button></a>
-   </div>
+   <article id="mqtt-logos">
+      <div class="logo-container">
+         <img src="{{ 'assets/img/mqtt-logo.jpg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo" title="MQTT Logo">
+         <br />
+         &gt; <a href="{{ 'assets/downloads/mqtt-logo.png' | relative_url }}">Save image </a> as transparent PNG
+      </div>
+      <div class="logo-container">
+         <img src="{{ 'assets/img/mqtt-logo-hor-neg.jpg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo" title="MQTT Logo">
+         <br />
+         &gt; <a href="{{ 'assets/downloads/mqtt-hor-neg.png' | relative_url }}">Save image </a> as transparent PNG
+      </div>
+      <div class="logo-container">   
+         <img src=" {{ 'assets/img/mqtt-logo-ver.jpg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo" title="MQTT Logo">
+         <br />&gt; <a href="{{ 'assets/downloads/mqtt-ver.png' | relative_url }}">Save image </a> as transparent PNG
+      </div>
+      <div class="logo-container">   
+         <img src=" {{ 'assets/img/mqtt-logo-ver-neg.jpg' | relative_url }}" class="mqtt-logo" alt="MQTT Logo" title="MQTT Logo">
+         <br />&gt; <a href="{{ 'assets/downloads/mqtt-ver-neg.png' | relative_url }}">Save image </a> as transparent PNG
+      </div>
+   </article>
+   <article>
+      <a href="{{ 'assets/downloads/mqtt-logo-assets.zip' | relative_url }}" alt="Download MQTT Logo as .eps .svg .png" title="Download MQTT Logo as .eps .svg .png"><button class="major-cta major-cta-orange" style="margin: 25px 0;">Download all MQTT logo assets</button></a>
+   </article>
 </section>
 
