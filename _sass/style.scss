@@ -492,21 +492,12 @@ main {
 
 #mqtt-logos div {
    display: inline-block;
-   margin: 1.5% 3% 1.5% 0;
+   margin: 25px 2.5% 25px 0;
 }
+
 .logo-container {
-   width: 40%;
+   width: 45%;
    box-sizing: border-box;
-   border: 1px solid #afafaf;
-}
-.logo-container.hor {
-   padding: 50px;
-}
-.logo-container.ver {
-   padding: 20px 75px;
-}
-.logo-container.black {
-   background-color: #000;
 }
 
 /* Use Cases Page */
@@ -640,5 +631,8 @@ main {
       margin: 50px 5%;
       font-size: 14px;
       line-height: 24px;
+  }
+  .logo-container {
+     width: 90%;
   }
 }
