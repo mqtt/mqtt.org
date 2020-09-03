@@ -231,10 +231,17 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </div>
       </div>
    <!-- Entry -->
-      <div class="panel-item last">
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/yunba.png' | relative_url }}" class="software-logo">
          <div class="panel-item-description"><a href="http://yunba.io/"><h3>Yunba.io</h3></a>
          Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol, The services include bi-directional push for Instant-Messaging; real-time analyzing; real-time online monitoring.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item last">
+         <img src="{{ 'assets/img/software/waterstream.png' | relative_url }}" class="software-logo">
+         <div class="panel-item-description"><a href="http://waterstream.io/"><h3>Waterstream</h3></a>
+         Waterstream is the first and the only MQTT platform on the market leveraging Apache Kafka as its own storage and distribution engine. Every incoming MQTT message is immediately available in your microservices architecture or your analytics platform without any further processing. Vice-versa, every message written on a Kafka topic it’s sent to MQTT clients. All the necessary MQTT state, like subscriptions and QoS message status is also stored in Kafka—no need for additional storage.
          </div>
       </div>
    <!-- closing div -->
