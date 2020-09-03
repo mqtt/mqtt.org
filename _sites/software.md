@@ -8,7 +8,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
 <h1>MQTT Software</h1>
 
 <section class="accordion-wrapper software" style="margin-bottom: 50px;">
-   <button class="accordion">Servers / Brokers</button>
+   <button id="servers-brokers" class="accordion">Servers / Brokers</button>
    <div class="panel">
    <!-- Entry -->
       <div class="panel-item">
@@ -241,7 +241,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    </div>
    <!-- End of Broker / Server Panel -->
    <!-- Client Libraries Start -->
-   <button class="accordion">Client libraries</button>
+   <button id="client-libraries" class="accordion">Client libraries</button>
    <div class="panel">
       <div class="subhead">Device-Specific</div>
       <ul>
@@ -504,7 +504,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    </div>
    <!-- Tools and Applications Panel -->
    <!-- Plugins to other software Start -->
-   <button class="accordion">Plugins to other software</button>
+   <button id="plugins" class="accordion">Plugins to other software</button>
    <div class="panel">
          <div class="subhead">Utility Plugins</div>
          <p>MQTT has been incorporated into various runtimes and frameworks via modules or plugins. The projects listed below therefore depend on additional packages and are not necessarily standalone or for general use. As with the list of clients, some may not provide full support for all of the features of the latest MQTT specification – check with the project in question.</p>
@@ -523,7 +523,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    </div>
    <!-- End of Plugins Panel -->
    <!-- Devices Start -->
-   <button class="accordion">Devices aka MQTT-enabled products that are "Things"</button>
+   <button id="devices" class="accordion">Devices aka MQTT-enabled products that are "Things"</button>
    <div class="panel">
          <div class="subhead">MQTT Products that are "Things"</div>
          <p>On the discussion threads we talk about many products that use MQTT. Many of them don't publicly declare it. Others are programmable so are oblivious to MQTT being run on them.
