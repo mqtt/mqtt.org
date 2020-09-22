@@ -509,6 +509,7 @@ main {
 .use-case {
    display: flex;
    align-items: flex-start;
+   margin-bottom: 10px;
 }
 
 .use-case-description {
@@ -598,6 +599,10 @@ main {
    #homepage-intro {
       width: 65%;
    }
+   .use-case-img {
+      width: 220px !important;
+      height: 125px !important;
+   }
 }
 
 @media all and (max-width: 890px){
@@ -640,4 +645,32 @@ main {
   .logo-container {
      width: 90%;
   }
+  .accordion-wrapper {
+   width: 100%;
+   }
+
+   .accordion-wrapper.software {
+      width: 100%;
+   }
+}
+
+@media all and (max-width: 600px){
+   .software-logo {
+      float: none;
+      margin: 5px 0 5px -15px;
+   }
+   .panel-item-description {
+      margin-left: 0;
+   }
+   .use-case {
+      flex-direction: column;
+      margin-bottom: 25px;
+  }
+   .use-case-img {
+      width: 282px !important;
+      height: 202px !important;
+   }
+   .use-case-description {
+      margin: 0;
+   }
 }
