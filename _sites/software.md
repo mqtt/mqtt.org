@@ -12,7 +12,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <div class="panel">
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mqtt.png' | relative_url }}" class="software-logo">
+                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="https://theakiro.com/"><h3>Akiro by Sentienz</h3></a>
             Akiro MQTT Broker by <a href="https://sentienz.com/">Sentienz</a> is a high scale MQTT broker and needs a 10 node cluster for 10 Million active MQTT connections. It's written in Java with Vert.X's async paradigm.
          </div>
@@ -40,7 +40,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mqtt.png' | relative_url }}" class="software-logo">
+                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="https://github.com/mtsoleimani/cassandana/"><h3>Cassandana</h3></a>
          Cassandana is an open source MQTT message broker which is entirely written in Java. This project began its life as a fork of <a href="https://github.com/andsel/moquette">Moquette</a> , and later underwent some cleanup, optimization and adding extra features. Now it’s ready to work as an enterprise message broker.
          </div>
@@ -70,7 +70,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mqtt.png' | relative_url }}" class="software-logo">
+                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="https://github.com/alekras/erl.mqtt.server"><h3>Erl.mqtt.server</h3></a>
          erl.mqtt.server MQTT server is designed for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts and implements MQTT protocol versions 3.1 and 3.1.1. The server is written in Erlang as OTP application.
          </div>
@@ -91,7 +91,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mqtt.png' | relative_url }}" class="software-logo">
+                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="https://github.com/beerfactory/hbmqtt"><h3>HBMQTT</h3></a>
             HBMQTT is an open-source implementation of MQTT broker and client. It uses Python 3.4+ asyncio library for providing a mono-threaded, non-blocking implementation of the protocol.
          </div>
@@ -133,7 +133,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mqtt.png' | relative_url }}" class="software-logo">
+                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="http://mqtt.jorammq.com"><h3>JoramMQ</h3></a>
             JoramMQ is an offering by ScalAgent providing a message broker that fully supports MQTT 3.1, JMS 2.0, and AMQP 1.0. Interoperability between these standards is ensured by the message broker. MQTT can be used over TCP/IP, TLS (SSL), WebSocket, and secure WebSocket. JoramMQ is particularly appropriate for applications that need to scale with the number of MQTT clients while allowing the publishers to reliably transmit a large volume of messages with a low latency
          </div>
@@ -147,7 +147,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mqtt.png' | relative_url }}" class="software-logo">
+                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="https://github.com/andsel/moquette"><h3>Moquette</h3></a>
          Moquette is a Java MQTT broker based on an eventing model with Netty.
          </div>
@@ -182,7 +182,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mqtt.png' | relative_url }}" class="software-logo">
+                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="https://github.com/Wizzercn/MqttWk"><h3>MqttWk</h3></a>
             MqttWk is a Java MQTT broker based on NutzBoot + Netty + Redis + Kafka(Optional).The broker supports QoS 0, QoS 1 and QoS 2.It uses Netty for the protocol encoding and decoding part.Using NutzBoot to provide dependency injection and attribute configuration, using Redis to implement message caching and clustering, and using Kafka to implement message proxy.
          </div>
@@ -225,7 +225,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mqtt.png' | relative_url }}" class="software-logo">
+                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="https://github.com/GruppoFilippetti/vertx-mqtt-broker"><h3>Vert.x MQTT Broker</h3></a>
         Vert.x MQTT Broker is an open-source implementation of MQTT server. It implements protocol versions 3.1.1 and 3.1, supports QoS 2, and uses OAuth2 for autentication. It uses <a href="http://vertx.io/">vert.x</a> as library for tcp managemnet, non-blocking / actor-model, clustering and auth plugin system.
          </div>
