@@ -33,6 +33,9 @@ MQTT is used in a large variety of use cases and industries.
          <img src="{{ '/assets/img/manufacturing.jpg' | relative_url }}" class="use-case-img">
          <div class="use-case-description">
             <h2 id="manufacturing">Manufacturing</h2>
+            <ul>
+               <li>Bevywise IoT Application: <a href="https://www.bevywise.com/blog/how-pace-dpr-boosts-manufacturing-productivity/">Production Monitoring Solution</a> using MQTT.</li>
+            </ul>
          </div>
       </article>
    <!-- Use Case Category -->
