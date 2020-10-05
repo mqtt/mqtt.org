@@ -34,7 +34,7 @@ MQTT is used in a large variety of use cases and industries.
          <div class="use-case-description">
             <h2 id="manufacturing">Manufacturing</h2>
             <ul>
-               <li>MQTT Implementation on <a href="https://www.bevywise.com/blog/iot-success-stories-mqtt-broker-celikler-holding/">Celikler Holding's Power Plant Monitoring</a></a>.</li>
+               <li>MQTT Implementation on <a href="https://www.bevywise.com/blog/iot-success-stories-mqtt-broker-celikler-holding/">Celikler Holding's Power Plant Monitoring</a>.</li>
             </ul>
          </div>
       </article>
