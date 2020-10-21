@@ -506,7 +506,6 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <ul>
             <li><a href="http://eclipse.org/paho">Eclipse Paho</a> - provides an Eclipse view which can interact with a broker for testing.</li>
             <li><a href="https://github.com/jpmens/mqtt-watchdir">mqtt-watchdir</a> - recursively watch a directory for modifications and publish file content to an MQTT broker.</li>
-            <li><a href="https://bitbucket.org/oojah/mqttfs">mqttfs</a> - mqttfs allows you to mount a directory as effectively a link to an MQTT topic hierarchy on an MQTT server.</li>
             </ul>
    </div>
    <!-- Tools and Applications Panel -->
