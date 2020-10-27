@@ -46,6 +46,7 @@ MQTT is used in a large variety of use cases and industries.
             <ul>
                <li>IBM Telemetry use case: <a href="https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_8.0.0/com.ibm.mq.pro.doc/q002790_.htm">Home energy monitoring and control</a></li>
                <li>IBM Telemetry use case: <a href="https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_8.0.0/com.ibm.mq.pro.doc/q002780_.htm">Home patient monitoring</a></li>
+               <li>The eFon Technology's <a href="https://www.bevywise.com/blog/iot-home-security-system-mqtt-broker/">Smart Home security system</a> trusts Bevywise MQTT Solution</li>
             </ul>
          </div>
       </article>
