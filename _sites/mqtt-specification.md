@@ -31,8 +31,8 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
       <div class="spec-hl"> 
          <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="specs-logo"><h3>MQTT 3.1 Specification</h3>
       </div>
-      For historical reference, the previous version of MQTT v3.1 is available<br/> 
-      &gt; <a href="http://www.ibm.com/developerworks/webservices/library/ws-mqtt/index.html">here</a>.
+      For historical reference, the specification of MQTT v3.1 is available<br/> 
+      &gt; <a href="https://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqtt-v3r1.html">here</a>.
    </article>
    <article>
       <div class="spec-hl"> 
