@@ -449,6 +449,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="subhead">Web</div>
          <ul>
             <li><a href="https://mqttboard.flespi.io">MQTT Board</a> - diagnostic oriented MQTT 5.0 client tool based on <a href="https://github.com/mqttjs">mqtt.js</a>. Available in <a href="https://github.com/flespi-software/mqtt-board">open source</a>.</li>
+            <li><a href="https://mqtttiles.flespi.io">MQTT Tiles</a> - <a href="https://github.com/flespi-software/MQTT-Tiles">Open source</a> MQTT-based dashboard visualization tool.</li>
             <li><a href="http://test.mosquitto.org/ws.html">MQTT over websockets</a> (experimental) - from the mosquitto project.</li>
             <li><a href="http://www.hivemq.com/demos/websocket-client/">HiveMQ Websockets Client</a> - a websocket based client for your browser which supports publishing &amp; subscribing.</li>
             <li><a href="https://github.com/jpmens/mqtt-svg-dash">mqtt-svg-dash</a> - SVG "live" dashboard from MQTT.</li>
