@@ -496,6 +496,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <ul>
             <li><a href="http://xenqtt.sf.net">Xenqtt</a> - includes a client library, mock broker for unit/integration testing, and applications to support enterprise needs like using a cluster of servers as a single client, an HTTP gateway, etc.</li>
             <li><a href="https://github.com/jpmens/twitter2mqtt">twitter2mqtt</a> - a Twitter to MQTT gateway (1-shot) which is using mosquitto.</li>
+            <li><a href="https://github.com/Lenka42/mqtt_bridge">mqtt_bridge</a> - retransmit MQTT messages between different brokers.</li>
             <li><a href="https://github.com/njh/mqtt-http-bridge">mqtt-http-bridge</a> - this simple web application provides a bridge between HTTP and MQTT using a RESTish interface.</li>
             <li><a href="https://github.com/knolleary/twitter-to-mqtt">twitter-to-mqtt</a> - A python daemon that uses the Twitter Streaming API to access tweets and republishes them to an MQTT topic.</li>
             <li><a href="https://www.opc-router.com/4_1-mqtt-client-opc-router-plug-in-en/">OPC Router</a> - MQTT Gateway (publisher/subscriber) with various plug-ins</li>
