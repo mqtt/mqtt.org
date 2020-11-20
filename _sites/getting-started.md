@@ -27,6 +27,9 @@ description: Useful resources to get you started with MQTT, the standard messagi
          <br/><br/>
          <h3><a href="https://www.hivemq.com/blog/how-to-get-started-with-mqtt/" alt="HiveMQ" title="HiveMQ.com">Getting Started with MQTT</a></h3>
          A blog post written by hivemq.com
+         <br/><br/>
+         <h3><a href="https://www.bevywise.com/developing-mqtt-clients/" alt="Bevywise MQTT Broker" title="Bevywise">Developing an MQTT Client - Beginners Guide</a></h3>
+         Getting started guide on developing an MQTT client by Bevywise
       </article>
    </section>
 </div>
