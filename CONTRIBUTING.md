@@ -4,7 +4,7 @@ MQTT.org website is focused on being a useful resource to developers and archite
 The goal of the site is to provide focused content that makes it easy for users to find additional resources in the community. 
 For this reason we plan to keep the site content simple and focused.
 
-We are therefore accepting community submissions for the Software and Use Case pages. 
+Therefore, we are only accepting community submissions to the __Software__ and __Use Cases__ pages.. 
 If you would like to submit content for either of these pages please submit a pull request with the suggested content and follow these guidelines. 
 
 1. Submissions to the Software page must be available MQTT based products. 
