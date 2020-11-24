@@ -63,3 +63,5 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - CONTRIBUTION.md
+  
