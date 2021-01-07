@@ -12,7 +12,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <div class="panel">
     <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/ably-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="Ably Logo">
+         <img src="{{ 'assets/img/software/ably-logo.svg' | relative_url }}" class="software-logo" alt="Ably Logo">
          <div class="panel-item-description"><a href="https://www.ably.io/documentation/mqtt"><h3>Ably MQTT Broker</h3></a>
            <a href="https://www.ably.io/">Ably</a> provides an MQTT broker and protocol adapter that is able to translate back and forth between MQTT and Ably's own protocol. It provides support for WebSockets, HTTP, SSE, gRPC (in development), STOMP, AMQP, and many more, Ably provides an interoperable, globally-distributed realtime messaging infrastructure layer.
          </div>
