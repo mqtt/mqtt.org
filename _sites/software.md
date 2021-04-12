@@ -155,7 +155,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="https://github.com/andsel/moquette"><h3>Moquette</h3></a>
          Moquette is a Java MQTT broker based on an eventing model with Netty.
          </div>
@@ -193,6 +193,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
                   <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="https://github.com/Wizzercn/MqttWk"><h3>MqttWk</h3></a>
             MqttWk is a Java MQTT broker based on NutzBoot + Netty + Redis + Kafka(Optional).The broker supports QoS 0, QoS 1 and QoS 2.It uses Netty for the protocol encoding and decoding part.Using NutzBoot to provide dependency injection and attribute configuration, using Redis to implement message caching and clustering, and using Kafka to implement message proxy.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item last">
+         <img src="{{ 'assets/img/software/nanomq.png' | relative_url }}" class="software-logo">
+         <div class="panel-item-description"><a href="https://nanomq.io/"><h3>NanoMQ</h3></a>
+         A light-weight and blazing-fast MQTT Broker for the IoT Edge platform. NanoMQ is base on NNG's asynchronous I/O threading model. With an extension of MQTT support in the protocol layer and reworked transport layer. Plus an enhanced asynchronous IO mechanism to maximize the throughput capacity.
          </div>
       </div>
    <!-- Entry -->
@@ -246,17 +253,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </div>
       </div>
    <!-- Entry -->
-      <div class="panel-item">
+      <div class="panel-item last">
          <img src="{{ 'assets/img/software/waterstream.png' | relative_url }}" class="software-logo">
          <div class="panel-item-description"><a href="http://waterstream.io/"><h3>Waterstream</h3></a>
          Waterstream is the first and the only MQTT platform on the market leveraging Apache Kafka as its own storage and distribution engine. Every incoming MQTT message is immediately available in your microservices architecture or your analytics platform without any further processing. Vice-versa, every message written on a Kafka topic it’s sent to MQTT clients. All the necessary MQTT state, like subscriptions and QoS message status is also stored in Kafka—no need for additional storage.
-         </div>
-      </div>
-   <!-- Entry -->
-      <div class="panel-item last">
-         <img src="{{ 'assets/img/software/nanomq.png' | relative_url }}" class="software-logo">
-         <div class="panel-item-description"><a href="https://nanomq.io/"><h3>NanoMQ</h3></a>
-         A light-weight and blazing-fast MQTT Broker for the IoT Edge platform. NanoMQ is base on NNG's asynchronous I/O threading model. With an extension of MQTT support in the protocol layer and reworked transport layer. Plus an enhanced asynchronous IO mechanism to maximize the throughput capacity.
          </div>
       </div>
    <!-- closing div -->
@@ -498,6 +498,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             </ul>
          <div class="subhead">Commercial Applications</div>
          <ul>
+            <li><a href="https://www.hivemq.com/hivemq-swarm/" alt="HiveMQ Swarm">HiveMQ Swarm</a> - provides the distributed simulation environment to successfully test millions of MQTT clients, millions of MQTT messages and hundreds of thousands MQTT topic names.</li>
             <li><a href="https://www.gambitcomm.com/site/mqttsimulator.php">MIMIC MQTT Simulator</a> - Thousands of publishers and/or subscribers for rapid prototyping of IoT Applications, performance testing and tuning of deployments.</li>
             <li><a href="https://www.bevywise.com/iot-simulator/">Bevywise IoT Simulator</a> - IoT Simulator provides complete functional and performance testing tools for the MQTT Platform, Application &amp; Devices Development.</li>
             <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006006&amp;loc=en_US&amp;cs=utf-8&amp;lang=en">IA92</a> - IA92 support pack includes very useful MQTT Java swing GUI for publishing &amp; subscribing.</li>
