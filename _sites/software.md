@@ -196,7 +196,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </div>
       </div>
    <!-- Entry -->
-      <div class="panel-item last">
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/nanomq.png' | relative_url }}" class="software-logo">
          <div class="panel-item-description"><a href="https://nanomq.io/"><h3>NanoMQ</h3></a>
          A light-weight and blazing-fast MQTT Broker for the IoT Edge platform. NanoMQ is base on NNG's asynchronous I/O threading model. With an extension of MQTT support in the protocol layer and reworked transport layer. Plus an enhanced asynchronous IO mechanism to maximize the throughput capacity.
