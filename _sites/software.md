@@ -246,17 +246,17 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </div>
       </div>
    <!-- Entry -->
-      <div class="panel-item last">
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/waterstream.png' | relative_url }}" class="software-logo">
          <div class="panel-item-description"><a href="http://waterstream.io/"><h3>Waterstream</h3></a>
          Waterstream is the first and the only MQTT platform on the market leveraging Apache Kafka as its own storage and distribution engine. Every incoming MQTT message is immediately available in your microservices architecture or your analytics platform without any further processing. Vice-versa, every message written on a Kafka topic it’s sent to MQTT clients. All the necessary MQTT state, like subscriptions and QoS message status is also stored in Kafka—no need for additional storage.
          </div>
       </div>
    <!-- Entry -->
-      <div class="panel-item">
+      <div class="panel-item last">
          <img src="{{ 'assets/img/software/nanomq.png' | relative_url }}" class="software-logo">
          <div class="panel-item-description"><a href="https://nanomq.io/"><h3>NanoMQ</h3></a>
-         A light-weight and Blazing-fast MQTT Broker for the IoT Edge platform. NanoMQ is base on NNG's asynchronous I/O threading model. With an extension of MQTT support in the protocol layer and reworked transport layer. Plus an enhanced asynchronous IO mechanism to maximize the throughput capacity.
+         A light-weight and blazing-fast MQTT Broker for the IoT Edge platform. NanoMQ is base on NNG's asynchronous I/O threading model. With an extension of MQTT support in the protocol layer and reworked transport layer. Plus an enhanced asynchronous IO mechanism to maximize the throughput capacity.
          </div>
       </div>
    <!-- closing div -->
