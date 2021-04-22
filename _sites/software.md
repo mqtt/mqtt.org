@@ -108,7 +108,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/hivemq.svg' | relative_url }}" class="software-logo" style="height:80px; margin-top: 5px;" alt="HiveMQ Logo">
          <div class="panel-item-description"><a href="https://www.hivemq.com"><h3>HiveMQ</h3></a>
-         HiveMQ is a MQTT broker which was built from the ground up with maximum scalability and enterprise-ready security in mind. It comes with native web socket support and an open source plugin SDK to extend its functionality or integrate it with other components. A public test server is also available (<a href="https://github.com/mqtt/mqtt.github.io/wiki/public_brokers">more information</a>).
+         HiveMQ is a MQTT broker which was built from the ground up with maximum scalability and enterprise-ready security in mind. It comes with native web socket support and an open source plugin SDK to extend its functionality or integrate it with other components. A public test server is also available (<a href="https://www.hivemq.com/public-mqtt-broker/">more information</a>).
          </div>
       </div>
    <!-- Entry -->
