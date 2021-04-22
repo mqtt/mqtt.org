@@ -148,14 +148,14 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="JoranMQ Logo">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="JoramMQ Logo">
          <div class="panel-item-description"><a href="http://mqtt.jorammq.com"><h3>JoramMQ</h3></a>
             JoramMQ is an offering by ScalAgent providing a message broker that fully supports MQTT 3.1, JMS 2.0, and AMQP 1.0. Interoperability between these standards is ensured by the message broker. MQTT can be used over TCP/IP, TLS (SSL), WebSocket, and secure WebSocket. JoramMQ is particularly appropriate for applications that need to scale with the number of MQTT clients while allowing the publishers to reliably transmit a large volume of messages with a low latency
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/litmus.png' | relative_url }}" class="software-logo" alt="Litmus Logo">
+         <img src="{{ 'assets/img/software/litmus.png' | relative_url }}" class="software-logo" alt="Loop Logo">
          <div class="panel-item-description"><a href="http://litmusautomation.com/"><h3>Litmus Automation Loop</h3></a>
          Loop is a cloud based MQTT broker with scalability, high availability and security at core. Loop provides full MQTT 3.1 support and JMS connectivity. It can handle extremely large numbers of connected clients. On the other side it can be connected to any ERP, CRM and enterprise architecture with ESB or NoSQL databases for blazing fast data storage.
          </div>
@@ -178,14 +178,14 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/mosquitto.png' | relative_url }}" class="software-logo" alt="Mosquitto Logo">
          <div class="panel-item-description"><a href="https://www.mosquitto.org"><h3>Mosquitto</h3></a>
-            Mosquitto is an Open Source MQTT server. A public, hosted test server is also available (more information)
+            Mosquitto is an Open Source MQTT server. A public, hosted test server is also available (<a href="https://test.mosquitto.org/">more information</a>)
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/myqtthub.png' | relative_url }}" class="software-logo" alt="MyQTTHub Logo">
          <div class="panel-item-description"><a href="https://myqtthub.com/"><h3>MyQttHub.com</h3></a>
-            Mosquitto is an Open Source MQTT server. A public, hosted test server is also available (more information).
+            Easily create your MQTT IoT project with MyQttHub.com, an open and scalable Cloud MQTT platform with professional support options.
          </div>
       </div>
    <!-- Entry -->
@@ -232,7 +232,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/thingscale.png' | relative_url }}" class="software-logo" alt="Thingscale IoT Logo">
+         <img src="{{ 'assets/img/software/thingscale.png' | relative_url }}" class="software-logo" alt="ThingScale IoT Logo">
          <div class="panel-item-description"><a href="http://thingscale.io/index_en.html"><h3>ThingScale IoT message broker</h3></a>
          ThingScale IoT message broker</a> is a fully-managed IoT messaging service provided by <a href="http://sensinics.co.jp">Sensinics,LLC</a>.<br/>
          ThingScale provides a messaging system for IoT connected devices. The API is used to retrieve events, users, devices, sessions, and channels in JSON format. ThingScale supports TLS payload encryption, scheme-less and cyclic data sampling, and trigger-based notifications. A 30days trial license is offered free of charge. MQTT is the preferred messaging protocol. <a href="https://sensinics.atlassian.net/wiki/spaces/TD/pages/76021778/Developer+Portal">Dev Portal</a> &amp; <a href="https://thingscale.docs.apiary.io/">API Portal</a>
