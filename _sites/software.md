@@ -12,7 +12,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <div class="panel">
     <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/ably-logo.svg' | relative_url }}" class="software-logo" alt="Ably Logo" style="width: 125px;">
+         <img src="{{ 'assets/img/software/ably-logo.svg' | relative_url }}" class="software-logo" alt="Ably Logo" style="width: 125px;" alt="Ably Logo">
          <div class="panel-item-description"><a href="https://www.ably.io/documentation/mqtt"><h3>Ably MQTT Broker</h3></a>
            <a href="https://www.ably.io/">Ably</a> provides an MQTT broker and protocol adapter that is able to translate back and forth between MQTT and Ably's own protocol. It provides support for WebSockets, HTTP, SSE, STOMP, AMQP, and many more. Ably provides an interoperable, globally-distributed realtime messaging infrastructure layer.
          </div>
@@ -20,56 +20,56 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <!-- Entry -->
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="MQTT Logo">
          <div class="panel-item-description"><a href="https://theakiro.com/"><h3>Akiro by Sentienz</h3></a>
             Akiro MQTT Broker by <a href="https://sentienz.com/">Sentienz</a> is a high scale MQTT broker and needs a 10 node cluster for 10 Million active MQTT connections. It's written in Java with Vert.X's async paradigm.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/activemq.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/activemq.png' | relative_url }}" class="software-logo" alt="ActiveMQ Logo">
          <div class="panel-item-description"><a href="http://activemq.apache.org/index.html"><h3>Apache ActiveMQ</h3></a>
             Details of “classic” ActiveMQ’s support for MQTT are available <a href="http://activemq.apache.org/mqtt.html">here</a>.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/activemq.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/activemq.png' | relative_url }}" class="software-logo" alt="ActiveMQ Artemis Logo">
          <div class="panel-item-description"><a href="http://activemq.apache.org/artemis/"><h3>Apache ActiveMQ Artemis</h3></a>
             The “next generation” of ActiveMQ, Artemis is a multi protocol messaging broker that supports MQTT.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mqtt-route.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/mqtt-route.png' | relative_url }}" class="software-logo" alt="Bevywise Logo">
          <div class="panel-item-description"><a href="https://www.bevywise.com/mqtt-broker/"><h3>Bevywise MQTT Broker</h3></a>
          MQTTRoute is a high performance broker.  The Secure MQTT Broker is written in C &amp; Python and works with all standard MQTT Clients. Bevywise MQTT Broker has a FREE and affordable premium version. MQTTRoute can be customized to write data to any data store using <a href="https://github.com/bevywise-networks/">standard connectors</a> or custom implementations. Try the <a href="http://mqttroute.com/">publicly hosted MQTTRoute</a>.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="Cassandana Logo">
          <div class="panel-item-description"><a href="https://github.com/mtsoleimani/cassandana/"><h3>Cassandana</h3></a>
          Cassandana is an open source MQTT message broker which is entirely written in Java. This project began its life as a fork of <a href="https://github.com/andsel/moquette">Moquette</a> , and later underwent some cleanup, optimization and adding extra features. Now it’s ready to work as an enterprise message broker.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/ejabberd.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/ejabberd.png' | relative_url }}" class="software-logo" alt="ejabberd Logo">
          <div class="panel-item-description"><a href="https://www.process-one.net/en/ejabberd"><h3>ejabberd</h3></a>
             ejabberd is an open-source MQTT broker written in Erlang and supported by ProcessOne. ejabberd introduced MQTT 5.0 broker services on top of its renowned XMPP server starting with <a href="https://www.process-one.net/blog/ejabberd-19-02-the-mqtt-edition/">version 19.02</a> through <code>mod_mqtt</code>. It relies on ejabberd infrastructure code that has been battle tested for 15+ years, like the clustering engine. ejabberd MQTT broker has been verified on large scale systems and can support millions of concurrent connections highly efficiently.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/emitter.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/emitter.png' | relative_url }}" class="software-logo" alt="Emitter Logo">
          <div class="panel-item-description"><a href="https://emitter.io"><h3>Emitter</h3></a>
            Emitter is clustered and open-source MQTT broker, written entirely in Go. It proposes several additional features on top of a traditional MQTT broker, as it includes custom per-topic security and shared-nothing scalable architecture which helps you avoid single points of failure. Full source-code available on <a href="https://github.com/emitter-io/emitter">GitHub</a>.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/emq.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/emq.png' | relative_url }}" class="software-logo" alt="EMQ X Logo">
          <div class="panel-item-description"><a href="https://www.emqx.io/products/broker"><h3>EMQ X</h3></a>
             EMQ X MQTT Broker is a fully open source, highly scalable, highly available distributed MQTT messaging broker for IoT, M2M and Mobile applications that can handle tens of millions of concurrent clients.<br/>
             Starting from 3.0 release, EMQ X broker fully supports MQTT V5.0 protocol specifications and backward compatible with MQTT V3.1 and V3.1.1, as well as other communication protocols such as MQTT-SN, CoAP, LwM2M, WebSocket and STOMP. The 3.0 release of the EMQ X broker can scaled to 10+ million concurrent MQTT connections on one cluster.
@@ -78,154 +78,161 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="MQTT Logo">
          <div class="panel-item-description"><a href="https://github.com/alekras/erl.mqtt.server"><h3>Erl.mqtt.server</h3></a>
          erl.mqtt.server MQTT server is designed for communication in Machine to Machine (M2M) and Internet of Things (IoT) contexts and implements MQTT protocol versions 3.1 and 3.1.1. The server is written in Erlang as OTP application.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/everywhere-cloud.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/everywhere-cloud.png' | relative_url }}" class="software-logo" alt="Eurotech Everywhere Logo">
          <div class="panel-item-description"><a href="https://www.eurotech.com/en/products/iot/iot-integration-platform/everyware-cloud"><h3>Eurotech Everywhere Cloud</h3></a>
          Eurotech Everywhere Device Cloud is a cloud-based service provided by <a href="http://www.eurotech.com">Eurotech</a>.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/flespi.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/flespi.png' | relative_url }}" class="software-logo" alt="flespi Logo">
          <div class="panel-item-description"><a href="https://flespi.com/mqtt-broker"><h3>flespi</h3></a>
          flespi is a public and free cloud-based MQTT broker service with declared 3.1, 3.1.1, 5.0 protocols compliance. High-volume targeted architecture, isolated MQTT namespace, WebSockets/SSL support, configurable ACL, commercial and free SLA, managed by <a href="https://flespi.io/mqtt">HTTP REST API</a>.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="HBMQTT Logo">
          <div class="panel-item-description"><a href="https://github.com/beerfactory/hbmqtt"><h3>HBMQTT</h3></a>
             HBMQTT is an open-source implementation of MQTT broker and client. It uses Python 3.4+ asyncio library for providing a mono-threaded, non-blocking implementation of the protocol.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/hivemq.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/hivemq.svg' | relative_url }}" class="software-logo" style="height:80px; margin-top: 5px;" alt="HiveMQ Logo">
          <div class="panel-item-description"><a href="https://www.hivemq.com"><h3>HiveMQ</h3></a>
          HiveMQ is a MQTT broker which was built from the ground up with maximum scalability and enterprise-ready security in mind. It comes with native web socket support and an open source plugin SDK to extend its functionality or integrate it with other components. A public test server is also available (<a href="https://github.com/mqtt/mqtt.github.io/wiki/public_brokers">more information</a>).
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/jmqtt.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/hivemq-cloud.svg' | relative_url }}" class="software-logo" style="height:95px; margin-top: 5px;" alt="HiveMQ Cloud Logo">
+         <div class="panel-item-description"><a href="https://www.hivemq.com/mqtt-cloud-broker"><h3>HiveMQ Cloud</h3></a>
+         HiveMQ Cloud is a free cloud native IoT messaging broker that enables you to connect up to 100 devices. It supports the entire <a href="/mqtt-specification">MQTT specification</a>. For larger projects HiveMQ Cloud can scale up to support business critical solutions. <a href="https://console.hivemq.cloud">Sign up</a>.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/jmqtt.png' | relative_url }}" class="software-logo" alt="Jmqtt Logo">
          <div class="panel-item-description"><a href="https://github.com/Cicizz/jmqtt"><h3>Jmqtt</h3></a>
             Jmqtt is a MQTT broker which implemented by java and netty,support persistence and cluster.
          </div>
       </div>
       <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/ibm.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/ibm.png' | relative_url }}" class="software-logo" alt="IBM Logo">
          <div class="panel-item-description"><a href="https://www.ibm.com/cloud/app-connect"><h3>IBM Integration Bus</h3></a>
          IBM Integration Bus V9 has Telemetry feature built-in as optional licensed feature. IBM WebSphere MessageBroker V7 &amp; V8 also include it as optionally licensed feature. <a href="https://www.ibm.com/support/knowledgecenter/SSFKSJ_7.5.0/com.ibm.mm.tc.doc/tc00100_.htm">Really Small Message Broker</a> 75KB MQTT broker runtime free download as binaries from IBM alphaWorks, RSMB is a C implementation of a tiny MQTT server suitable for development, embedded systems, concentrators or small to medium sized deployments. It provides complete MQTT v3.1 support, bridging, and a C client API.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/ibm.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/ibm.png' | relative_url }}" class="software-logo" alt="IBM Logo">
          <div class="panel-item-description"><a href="https://www.ibm.com/us-en/marketplace/watson-iot-platform-message-gateway"><h3>IBM WIoTP Message Gateway</h3></a>
             IBM WIoTP Message Gateway is a scalable, hightly available messaging broker for MQTT (including MQTT v5, HTML5 WebSockets, JMS. Also connects/bridges IBM MQ, IBM Integration Bus. (Was formerly called IBM IoT MessageSight).
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/ibm.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/ibm.png' | relative_url }}" class="software-logo" alt="IBM Logo">
          <div class="panel-item-description"><a href="https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_7.5.0/com.ibm.mq.pro.doc/q001030_.htm"><h3>IBM Websphere MQ Telemetry</h3></a>
          WebSphere MQ version 7.1 and above. It provides full MQTT v3.1 support, IBM MQ and JMS support. IBM WebSphere MQ Advanced includes the MQTT license at no charge. It ships with reference Java (MIDP and above), C and JavaScript (MQTT over WebSocket) clients.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="JoranMQ Logo">
          <div class="panel-item-description"><a href="http://mqtt.jorammq.com"><h3>JoramMQ</h3></a>
             JoramMQ is an offering by ScalAgent providing a message broker that fully supports MQTT 3.1, JMS 2.0, and AMQP 1.0. Interoperability between these standards is ensured by the message broker. MQTT can be used over TCP/IP, TLS (SSL), WebSocket, and secure WebSocket. JoramMQ is particularly appropriate for applications that need to scale with the number of MQTT clients while allowing the publishers to reliably transmit a large volume of messages with a low latency
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/litmus.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/litmus.png' | relative_url }}" class="software-logo" alt="Litmus Logo">
          <div class="panel-item-description"><a href="http://litmusautomation.com/"><h3>Litmus Automation Loop</h3></a>
          Loop is a cloud based MQTT broker with scalability, high availability and security at core. Loop provides full MQTT 3.1 support and JMS connectivity. It can handle extremely large numbers of connected clients. On the other side it can be connected to any ERP, CRM and enterprise architecture with ESB or NoSQL databases for blazing fast data storage.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="Moquette Logo">
          <div class="panel-item-description"><a href="https://github.com/andsel/moquette"><h3>Moquette</h3></a>
          Moquette is a Java MQTT broker based on an eventing model with Netty.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mosca.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/mosca.png' | relative_url }}" class="software-logo" alt="Mosca Logo">
          <div class="panel-item-description"><a href="https://github.com/mcollina/mosca"><h3>Mosca</h3></a>
          As node.js MQTT broker can Mosca be plugged on top of Redis, AMQP, MQTT, or ZeroMQ.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mosquitto.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/mosquitto.png' | relative_url }}" class="software-logo" alt="Mosquitto Logo">
          <div class="panel-item-description"><a href="https://www.mosquitto.org"><h3>Mosquitto</h3></a>
             Mosquitto is an Open Source MQTT server. A public, hosted test server is also available (more information)
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/myqtthub.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/myqtthub.png' | relative_url }}" class="software-logo" alt="MyQTTHub Logo">
          <div class="panel-item-description"><a href="https://myqtthub.com/"><h3>MyQttHub.com</h3></a>
             Mosquitto is an Open Source MQTT server. A public, hosted test server is also available (more information).
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mqttnet.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/mqttnet.png' | relative_url }}" class="software-logo" alt="MQTTnet Logo">
          <div class="panel-item-description"><a href="https://github.com/chkr1011/MQTTnet/"><h3>MQTTnet</h3></a>
          MQTTnet is a .NET library for MQTT based communication. It provides a MQTT client and a MQTT server (broker).
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="MQTT Logo">
          <div class="panel-item-description"><a href="https://github.com/Wizzercn/MqttWk"><h3>MqttWk</h3></a>
             MqttWk is a Java MQTT broker based on NutzBoot + Netty + Redis + Kafka(Optional).The broker supports QoS 0, QoS 1 and QoS 2.It uses Netty for the protocol encoding and decoding part.Using NutzBoot to provide dependency injection and attribute configuration, using Redis to implement message caching and clustering, and using Kafka to implement message proxy.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/nanomq.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/nanomq.png' | relative_url }}" class="software-logo" alt="NanoMQ Logo">
          <div class="panel-item-description"><a href="https://nanomq.io/"><h3>NanoMQ</h3></a>
-         A light-weight and blazing-fast MQTT Broker for the IoT Edge platform. NanoMQ is base on NNG's asynchronous I/O threading model. With an extension of MQTT support in the protocol layer and reworked transport layer. Plus an enhanced asynchronous IO mechanism to maximize the throughput capacity.
+         A light-weight and blazing-fast MQTT Broker for the IoT Edge platform. NanoMQ is based on NNG's asynchronous I/O threading model. With an extension of MQTT support in the protocol layer and reworked transport layer. Plus an enhanced asynchronous I/O mechanism to maximize the throughput capacity.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/rabbitmq.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/rabbitmq.png' | relative_url }}" class="software-logo" alt="RabbitMQ Logo">
          <div class="panel-item-description"><a href="http://rabbitmq.com/"><h3>RabbitMQ</h3></a>
          RabbitMQ is an AMQP message broker – with an <a href="http://www.rabbitmq.com/blog/2012/09/12/mqtt-adapter/">MQTT plugin</a> (bundled in version 3.x onwards). A public test server is also available (<a href="https://github.com/mqtt/mqtt.github.io/wiki/public_brokers">more information</a>).
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/solace.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/solace.png' | relative_url }}" class="software-logo" alt="Solace Logo">
          <div class="panel-item-description"><a href="http://dev.solacesystems.com/tech/"><h3>Solace</h3></a>
          Solace Message Routers (available as hardware and software) are message brokers that support MQTT, JMS, and REST among other APIs, protocols and qualities of service for enterprise messaging, data collection and web/mobile streaming. They support very high connection counts and throughput with built-in buffering to handle bursty traffic, and offer enterprise-class monitoring, high availability and security.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/swiftmq.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/swiftmq.png' | relative_url }}" class="software-logo" alt="SwiftMQ Logo">
          <div class="panel-item-description"><a href="http://www.swiftmq.com/landing/router/index.html"><h3>SwiftMQ</h3></a>
          SwiftMQ Universal Router is an enterprise message system with integrated micro services and realtime streaming analytics platform (SwiftMQ Streams, SwiftMQ Dashboard). It supports MQTT 3.1/3.1.1, AMQP 1.0/0.9.1, JMS 1.1 and is fully interoperable between these protocols. It has a built-in Dynamic Routing Architecture to build large Federated Router Networks and Clusters. SwiftMQ High Availability Router is the High and Continuous Availability version of SwiftMQ Universal Router with active replication and transparent client failover.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/thingscale.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/thingscale.png' | relative_url }}" class="software-logo" alt="Thingscale IoT Logo">
          <div class="panel-item-description"><a href="http://thingscale.io/index_en.html"><h3>ThingScale IoT message broker</h3></a>
          ThingScale IoT message broker</a> is a fully-managed IoT messaging service provided by <a href="http://sensinics.co.jp">Sensinics,LLC</a>.<br/>
          ThingScale provides a messaging system for IoT connected devices. The API is used to retrieve events, users, devices, sessions, and channels in JSON format. ThingScale supports TLS payload encryption, scheme-less and cyclic data sampling, and trigger-based notifications. A 30days trial license is offered free of charge. MQTT is the preferred messaging protocol. <a href="https://sensinics.atlassian.net/wiki/spaces/TD/pages/76021778/Developer+Portal">Dev Portal</a> &amp; <a href="https://thingscale.docs.apiary.io/">API Portal</a>
@@ -233,30 +240,30 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/vernemq.png' | relative_url }}" class="software-logo">
+         <img src="{{ 'assets/img/software/vernemq.png' | relative_url }}" class="software-logo" alt="VerneMQ Logo">
          <div class="panel-item-description"><a href="http://verne.mq/"><h3>VerneMQ</h3></a>
          VerneMQ is an enterprise ready, high-performance, distributed MQTT message broker. It scales horizontally and vertically on commodity hardware to support a high number of concurrent publishers and consumers while maintaining low and predictable latency and fault tolerance. VerneMQ plugins can be developed in Erlang, Elixir, Lua, and any programming language that can implement HTTP WebHooks. VerneMQ uses modern broadcast protocols and LevelDB for state replication in a cluster. VerneMQ is Open Source and Apache2 licensed.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
+         <img src="{{ 'assets/img/software/vertx.svg' | relative_url }}" class="software-logo" alt="Vert.x Logo" style="padding: 5px 20px; box-sizing: border-box;">
          <div class="panel-item-description"><a href="https://github.com/GruppoFilippetti/vertx-mqtt-broker"><h3>Vert.x MQTT Broker</h3></a>
         Vert.x MQTT Broker is an open-source implementation of MQTT server. It implements protocol versions 3.1.1 and 3.1, supports QoS 2, and uses OAuth2 for autentication. It uses <a href="http://vertx.io/">vert.x</a> as library for tcp managemnet, non-blocking / actor-model, clustering and auth plugin system.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/yunba.png' | relative_url }}" class="software-logo">
-         <div class="panel-item-description"><a href="http://yunba.io/"><h3>Yunba.io</h3></a>
-         Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol, The services include bi-directional push for Instant-Messaging; real-time analyzing; real-time online monitoring.
+         <img src="{{ 'assets/img/software/waterstream.png' | relative_url }}" class="software-logo" alt="Waterstrean Logo">
+         <div class="panel-item-description"><a href="http://waterstream.io/"><h3>Waterstream</h3></a>
+         Waterstream is the first and the only MQTT platform on the market leveraging Apache Kafka as its own storage and distribution engine. Every incoming MQTT message is immediately available in your microservices architecture or your analytics platform without any further processing. Vice-versa, every message written on a Kafka topic it’s sent to MQTT clients. All the necessary MQTT state, like subscriptions and QoS message status is also stored in Kafka—no need for additional storage.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item last">
-         <img src="{{ 'assets/img/software/waterstream.png' | relative_url }}" class="software-logo">
-         <div class="panel-item-description"><a href="http://waterstream.io/"><h3>Waterstream</h3></a>
-         Waterstream is the first and the only MQTT platform on the market leveraging Apache Kafka as its own storage and distribution engine. Every incoming MQTT message is immediately available in your microservices architecture or your analytics platform without any further processing. Vice-versa, every message written on a Kafka topic it’s sent to MQTT clients. All the necessary MQTT state, like subscriptions and QoS message status is also stored in Kafka—no need for additional storage.
+         <img src="{{ 'assets/img/software/yunba.png' | relative_url }}" class="software-logo" alt="Yunba Logo">
+         <div class="panel-item-description"><a href="http://yunba.io/"><h3>Yunba.io</h3></a>
+         Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol, The services include bi-directional push for Instant-Messaging; real-time analyzing; real-time online monitoring.
          </div>
       </div>
    <!-- closing div -->
