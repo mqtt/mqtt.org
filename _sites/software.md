@@ -99,7 +99,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-                  <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo">
          <div class="panel-item-description"><a href="https://github.com/beerfactory/hbmqtt"><h3>HBMQTT</h3></a>
             HBMQTT is an open-source implementation of MQTT broker and client. It uses Python 3.4+ asyncio library for providing a mono-threaded, non-blocking implementation of the protocol.
          </div>
@@ -107,14 +107,14 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/hivemq.svg' | relative_url }}" class="software-logo" style="height:80px; margin-top: 5px;">
-         <div class="panel-item-description"><a href="https://www.hivemq.com/mqtt-cloud-broker/"><h3>HiveMQ Cloud</h3></a>
+         <div class="panel-item-description"><a href="https://www.hivemq.com/mqtt-cloud-broker/"><h3>HiveMQ</h3></a>
          HiveMQ is a MQTT broker which was built from the ground up with maximum scalability and enterprise-ready security in mind. It comes with native web socket support and an open source plugin SDK to extend its functionality or integrate it with other components. A public test server is also available (<a href="https://github.com/mqtt/mqtt.github.io/wiki/public_brokers">more information</a>).
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/hivemq-cloud.svg' | relative_url }}" class="software-logo" style="height:95px; margin-top: 5px;">
-         <div class="panel-item-description"><a href="https://www.hivemq.com"><h3>HiveMQ</h3></a>
+         <div class="panel-item-description"><a href="https://www.hivemq.com"><h3>HiveMQ Cloud</h3></a>
          HiveMQ Cloud is a free cloud native IoT messaging broker that enables you to connect up to 100 devices. It supports the entire <a href="/mqtt-specification">MQTT specification</a>. For larger projects HiveMQ Cloud can scale up to support business critical solutions. <a href="https://console.hivemq.cloud">Sign up</a>.
          </div>
       </div>
