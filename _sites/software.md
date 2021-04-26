@@ -417,9 +417,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </ul>
       <div class="subhead">PHP</div>
       <ul>
-         <li><a href="http://github.com/bluerhinos/phpMQTT">phpMQTT</a></li>
+         <li><a href="https://github.com/bluerhinos/phpMQTT">phpMQTT</a></li>
          <li><a href="https://github.com/mgdm/Mosquitto-PHP">Mosquitto-PHP</a></li>
-         <li><a href="http://github.com/sskaje/mqtt">sskaje's MQTT library</a></li>
+         <li><a href="https://github.com/sskaje/mqtt">sskaje's MQTT library</a></li>
+         <li><a href="https://github.com/simps/mqtt">Simps/MQTT</a> - MQTT Protocol Analysis and Coroutine Client for PHP. Support for 3.1, 3.1.1 and 5.0 versions of the MQTT protocol.</li>
       </ul>
       <div class="subhead">Python</div>
       <ul>
