@@ -280,7 +280,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="http://mbed.org/users/Nim65s/code/niMQTT/">mbed (native implementation)</a></li>
          <li><a href="http://developer.mbed.org/teams/mqtt/code/MQTT/">mbed (Paho Embedded C++ port)</a></li>
          <li><a href="http://developer.mbed.org/teams/mqtt/code/MQTTPacket/">mbed (Paho Embedded C port)</a></li>
-         <li><a href="http://github.com/njh/NanodeMQTT/">Nanode</a></li>
+         <li><a href="https://github.com/njh/NanodeMQTT/">Nanode</a></li>
          <li><a href="https://github.com/danielan/NetduinoMQTT">Netduino</a></li>
          <li><a href="https://github.com/eclipse/paho.mqtt.m2mqtt">M2MQTT (works with .Net Micro Framework)</a></li>
       </ul>
