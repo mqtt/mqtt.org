@@ -8,11 +8,12 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
 <h1>MQTT Software</h1>
 
 <section class="accordion-wrapper software" style="margin-bottom: 50px;">
+<!-- Servers Broker Start -->
    <button id="servers-brokers" class="accordion">Servers / Brokers</button>
    <div class="panel">
     <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/ably-logo.svg' | relative_url }}" class="software-logo" alt="Ably Logo" style="width: 110px; margin-left: 25px;" alt="Ably Logo">
+         <img src="{{ 'assets/img/software/ably-logo.svg' | relative_url }}" class="software-logo" alt="Ably Logo" style="width: 110px; margin-left: 25px;">
          <div class="panel-item-description"><a href="https://www.ably.io/documentation/mqtt"><h3>Ably MQTT Broker</h3></a>
            <a href="https://www.ably.io/">Ably</a> provides an MQTT broker and protocol adapter that is able to translate back and forth between MQTT and Ably's own protocol. It provides support for WebSockets, HTTP, SSE, STOMP, AMQP, and many more. Ably provides an interoperable, globally-distributed realtime messaging infrastructure layer.
          </div>
@@ -108,21 +109,14 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/hivemq.svg' | relative_url }}" class="software-logo" style="height:80px; margin-top: 5px;" alt="HiveMQ Logo">
          <div class="panel-item-description"><a href="https://www.hivemq.com"><h3>HiveMQ</h3></a>
-         HiveMQ is a MQTT broker which was built from the ground up with maximum scalability and enterprise-ready security in mind. It comes with native web socket support and an open source plugin SDK to extend its functionality or integrate it with other components. A public test server is also available (<a href="https://www.hivemq.com/public-mqtt-broker/">more information</a>).
-         </div>
-      </div>
-   <!-- Entry -->
-      <div class="panel-item">
-         <img src="{{ 'assets/img/software/hivemq-cloud.svg' | relative_url }}" class="software-logo" style="height:95px; margin-top: 5px;" alt="HiveMQ Cloud Logo">
-         <div class="panel-item-description"><a href="https://www.hivemq.com/mqtt-cloud-broker"><h3>HiveMQ Cloud</h3></a>
-         HiveMQ Cloud is a free cloud native IoT messaging broker that enables you to connect up to 100 devices. It supports the entire <a href="/mqtt-specification">MQTT specification</a>. For larger projects HiveMQ Cloud can scale up to support business critical solutions. <a href="https://console.hivemq.cloud">Sign up</a>.
+         HiveMQ is a MQTT broker which was built from the ground up with maximum scalability and enterprise-ready security in mind. It comes with native web socket support and an open source plugin SDK to extend its functionality or integrate it with other components. A <a href="https://www.hivemq.com/public-mqtt-broker/">public test server</a> is also available.
          </div>
       </div>
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/jmqtt.png' | relative_url }}" class="software-logo" alt="Jmqtt Logo">
          <div class="panel-item-description"><a href="https://github.com/Cicizz/jmqtt"><h3>Jmqtt</h3></a>
-            Jmqtt is a MQTT broker which implemented by java and netty,support persistence and cluster.
+            Jmqtt is a MQTT broker which is implemented by Java and Netty, supports persistence and cluster.
          </div>
       </div>
       <!-- Entry -->
@@ -183,13 +177,6 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/myqtthub.png' | relative_url }}" class="software-logo" alt="MyQTTHub Logo">
-         <div class="panel-item-description"><a href="https://myqtthub.com/"><h3>MyQttHub.com</h3></a>
-            Easily create your MQTT IoT project with MyQttHub.com, an open and scalable Cloud MQTT platform with professional support options.
-         </div>
-      </div>
-   <!-- Entry -->
-      <div class="panel-item">
          <img src="{{ 'assets/img/software/mqttnet.png' | relative_url }}" class="software-logo" alt="MQTTnet Logo">
          <div class="panel-item-description"><a href="https://github.com/chkr1011/MQTTnet/"><h3>MQTTnet</h3></a>
          MQTTnet is a .NET library for MQTT based communication. It provides a MQTT client and a MQTT server (broker).
@@ -234,7 +221,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/thingscale.png' | relative_url }}" class="software-logo" alt="ThingScale IoT Logo">
          <div class="panel-item-description"><a href="http://thingscale.io/index_en.html"><h3>ThingScale IoT message broker</h3></a>
-         ThingScale IoT message broker</a> is a fully-managed IoT messaging service provided by <a href="http://sensinics.co.jp">Sensinics,LLC</a>.<br/>
+         ThingScale IoT message broker is a fully-managed IoT messaging service provided by <a href="http://sensinics.co.jp">Sensinics,LLC</a>.<br/>
          ThingScale provides a messaging system for IoT connected devices. The API is used to retrieve events, users, devices, sessions, and channels in JSON format. ThingScale supports TLS payload encryption, scheme-less and cyclic data sampling, and trigger-based notifications. A 30days trial license is offered free of charge. MQTT is the preferred messaging protocol. <a href="https://sensinics.atlassian.net/wiki/spaces/TD/pages/76021778/Developer+Portal">Dev Portal</a> &amp; <a href="https://thingscale.docs.apiary.io/">API Portal</a>
          </div>
       </div>
@@ -249,7 +236,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/vertx.svg' | relative_url }}" class="software-logo" alt="Vert.x Logo" style="padding: 5px 20px; box-sizing: border-box;">
          <div class="panel-item-description"><a href="https://github.com/GruppoFilippetti/vertx-mqtt-broker"><h3>Vert.x MQTT Broker</h3></a>
-        Vert.x MQTT Broker is an open-source implementation of MQTT server. It implements protocol versions 3.1.1 and 3.1, supports QoS 2, and uses OAuth2 for autentication. It uses <a href="http://vertx.io/">vert.x</a> as library for tcp managemnet, non-blocking / actor-model, clustering and auth plugin system.
+        Vert.x MQTT Broker is an open-source implementation of MQTT server. It implements protocol versions 3.1.1 and 3.1, supports QoS 2, and uses OAuth2 for authentication. It uses <a href="http://vertx.io/">vert.x</a> as library for tcp managemnet, non-blocking / actor-model, clustering and auth plugin system.
          </div>
       </div>
    <!-- Entry -->
@@ -268,7 +255,26 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- closing div -->
    </div>
-   <!-- End of Broker / Server Panel -->
+   <!-- End of Servers / Brokers Panel -->
+   <button id="cloud-brokers" class="accordion">Cloud Brokers</button>
+   <div class="panel">
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/hivemq-cloud.svg' | relative_url }}" class="software-logo" style="height:95px; margin-top: 5px;" alt="HiveMQ Cloud Logo">
+         <div class="panel-item-description"><a href="https://www.hivemq.com/mqtt-cloud-broker"><h3>HiveMQ Cloud️</h3></a>
+         HiveMQ Cloud is a free cloud native IoT messaging broker that enables you to connect up to 100 devices. It supports the entire <a href="/mqtt-specification">MQTT specification</a>. For larger projects HiveMQ Cloud can scale up to support business critical solutions. <a href="https://console.hivemq.cloud">Sign up</a>.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/myqtthub.png' | relative_url }}" class="software-logo" alt="MyQTTHub Logo">
+         <div class="panel-item-description"><a href="https://myqtthub.com/en/"><h3>MyQttHub.com</h3></a>
+            Easily create your MQTT IoT project with MyQttHub.com, an open and scalable Cloud MQTT platform with professional support options.
+         </div>
+      </div>
+   <!-- closing div -->
+   </div>
+   <!-- Cloud Brokers End -->
    <!-- Client Libraries Start -->
    <button id="client-libraries" class="accordion">Client libraries</button>
    <div class="panel">
@@ -506,7 +512,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             </ul>
          <div class="subhead">Commercial Applications</div>
          <ul>
-            <li><a href="https://www.hivemq.com/hivemq-swarm/" alt="HiveMQ Swarm">HiveMQ Swarm</a> - provides the distributed simulation environment to successfully test millions of MQTT clients, millions of MQTT messages and hundreds of thousands MQTT topic names.</li>
+            <li><a href="https://www.hivemq.com/hivemq-swarm/">HiveMQ Swarm</a> - provides the distributed simulation environment to successfully test millions of MQTT clients, millions of MQTT messages and hundreds of thousands MQTT topic names.</li>
             <li><a href="https://www.gambitcomm.com/site/mqttsimulator.php">MIMIC MQTT Simulator</a> - Thousands of publishers and/or subscribers for rapid prototyping of IoT Applications, performance testing and tuning of deployments.</li>
             <li><a href="https://www.bevywise.com/iot-simulator/">Bevywise IoT Simulator</a> - IoT Simulator provides complete functional and performance testing tools for the MQTT Platform, Application &amp; Devices Development.</li>
             <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006006&amp;loc=en_US&amp;cs=utf-8&amp;lang=en">IA92</a> - IA92 support pack includes very useful MQTT Java swing GUI for publishing &amp; subscribing.</li>
