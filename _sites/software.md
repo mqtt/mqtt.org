@@ -8,6 +8,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
 <h1>MQTT Software</h1>
 
 <section class="accordion-wrapper software" style="margin-bottom: 50px;">
+<!-- Servers Broker Start -->
    <button id="servers-brokers" class="accordion">Servers / Brokers</button>
    <div class="panel">
     <!-- Entry -->
@@ -122,7 +123,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/jmqtt.png' | relative_url }}" class="software-logo" alt="Jmqtt Logo">
          <div class="panel-item-description"><a href="https://github.com/Cicizz/jmqtt"><h3>Jmqtt</h3></a>
-            Jmqtt is a MQTT broker which implemented by java and netty,support persistence and cluster.
+            Jmqtt is a MQTT broker which is implemented by Java and netty, supports persistence and cluster.
          </div>
       </div>
       <!-- Entry -->
@@ -268,7 +269,33 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- closing div -->
    </div>
-   <!-- End of Broker / Server Panel -->
+   <!-- End of Servers / Brokers Panel -->
+   <button id="cloud-brokers" class="accordion">Cloud Brokers</button>
+   <div class="panel">
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/hivemq-cloud.svg' | relative_url }}" class="software-logo" style="height:95px; margin-top: 5px;" alt="HiveMQ Cloud Logo">
+         <div class="panel-item-description"><a href="https://www.hivemq.com/mqtt-cloud-broker"><h3>HiveMQ Cloud</h3></a>
+         HiveMQ Cloud is a free cloud native IoT messaging broker that enables you to connect up to 100 devices. It supports the entire <a href="/mqtt-specification">MQTT specification</a>. For larger projects HiveMQ Cloud can scale up to support business critical solutions. <a href="https://console.hivemq.cloud">Sign up</a>.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/litmus.png' | relative_url }}" class="software-logo" alt="Loop Logo">
+         <div class="panel-item-description"><a href="http://litmusautomation.com/"><h3>Litmus Automation Loop</h3></a>
+         Loop is a cloud based MQTT broker with scalability, high availability and security at core. Loop provides full MQTT 3.1 support and JMS connectivity. It can handle extremely large numbers of connected clients. On the other side it can be connected to any ERP, CRM and enterprise architecture with ESB or NoSQL databases for blazing fast data storage.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item last">
+         <img src="{{ 'assets/img/software/yunba.png' | relative_url }}" class="software-logo" alt="Yunba Logo">
+         <div class="panel-item-description"><a href="http://yunba.io/"><h3>Yunba.io</h3></a>
+         Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol, The services include bi-directional push for Instant-Messaging; real-time analyzing; real-time online monitoring.
+         </div>
+      </div>
+   <!-- closing div -->
+   </div>
+   <!-- Cloud Brokers End -->
    <!-- Client Libraries Start -->
    <button id="client-libraries" class="accordion">Client libraries</button>
    <div class="panel">
