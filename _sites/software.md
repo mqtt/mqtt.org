@@ -116,7 +116,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/jmqtt.png' | relative_url }}" class="software-logo" alt="Jmqtt Logo">
          <div class="panel-item-description"><a href="https://github.com/Cicizz/jmqtt"><h3>Jmqtt</h3></a>
-            Jmqtt is a MQTT broker which is implemented by Java and netty, supports persistence and cluster.
+            Jmqtt is a MQTT broker which is implemented by Java and Netty, supports persistence and cluster.
          </div>
       </div>
       <!-- Entry -->
