@@ -262,7 +262,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/hivemq-cloud.svg' | relative_url }}" class="software-logo" style="height:95px; margin-top: 5px;" alt="HiveMQ Cloud Logo">
          <div class="panel-item-description"><a href="https://www.hivemq.com/mqtt-cloud-broker"><h3>HiveMQ Cloud️</h3></a>
-         HiveMQ Cloud is a free cloud native IoT messaging broker that enables you to connect up to 100 devices. It supports the entire <a href="/mqtt-specification">MQTT specification</a>. For larger projects HiveMQ Cloud can scale up to support business critical solutions. <a href="https://console.hivemq.cloud">Sign up</a>.
+         HiveMQ Cloud is a free cloud native IoT messaging broker that enables you to connect up to 100 devices. It supports the entire <a href="/mqtt-specification">MQTT specification</a>. For larger projects HiveMQ Cloud can scale up to support business critical solutions. <a href="https://console.hivemq.cloud/?utm_source=mqtt-org&utm_medium=cloud-brokers&utm_campaign=cloud">Sign up</a>.
          </div>
       </div>
    <!-- Entry -->
