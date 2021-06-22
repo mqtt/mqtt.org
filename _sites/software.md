@@ -272,6 +272,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             Easily create your MQTT IoT project with MyQttHub.com, an open and scalable Cloud MQTT platform with professional support options.
          </div>
       </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/emqx-cloud.svg' | relative_url }}" class="software-logo" style="..." alt="EMQ X Cloud Logo">
+         <div class="panel-item-description"><a href="https://cloud.emqx.io/"><h3>EMQ X Cloud</h3></a>
+         EMQ X Cloud is a cloud-native fully managed MQTT Service which can which can connect massive amounts of IoT devices and process  real-time data. In the era of the Internet of Everything, EMQ X Cloud can help you quickly build industry applications for the IoT domain and easily collect, transmit, compute, and persist IoT data. <a href="https://cloud.emqx.io/">Free trial now</a>.
+         </div>
+      </div>
    <!-- closing div -->
    </div>
    <!-- Cloud Brokers End -->
