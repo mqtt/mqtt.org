@@ -250,7 +250,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item last">
          <img src="{{ 'assets/img/software/yunba.png' | relative_url }}" class="software-logo" alt="Yunba Logo">
          <div class="panel-item-description"><a href="http://yunba.io/"><h3>Yunba.io</h3></a>
-         Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol, The services include bi-directional push for Instant-Messaging; real-time analyzing; real-time online monitoring.
+         Yunba is a backend cloud platform that provides real-time message dispatch service to mobile applications and devices and uses MQTT as a transport protocol. The services include bi-directional push for instant-messaging, real-time analyzing, real-time online monitoring.
          </div>
       </div>
    <!-- closing div -->
@@ -276,7 +276,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/emqx-cloud.svg' | relative_url }}" class="software-logo" style="..." alt="EMQ X Cloud Logo">
          <div class="panel-item-description"><a href="https://cloud.emqx.io/"><h3>EMQ X Cloud</h3></a>
-         EMQ X Cloud is a cloud-native fully managed MQTT Service which can which can connect massive amounts of IoT devices and process  real-time data. In the era of the Internet of Everything, EMQ X Cloud can help you quickly build industry applications for the IoT domain and easily collect, transmit, compute, and persist IoT data. <a href="https://cloud.emqx.io/">Free trial now</a>.
+         EMQ X Cloud is a cloud-native fully managed MQTT Service which can which can connect massive amounts of IoT devices and process real-time data. In the era of the Internet of Everything, EMQ X Cloud can help you quickly build industry applications for the IoT domain and easily collect, transmit, compute, and persist IoT data. <a href="https://cloud.emqx.io/">Free trial now</a>.
          </div>
       </div>
    <!-- closing div -->
@@ -350,7 +350,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <ul>
          <li><a href="https://github.com/suvash/hulaaki">hulaaki</a> - An Elixir library (driver) for clients communicating with MQTT brokers(via the MQTT 3.1.1 protocol).</li>
          <li><a href="https://github.com/timbuchwaldt/exmqttc">Exmqttc</a> - Elixir wrapper for the emqttc library.</li>
-         <li><a href="https://github.com/gausby/tortoise">tortoise</a> - A MQTT Client written in Elixir</li>
+         <li><a href="https://github.com/gausby/tortoise">tortoise</a> - An MQTT Client written in Elixir</li>
       </ul>
       <div class="subhead">Go</div>
       <ul>
