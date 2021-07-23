@@ -15,7 +15,7 @@ MQTT is used in a large variety of use cases and industries.
             <h2 id="automotive">Automotive</h2>
             <ul>
                <li>HiveMQ: <a href="https://www.hivemq.com/case-studies/bmw-mobility-services/">BMW Car-Sharing application</a> relies on HiveMQ for reliable connectivity.</li>
-               <li>EMQ helps <a href="https://www.emqx.io/blog/emqx-in-volkswagen-iov">SAIC Volkswagen building IoV platform</a>.</li>
+               <li>EMQ helps <a href="https://www.emqx.com/en/blog/emqx-in-volkswagen-iov">SAIC Volkswagen building IoV platform</a>.</li>
             </ul>
          </div>
       </article>
@@ -56,6 +56,9 @@ MQTT is used in a large variety of use cases and industries.
          <img src="{{ '/assets/img/oil-and-gas.jpg' | relative_url }}" class="use-case-img">
          <div class="use-case-description">
             <h2 id="oil-gas">Oil &amp; Gas</h2>
+            <ul>
+               <li>EMQ <a href="https://www.emqx.com/en/customers/emq-helps-innovation-in-the-oil-iot">helps IoT innovation in the petrochemical industry</a></li>
+            </ul>
          </div>
       </article>
    <!-- Use Case Category -->

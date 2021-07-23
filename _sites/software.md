@@ -71,10 +71,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/emq.png' | relative_url }}" class="software-logo" alt="EMQ X Logo">
-         <div class="panel-item-description"><a href="https://www.emqx.io/products/broker"><h3>EMQ X</h3></a>
-            EMQ X MQTT Broker is a fully open source, highly scalable, highly available distributed MQTT messaging broker for IoT, M2M and Mobile applications that can handle tens of millions of concurrent clients.<br/>
-            Starting from 3.0 release, EMQ X broker fully supports MQTT V5.0 protocol specifications and backward compatible with MQTT V3.1 and V3.1.1, as well as other communication protocols such as MQTT-SN, CoAP, LwM2M, WebSocket and STOMP. The 3.0 release of the EMQ X broker can scaled to 10+ million concurrent MQTT connections on one cluster.
-            <a href="https://twitter.com/emqtt">@emqtt</a>
+         <div class="panel-item-description"><a href="https://www.emqx.com/en/products/emqx"><h3>EMQ X</h3></a>
+            <a href="https://www.emqx.io/">EMQ X Broker</a> is a fully open source, highly scalable, highly available distributed MQTT messaging broker for IoT, M2M and Mobile applications that can handle tens of millions of concurrent clients.<br/>
+            Starting from 3.0 release, EMQ X broker fully supports MQTT V5.0 protocol specifications and backward compatible with MQTT V3.1 and V3.1.1, as well as other communication protocols such as MQTT-SN, CoAP, LwM2M, WebSocket and STOMP. The 3.0 release of the EMQ X Broker can scaled to 10+ million concurrent MQTT connections on one cluster.
+            <a href="https://twitter.com/EMQTech">@EMQTech</a>
          </div>
       </div>
    <!-- Entry -->
@@ -275,8 +275,8 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/emqx-cloud.svg' | relative_url }}" class="software-logo" style="..." alt="EMQ X Cloud Logo">
-         <div class="panel-item-description"><a href="https://cloud.emqx.io/"><h3>EMQ X Cloud</h3></a>
-         EMQ X Cloud is a cloud-native fully managed MQTT Service which can which can connect massive amounts of IoT devices and process real-time data. In the era of the Internet of Everything, EMQ X Cloud can help you quickly build industry applications for the IoT domain and easily collect, transmit, compute, and persist IoT data. <a href="https://cloud.emqx.io/">Free trial now</a>.
+         <div class="panel-item-description"><a href="https://www.emqx.com/en/cloud"><h3>EMQ X Cloud</h3></a>
+         EMQ X Cloud is a cloud-native fully managed MQTT Service which can which can connect massive amounts of IoT devices and process real-time data. In the era of the Internet of Everything, EMQ X Cloud can help you quickly build industry applications for the IoT domain and easily collect, transmit, compute, and persist IoT data. <a href="https://www.emqx.com/en/cloud">Free trial now</a>.
          </div>
       </div>
    <!-- closing div -->
