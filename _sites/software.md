@@ -473,6 +473,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="subhead">Swift</div>
       <ul>
          <li><a href="https://github.com/emqtt/CocoaMQTT">CocoaMQTT</a> - An MQTT client for iOS and OS X written with Swift</li>
+         <li><a href="https://github.com/adam-fowler/mqtt-nio">MQTT NIO</a> - A Swift NIO MQTT Client supporting v3.1.1 and v5.0</li>
       </ul>
       <div class="subhead">Tcl</div>
       <ul>
@@ -613,4 +614,3 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
      //ignore exception
    }
 </script>
-
