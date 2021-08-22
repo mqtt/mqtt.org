@@ -93,6 +93,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="MQTT Logo">
+         <div class="panel-item-description"><a href="https://www.flashmq.org"><h3>FlashMQ</h3></a>
+            FlashMQ is a lightweight, high performance Open Source MQTT server, capable of <a href="https://www.youtube.com/watch?v=vZWLitdCkJQ">1 million messages per second on a single 4 core server</a>.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/flespi.png' | relative_url }}" class="software-logo" alt="flespi Logo">
          <div class="panel-item-description"><a href="https://flespi.com/mqtt-broker"><h3>flespi</h3></a>
          flespi is a public and free cloud-based MQTT broker service with declared 3.1, 3.1.1, 5.0 protocols compliance. High-volume targeted architecture, isolated MQTT namespace, WebSockets/SSL support, configurable ACL, commercial and free SLA, managed by <a href="https://flespi.io/mqtt">HTTP REST API</a>.
