@@ -385,6 +385,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/Sentienz/akiro-clients">Sentienz Akiro MQTT Client</a> - MQTT 3.1.1 compatible <a href="https://theakiro.com/">Akiro MQTT broker</a> Java client with callbacks.</li>
          <li><a href="https://vertx.io/docs/vertx-mqtt/java/#_vert_x_mqtt_client">vertx-mqtt-client</a> is an open-source, high performance, non-blocking MQTT client built as a part of vert.x's JVM toolkit.</li>
          <li><a href="https://github.com/TwoGuysFromKabul/xenqtt">Xenqtt</a> - <a href="http://xenqtt.sf.net/">documentation</a> Includes a client library, mock broker for unit/integration testing, and applications to support enterprise needs like using a cluster of servers as a single client, an HTTP gateway, etc.</li>
+         <li><a href="https://micronaut-projects.github.io/micronaut-mqtt/latest/guide/">Micronaut MQTT</a> - integration between <a href="https://micronaut.io">Micronaut Framework</a> and MQTT.etc.</li>         
       </ul>
       <div class="subhead">Javascript / Node.js</div>
       <ul>
