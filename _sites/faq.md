@@ -33,7 +33,7 @@ description: Frequently asked questions about MQTT and a dictionary of terms and
    </div>
    <button class="accordion">Where can I find out more?</button>
    <div class="panel">
-      <p>The specification and other documentation are available via the <a href="{{ '/mqtt-specification' | relative_url }}">Specification page</a>. Ask questions via one of the methods on StackOverflow. Try code via one of the projects on the <a href="{{ '/mqtt-specification' | relative_url }}">Software page.</a></p>
+      <p>The specification and other documentation are available via the <a href="{{ '/mqtt-specification' | relative_url }}">Specification page</a>. Ask questions via one of the methods on StackOverflow. Try code via one of the projects on the <a href="{{ '/software' | relative_url }}">Software page.</a></p>
    </div>
 </div>
 
