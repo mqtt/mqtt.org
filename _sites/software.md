@@ -320,6 +320,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/menudoproblema/libemqtt">libemqtt</a> - an embedded C client</li>
          <li><a href="https://github.com/LiamBindle/MQTT-C">MQTT-C</a> - A portable MQTT C client for embedded systems and PCs alike.</li>
          <li><a href="https://github.com/wolfSSL/wolfMQTT">wolfMQTT</a> - Embedded C client</li>
+         <li><a href="https://github.com/curl/curl">libcurl</a> - libcurl has basic support for publish and subscribe.</li>
          <li><a href="https://gitlab.com/rts_nepal/embedded/lwIP_mbedtls_mqtt_c">MQTT over lwIP</a> - MQTT C client for embedded systems using FreeRTOS, lwIP and mbedtls</li>
          <li><a href="http://smartfactory.openapc.com">libsmartfactory</a> - easy to use library for different Smart Factory/Industry 4.0 technologies including a MQTT client implementation</li>
          <li><a href="https://github.com/zhaojh329/libumqtt">libumqtt</a> - A Lightweight and fully asynchronous MQTT client C library based on libev</li>
@@ -524,7 +525,8 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <ul>
                <li><a href="http://mosquitto.org">mosquitto_pub/mosquitto_sub</a> - Publish/Subscribe command line clients, provided with the mosquitto package.</li>
                <li><a href="http://kamilfb.github.io/mqtt-spy/">mqtt-spy-daemon</a> - a headless (command-line) version of mqtt-spy; for details see the <a href="http://kamilfb.github.io/mqtt-spy/">project's home page</a>.</li>
-               <li><a href="https://github.com/hivemq/mqtt-cli/">MQTT CLI</a> is a useful command line interface for connecting various MQTT clients supporting MQTT 5.0 and 3.1.1 backed by the HiveMQ team.</li>  
+               <li><a href="https://github.com/hivemq/mqtt-cli/">MQTT CLI</a> is a useful command line interface for connecting various MQTT clients supporting MQTT 5.0 and 3.1.1 backed by the HiveMQ team.</li>
+               <li><a href="https://everything.curl.dev/usingcurl/mqtt">curl</a> - Basic support for publish and subscribe.</li>
             </ul>
          <div class="subhead">Commercial Applications</div>
          <ul>
