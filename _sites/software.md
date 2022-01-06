@@ -527,6 +527,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
                <li><a href="http://kamilfb.github.io/mqtt-spy/">mqtt-spy-daemon</a> - a headless (command-line) version of mqtt-spy; for details see the <a href="http://kamilfb.github.io/mqtt-spy/">project's home page</a>.</li>
                <li><a href="https://github.com/hivemq/mqtt-cli/">MQTT CLI</a> is a useful command line interface for connecting various MQTT clients supporting MQTT 5.0 and 3.1.1 backed by the HiveMQ team.</li>
                <li><a href="https://everything.curl.dev/usingcurl/mqtt">curl</a> - Basic support for publish and subscribe.</li>
+               <li><a href="https://nanomq.io">NanoMQ pub/sub</a> - A high performance command-line toolkit for MQTT debugging and benchmarking, provided with nanomq package, backed by EMQ.</li>
             </ul>
          <div class="subhead">Commercial Applications</div>
          <ul>
