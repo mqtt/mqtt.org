@@ -136,8 +136,8 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/ibm.png' | relative_url }}" class="software-logo" alt="IBM Logo">
-         <div class="panel-item-description"><a href="https://www.ibm.com/us-en/marketplace/watson-iot-platform-message-gateway"><h3>IBM WIoTP Message Gateway</h3></a>
-            IBM WIoTP Message Gateway is a scalable, hightly available messaging broker for MQTT (including MQTT v5, HTML5 WebSockets, JMS. Also connects/bridges IBM MQ, IBM Integration Bus. (Was formerly called IBM IoT MessageSight).
+         <div class="panel-item-description"><a href="https://www.eclipse.org/amlen/docs/welcome.html"><h3>Eclipse Amlen</h3></a>
+            Eclipse Amlen (<a href="https://www.ibm.com/us-en/marketplace/watson-iot-platform-message-gateway">IBM WIoTP Message Gateway</a>opensourced IBM mqtt broker) is a scalable, hightly available messaging broker for MQTT (including MQTT v5, HTML5 WebSockets, JMS. Also connects/bridges IBM MQ, IBM Integration Bus, Kafka with Amlen bridge. (Was formerly called IBM IoT MessageSight).
          </div>
       </div>
    <!-- Entry -->
