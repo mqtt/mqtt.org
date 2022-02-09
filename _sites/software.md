@@ -535,6 +535,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="https://www.gambitcomm.com/site/mqttsimulator.php">MIMIC MQTT Simulator</a> - Thousands of publishers and/or subscribers for rapid prototyping of IoT Applications, performance testing and tuning of deployments.</li>
             <li><a href="https://www.bevywise.com/iot-simulator/">Bevywise IoT Simulator</a> - IoT Simulator provides complete functional and performance testing tools for the MQTT Platform, Application &amp; Devices Development.</li>
             <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006006&amp;loc=en_US&amp;cs=utf-8&amp;lang=en">IA92</a> - IA92 support pack includes very useful MQTT Java swing GUI for publishing &amp; subscribing.</li>
+             <li><a href="https://www.ioctrl.com/mqttdesk/">ioctrl -MqttDesk MQTT Client</a> - MqttDesk is a Cross-Platform MQTT desktop Client with an easy &amp; customizable Dashboard, Connections &amp; Widgets developed for Makers, Freelancers, Prototypes &amp; Enterprises by ioCtrl.</li>
          </ul>
          <div class="subhead">Desktop notification tools</div>
          <ul>
