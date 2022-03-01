@@ -44,7 +44,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/mqtt-route.png' | relative_url }}" class="software-logo" alt="Bevywise Logo">
          <div class="panel-item-description"><a href="https://www.bevywise.com/mqtt-broker/"><h3>Bevywise MQTT Broker</h3></a>
-         MQTTRoute is a high performance broker.  The Secure MQTT Broker is written in C &amp; Python and works with all standard MQTT Clients. Bevywise MQTT Broker has a FREE and affordable premium version. MQTTRoute can be customized to write data to any data store using <a href="https://github.com/bevywise-networks/">standard connectors</a> or custom implementations. Try the <a href="http://mqttroute.com/">publicly hosted MQTTRoute</a>.
+         <a href="https://www.bevywise.com/mqtt-broker/">MQTTRoute</a> is a high performance broker.  The Secure MQTT Broker is written in C &amp; Python and works with all standard MQTT Clients. Bevywise MQTT Broker has a FREE and affordable premium version. MQTTRoute can be customized to write data to any data store using <a href="https://github.com/bevywise-networks/">standard connectors</a> or custom implementations. Try the <a href="https://www.bevywise.com/mqtt-broker/download.html">fully FREE version here</a>.
          </div>
       </div>
    <!-- Entry -->
@@ -284,6 +284,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <img src="{{ 'assets/img/software/emqx-cloud.svg' | relative_url }}" class="software-logo" style="..." alt="EMQ X Cloud Logo">
          <div class="panel-item-description"><a href="https://www.emqx.com/en/cloud"><h3>EMQ X Cloud</h3></a>
          EMQ X Cloud is a cloud-native fully managed MQTT Service which can which can connect massive amounts of IoT devices and process real-time data. In the era of the Internet of Everything, EMQ X Cloud can help you quickly build industry applications for the IoT domain and easily collect, transmit, compute, and persist IoT data. <a href="https://www.emqx.com/en/cloud">Free trial now</a>.
+         </div>
+      </div>
+      <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/mqtt-route.png' | relative_url }}" class="software-logo" alt="MQTTRoute Logo">
+         <div class="panel-item-description"><a href="https://www.bevywise.com/hosted-mqtt-server/"><h3>CrystalMQ</h3></a>
+            <a href="https://www.bevywise.com/hosted-mqtt-server/">CrystalMQ, the Cloud MQTT Broker</a> provides a completely managed service that can smoothly scale to meet the demands of large IoT applications and provides the reliability business-critical systems require without any intricate set up & deployment. Try the <a href="https://www.bevywise.com/hosted-mqtt-server/signup.html">hosted version for FREE</a>.
          </div>
       </div>
    <!-- closing div -->
