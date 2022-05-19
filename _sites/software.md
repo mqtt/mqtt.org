@@ -262,7 +262,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-        <img src="{{ 'assets/img/software/harksys.jpg' | relative_url }}" class="software-logo" alt="Hark Logo">
+        <img src="{{ 'assets/img/software/harksys.png' | relative_url }}" class="software-logo" alt="Hark Logo">
         <div class="panel-item-description"><a href="https://harksys.com/platform/hark-connect/"><h3>Hark Connect</h3></a>
           The <a href="https://harksys.com">Hark</a> broker is an MQTT broker written in C# for edge to cloud communication. This broker supports TLS/SSL for layered security and functions as a stand alone broker that can subscribe to topics from other applications (not just The Hark Platform). Hark's low-code solution supports an extremely large number of connections while maintaining security at its core.
         </div>
