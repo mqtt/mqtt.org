@@ -608,6 +608,8 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="http://www.remakeelectric.com/">ReMake</a> - ReMake Electric electricity metering systems publish all readings to the on-device MQTT broker.</li>
             <li><a href="http://www.owasys.com">Owasys</a> - The owa11 model is an IP67 asset tracking and telemetry unit reporting location, events and IO information using MQTT</li>
          </ul>
+         <li><a href="https://www.umh.app">United Manufacturing Hub</a> - The Open-Source toolkit to build your own reliable and secure Industrial IoT platform (strongly leverages MQTT in the Industrial IoT)</li>
+         </ul>
    </div>
 </section>
 </section>
