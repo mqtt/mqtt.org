@@ -300,6 +300,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <a href="https://www.bevywise.com/hosted-mqtt-server/">CrystalMQ, the Cloud MQTT Broker</a> provides a completely managed service that can smoothly scale to meet the demands of large IoT applications and provides the reliability business-critical systems require without any intricate set up & deployment. Try the <a href="https://www.bevywise.com/hosted-mqtt-server/signup.html">hosted version for FREE</a>.
          </div>
       </div>
+      <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/harksys.png' | relative_url }}" class="software-logo" alt="Hark Logo">
+        <div class="panel-item-description"><a href="https://harksys.com/platform/"><h3>Hark Platform</h3></a>
+          The <a href="https://harksys.com">Hark</a> Platform provides a cloud native hosted MQTT services with support for managing users, ACLs at a tennanted level. Additional features such as triggers, automations and integrations allow users to rapidly deploy IoT solutions in a serverless fashion. Use cases include sensors, industrial assets and other internet connected devices. <a href="https://harksys.com/contact/">Get a free trial.</a>
+        </div>
+      </div>
    <!-- closing div -->
    </div>
    <!-- Cloud Brokers End -->
