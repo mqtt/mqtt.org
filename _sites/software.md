@@ -543,6 +543,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="https://www.bevywise.com/iot-simulator/">Bevywise IoT Simulator</a> - IoT Simulator provides complete functional and performance testing tools for the MQTT Platform, Application &amp; Devices Development.</li>
             <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006006&amp;loc=en_US&amp;cs=utf-8&amp;lang=en">IA92</a> - IA92 support pack includes very useful MQTT Java swing GUI for publishing &amp; subscribing.</li>
              <li><a href="https://www.ioctrl.com/mqttdesk/">ioctrl -MqttDesk MQTT Client</a> - MqttDesk is a Cross-Platform MQTT desktop Client with an easy &amp; customizable Dashboard, Connections &amp; Widgets developed for Makers, Freelancers, Prototypes &amp; Enterprises by ioCtrl.</li>
+             <li><a href="https://www.emqx.com/en/products/xmeter">XMeter</a> - Based on open-source Apache JMeter project and mqtt-jmeter plugin, XMeter provides a testing SaaS service to simulate millions of MQTT clients and MQTT messages.</li>            
          </ul>
          <div class="subhead">Desktop notification tools</div>
          <ul>
@@ -585,6 +586,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="http://false.ekta.is/2011/06/mqtt-dissector-decoder-for-wireshark/">Wireshark</a> - a partial MQTT dissector/decoder for Wireshark</li>
             <li><a href="https://github.com/Johann-Angeli/wireshark-plugin-mqtt">Wireshark</a> - a full MQTT dissector/decoder for Wireshark</li>
             <li><a href="https://code.google.com/p/zmqtt/">zmqtt</a> – an MQTT module for Zotonic, an Erlang framework</li>
+            <li><a href="https://github.com/emqx/mqtt-jmeter">mqtt-jmeter plugin</a> – An open source JMeter plugin for MQTT performance test, widely adopted within IoT platform testing domain.</li>
          </ul>
    </div>
    <!-- End of Plugins Panel -->
