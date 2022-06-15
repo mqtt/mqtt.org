@@ -27,6 +27,9 @@ description: Useful resources to get you started with MQTT, the standard messagi
          <br/><br/>
          <h3><a href="https://www.hivemq.com/blog/how-to-get-started-with-mqtt/" alt="HiveMQ" title="HiveMQ.com">Getting Started with MQTT</a></h3>
          A blog post written by hivemq.com
+         <br/><br/>
+         <h3><a href="https://www.emqx.com/en/blog/tag/mqtt-client-programming" alt="EMQ's MQTT Blog" title="MQTT Client Programming">MQTT Client Programming</a></h3>
+         A series of blogs provided by EMQ to help developers get started quickly with MQTT in PHP, Node.js, Python, Golang, and other programming languages.
       </article>
    </section>
 </div>
