@@ -19,11 +19,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </div>
       </div>
    <!-- Entry -->
-   <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="MQTT Logo">
-         <div class="panel-item-description"><a href="https://theakiro.com/"><h3>Akiro by Sentienz</h3></a>
-            Akiro MQTT Broker by <a href="https://sentienz.com/">Sentienz</a> is a high scale MQTT broker and needs a 10 node cluster for 10 Million active MQTT connections. It's written in Java with Vert.X's async paradigm.
+         <img src="{{ 'assets/img/software/akiro-logo.svg' | relative_url }}" class="software-logo" alt="Akiro MQTT Logo">
+         <div class="panel-item-description"><a href="https://www.akiroio.com/"><h3>Akiro MQTT</h3></a>
+            <a href="https://www.akiroio.com/">Akiro</a> MQTT Broker is a high scale MQTT broker with a support for more than 20 Million active MQTT connections with over 1 Million messages per second. It's written in Java with Vert.X's async paradigm. <a href="https://github.com/Akiro-IO/akiro-clients">Akiro clients</a> can be used to communicate with the free to use <a href="https://www.akiroio.com/get-started">Akiro SaaS MQTT Broker</a>. Akiro supports MQTT, Websockets over MQTT, HTTP over MQTT, DLMS, OCPP with TLS support.
          </div>
       </div>
    <!-- Entry -->
