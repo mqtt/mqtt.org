@@ -532,6 +532,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="https://github.com/eclipse/paho.mqtt.android">MQTT on Android</a></li>
             <li><a href="https://github.com/emqx/CocoaMQTT">MQTT on iOS</a></li>
          </ul>
+         <div class="subhead">Mobile tools</div>
+         <ul>
+            <li><a href="https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client">MyMQTT</a> - The simple Message Queuing Telemetry Transport client for Android</li>
+         </ul>
          <div class="subhead">Desktop tools</div>
             <ul>
             <li><a href="https://mqtt-explorer.com">MQTT Explorer</a> - MQTT client to visualize, publish, subscribe, plot topics. Visualizes topics in a topic hierarchy. Intended for service integration, maintenance and refactorings.</li>
