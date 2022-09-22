@@ -181,6 +181,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             Mosquitto is an Open Source MQTT server. A public, hosted test server is also available (<a href="https://test.mosquitto.org/">more information</a>)
          </div>
       </div>
+  <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/mosquitto.png' | relative_url }}" class="software-logo" alt="Mosquitto Logo">
+         <div class="panel-item-description"><a href="https://cedalo.com/mqtt-broker-pro-mosquitto/"><h3>Pro Edition for Eclipse Mosquitto (Server)</h3></a>
+            A pro version of the world’s #1 MQTT broker, offering <a href="https://cedalo.com/mqtt-broker-pro-mosquitto/high-availability/">High Availability</a>, access to REST API, improved reliability, enhanced security, and professional support. An ideal solution for commercial use. <a href="https://cedalo.com/mqtt-broker-pro-mosquitto/trial-signup/">Access a free 14-day trial (cloud) now!</a>
+         </div>
+      </div>
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/mosquitto.png' | relative_url }}" class="software-logo" alt="Mosquitto Logo">
