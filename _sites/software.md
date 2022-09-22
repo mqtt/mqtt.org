@@ -190,13 +190,6 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/mosquitto.png' | relative_url }}" class="software-logo" alt="Mosquitto Logo">
-         <div class="panel-item-description"><a href="https://cedalo.com/mqtt-broker-pro-mosquitto/"><h3>Pro Edition for Eclipse Mosquitto (Cloud)</h3></a>
-            A pro version of the world’s #1 MQTT broker, offering <a href="https://cedalo.com/mqtt-broker-pro-mosquitto/high-availability/">High Availability</a>, access to REST API, improved reliability, enhanced security, and professional support. An ideal solution for commercial use. <a href="https://cedalo.com/mqtt-broker-pro-mosquitto/trial-signup/">Access a free 14-day trial now!</a>
-         </div>
-      </div>
-   <!-- Entry -->
-      <div class="panel-item">
          <img src="{{ 'assets/img/software/mqttnet.png' | relative_url }}" class="software-logo" alt="MQTTnet Logo">
          <div class="panel-item-description"><a href="https://github.com/chkr1011/MQTTnet/"><h3>MQTTnet</h3></a>
          MQTTnet is a .NET library for MQTT based communication. It provides a MQTT client and a MQTT server (broker).
@@ -304,6 +297,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <img src="{{ 'assets/img/software/emqx-cloud.svg' | relative_url }}" class="software-logo" style="..." alt="EMQX Cloud Logo">
          <div class="panel-item-description"><a href="https://www.emqx.com/en/cloud"><h3>EMQX Cloud</h3></a>
          EMQX Cloud is a fully managed MQTT service for IoT. Connecting massive devices to the EMQX Cloud for reliable, real-time IoT data transmission, processing, and integration. Accelerate business that matters while avoiding the headaches of infrastructure management. <a href="https://www.emqx.com/en/try?product=cloud">Free trial now</a>.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/mosquitto.png' | relative_url }}" class="software-logo" alt="Mosquitto Logo">
+         <div class="panel-item-description"><a href="https://cedalo.com/mqtt-broker-pro-mosquitto/"><h3>Pro Edition for Eclipse Mosquitto (Cloud)</h3></a>
+            A pro version of the world’s #1 MQTT broker, offering <a href="https://cedalo.com/mqtt-broker-pro-mosquitto/high-availability/">High Availability</a>, access to REST API, improved reliability, enhanced security, and professional support. An ideal solution for commercial use. <a href="https://cedalo.com/mqtt-broker-pro-mosquitto/trial-signup/">Access a free 14-day trial now!</a>
          </div>
       </div>
       <!-- Entry -->
