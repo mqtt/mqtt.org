@@ -15,7 +15,7 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
       <div class="spec-hl"> 
          <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="specs-logo"><h3>MQTT 5 Specification</h3>
       </div>
-      is an OASIS Standard.The specification is available as either<br/>
+      is an OASIS Standard. The specification is available as either<br/>
       &gt; <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html">single-page HTML</a> or<br/> 
       &gt; <a href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.pdf">PDF</a>.
    </article>
