@@ -1,7 +1,7 @@
 ---
 title: Software
 index: 3
-description: A collection of links to all important MQTT brokers/servers, MQTT client libaries, tools and plugins.
+description: A collection of links to all important MQTT brokers/servers, MQTT client libraries, tools and plugins.
 ---
 
 <section class="content-floating">
@@ -22,7 +22,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/akiro-logo.svg' | relative_url }}" class="software-logo" alt="Akiro MQTT Logo">
          <div class="panel-item-description"><a href="https://www.akiroio.com/"><h3>Akiro MQTT</h3></a>
-            <a href="https://www.akiroio.com/">Akiro</a> MQTT Broker is a high scale MQTT broker with a support for more than 20 Million active MQTT connections with over 1 Million messages per second. It's written in Java with Vert.X's async paradigm. <a href="https://github.com/Akiro-IO/akiro-clients">Akiro clients</a> can be used to communicate with the free to use <a href="https://www.akiroio.com/get-started">Akiro SaaS MQTT Broker</a>. Akiro supports MQTT, Websockets over MQTT, HTTP over MQTT, DLMS, OCPP with TLS support.
+            <a href="https://www.akiroio.com/">Akiro</a> MQTT Broker is a high scale MQTT broker with support for more than 20 Million active MQTT connections with over 1 Million messages per second. It's written in Java with Vert.X's async paradigm. <a href="https://github.com/Akiro-IO/akiro-clients">Akiro clients</a> can be used to communicate with the free to use <a href="https://www.akiroio.com/get-started">Akiro SaaS MQTT Broker</a>. Akiro supports MQTT, Websockets over MQTT, HTTP over MQTT, DLMS, OCPP with TLS support.
          </div>
       </div>
    <!-- Entry -->
@@ -72,7 +72,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <img src="{{ 'assets/img/software/emq.png' | relative_url }}" class="software-logo" alt="EMQX Logo">
          <div class="panel-item-description"><a href="https://www.emqx.com/en/products/emqx"><h3>EMQX</h3></a>
             <a href="https://www.emqx.io/">EMQX</a> is a fully open source, highly scalable, highly available distributed MQTT messaging broker for IoT, M2M and Mobile applications that can handle tens of millions of concurrent clients.<br/>
-            Starting from 3.0 release, EMQX fully supports MQTT V5.0 protocol specifications and backward compatible with MQTT V3.1 and V3.1.1, as well as other communication protocols such as MQTT-SN, CoAP, LwM2M, WebSocket and STOMP. The 3.0 release of the EMQX can scaled to 10+ million concurrent MQTT connections on one cluster.
+            Starting from 3.0 release, EMQX fully supports MQTT V5.0 protocol specifications and is backward compatible with MQTT V3.1 and V3.1.1, as well as other communication protocols such as MQTT-SN, CoAP, LwM2M, WebSocket and STOMP. The 3.0 release of the EMQX can scaled to 10+ million concurrent MQTT connections on one cluster.
             <a href="https://twitter.com/EMQTech">@EMQTech</a>
          </div>
       </div>
@@ -136,7 +136,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/ibm.png' | relative_url }}" class="software-logo" alt="IBM Logo">
          <div class="panel-item-description"><a href="https://www.eclipse.org/amlen/docs/welcome.html"><h3>Eclipse Amlen</h3></a>
-            Eclipse Amlen (<a href="https://www.ibm.com/us-en/marketplace/watson-iot-platform-message-gateway">IBM WIoTP Message Gateway</a>opensourced IBM mqtt broker) is a scalable, hightly available messaging broker for MQTT (including MQTT v5, HTML5 WebSockets, JMS. Also connects/bridges IBM MQ, IBM Integration Bus, Kafka with Amlen bridge. (Was formerly called IBM IoT MessageSight).
+            Eclipse Amlen (<a href="https://www.ibm.com/us-en/marketplace/watson-iot-platform-message-gateway">IBM WIoTP Message Gateway</a>opensourced IBM mqtt broker) is a scalable, highly available messaging broker for MQTT (including MQTT v5, HTML5 WebSockets, JMS. Also connects/bridges IBM MQ, IBM Integration Bus, Kafka with Amlen bridge. (Was formerly called IBM IoT MessageSight).
          </div>
       </div>
    <!-- Entry -->
@@ -249,7 +249,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/vertx.svg' | relative_url }}" class="software-logo" alt="Vert.x Logo" style="padding: 5px 20px; box-sizing: border-box;">
          <div class="panel-item-description"><a href="https://github.com/GruppoFilippetti/vertx-mqtt-broker"><h3>Vert.x MQTT Broker</h3></a>
-        Vert.x MQTT Broker is an open-source implementation of MQTT server. It implements protocol versions 3.1.1 and 3.1, supports QoS 2, and uses OAuth2 for authentication. It uses <a href="http://vertx.io/">vert.x</a> as library for tcp managemnet, non-blocking / actor-model, clustering and auth plugin system.
+        Vert.x MQTT Broker is an open-source implementation of MQTT server. It implements protocol versions 3.1.1 and 3.1, supports QoS 2, and uses OAuth2 for authentication. It uses <a href="http://vertx.io/">vert.x</a> as library for tcp management, non-blocking / actor-model, clustering and auth plugin system.
          </div>
       </div>
    <!-- Entry -->
