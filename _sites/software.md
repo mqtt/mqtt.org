@@ -548,7 +548,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </ul>
          <div class="subhead">Mobile tools</div>
          <ul>
-            <li><a href="https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client">MyMQTT</a> - The simple Message Queuing Telemetry Transport client for Android</li>
+            <li><a href="https://mymqtt.app">MyMQTT</a> - The simple Message Queuing Telemetry Transport client for Android and iOS</li>
          </ul>
          <div class="subhead">Desktop tools</div>
             <ul>
