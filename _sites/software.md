@@ -507,7 +507,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </ul>
       <div class="subhead">Rust</div>
       <ul>
-         <li><a href="https://github.com/GunnarMorrigan/mqrstt">mqrstt</a>Pure rust MQTTv5 client</li>
+         <li><a href="https://github.com/GunnarMorrigan/mqrstt">mqrstt</a> - Pure rust MQTTv5 client</li>
       </ul>
       <div class="subhead">Shell Script</div>
       <ul>
