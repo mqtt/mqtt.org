@@ -3,11 +3,9 @@ title: Software
 index: 3
 description: A collection of links to all important MQTT brokers/servers, MQTT client libraries, tools and plugins.
 ---
+
 <section class="content-floating">
 <h1>MQTT Software</h1>
-
-
-
 
 <section class="accordion-wrapper software" style="margin-bottom: 50px;">
 <!-- Servers Broker Start -->
@@ -45,7 +43,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/mqtt-route.png' | relative_url }}" class="software-logo" alt="Bevywise Logo">
          <div class="panel-item-description"><a href="https://www.bevywise.com/mqtt-broker/"><h3>Bevywise MQTT Broker</h3></a>
-         <a href="https://www.bevywise.com/mqtt-broker/">MQTTRoute</a> is a high performance broker.  The Secure MQTT Broker is written in C & Python and works with all standard MQTT Clients. Bevywise MQTT Broker has a FREE and affordable premium version. MQTTRoute can be customized to write data to any data store using <a href="https://github.com/bevywise-networks/">standard connectors</a> or custom implementations. Try the <a href="https://www.bevywise.com/mqtt-broker/download.html">fully FREE version here</a>.
+         <a href="https://www.bevywise.com/mqtt-broker/">MQTTRoute</a> is a high performance broker.  The Secure MQTT Broker is written in C &amp; Python and works with all standard MQTT Clients. Bevywise MQTT Broker has a FREE and affordable premium version. MQTTRoute can be customized to write data to any data store using <a href="https://github.com/bevywise-networks/">standard connectors</a> or custom implementations. Try the <a href="https://www.bevywise.com/mqtt-broker/download.html">fully FREE version here</a>.
          </div>
       </div>
    <!-- Entry -->
@@ -131,7 +129,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/software/ibm.png' | relative_url }}" class="software-logo" alt="IBM Logo">
          <div class="panel-item-description"><a href="https://www.ibm.com/cloud/app-connect"><h3>IBM Integration Bus</h3></a>
-         IBM Integration Bus V9 has Telemetry feature built-in as optional licensed feature. IBM WebSphere MessageBroker V7 & V8 also include it as optionally licensed feature. <a href="https://www.ibm.com/support/knowledgecenter/SSFKSJ_7.5.0/com.ibm.mm.tc.doc/tc00100_.htm">Really Small Message Broker</a> 75KB MQTT broker runtime free download as binaries from IBM alphaWorks, RSMB is a C implementation of a tiny MQTT server suitable for development, embedded systems, concentrators or small to medium sized deployments. It provides complete MQTT v3.1 support, bridging, and a C client API.
+         IBM Integration Bus V9 has Telemetry feature built-in as optional licensed feature. IBM WebSphere MessageBroker V7 &amp; V8 also include it as optionally licensed feature. <a href="https://www.ibm.com/support/knowledgecenter/SSFKSJ_7.5.0/com.ibm.mm.tc.doc/tc00100_.htm">Really Small Message Broker</a> 75KB MQTT broker runtime free download as binaries from IBM alphaWorks, RSMB is a C implementation of a tiny MQTT server suitable for development, embedded systems, concentrators or small to medium sized deployments. It provides complete MQTT v3.1 support, bridging, and a C client API.
          </div>
       </div>
    <!-- Entry -->
@@ -237,7 +235,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <img src="{{ 'assets/img/software/thingscale.png' | relative_url }}" class="software-logo" alt="ThingScale IoT Logo">
          <div class="panel-item-description"><a href="http://thingscale.io/index_en.html"><h3>ThingScale IoT message broker</h3></a>
          ThingScale IoT message broker is a fully-managed IoT messaging service provided by <a href="http://sensinics.co.jp">Sensinics,LLC</a>.<br/>
-         ThingScale provides a messaging system for IoT connected devices. The API is used to retrieve events, users, devices, sessions, and channels in JSON format. ThingScale supports TLS payload encryption, scheme-less and cyclic data sampling, and trigger-based notifications. A 30days trial license is offered free of charge. MQTT is the preferred messaging protocol. <a href="https://sensinics.atlassian.net/wiki/spaces/TD/pages/76021778/Developer+Portal">Dev Portal</a> & <a href="https://thingscale.docs.apiary.io/">API Portal</a>
+         ThingScale provides a messaging system for IoT connected devices. The API is used to retrieve events, users, devices, sessions, and channels in JSON format. ThingScale supports TLS payload encryption, scheme-less and cyclic data sampling, and trigger-based notifications. A 30days trial license is offered free of charge. MQTT is the preferred messaging protocol. <a href="https://sensinics.atlassian.net/wiki/spaces/TD/pages/76021778/Developer+Portal">Dev Portal</a> &amp; <a href="https://thingscale.docs.apiary.io/">API Portal</a>
          </div>
       </div>
    <!-- Entry -->
@@ -413,23 +411,23 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/apache/activemq/tree/master/activemq-client">ActiveMQ Client</a></li>
          <li><a href="https://projects.eclipse.org/projects/iot.paho/downloads">Eclipse Paho Java</a></li>
          <li><a href="https://github.com/fusesource/mqtt-client">Fusesource mqtt-client</a></li>
-         <li><a href="http://www-933.ibm.com/support/fixcentral/swg/selectFix?product=ibm%2FWebSphere%2FWebSphere+MQ&fixids=1.0.0.1-WS-MQCP-MA9B&source=dbluesearch&function=fixId&parent=ibm/WebSphere"> "MA9B" zip of 1/2 dozen mobile clients source code.</a> Includes Android-optimized Java source that works with Android notifications, based on Paho</li>
+         <li><a href="http://www-933.ibm.com/support/fixcentral/swg/selectFix?product=ibm%2FWebSphere%2FWebSphere+MQ&amp;fixids=1.0.0.1-WS-MQCP-MA9B&amp;source=dbluesearch&amp;function=fixId&amp;parent=ibm/WebSphere"> "MA9B" zip of 1/2 dozen mobile clients source code.</a> Includes Android-optimized Java source that works with Android notifications, based on Paho</li>
          <li><a href="https://github.com/AlbinTheander/MeQanTT">MeQanTT</a></li>
          <li><a href="https://github.com/andsel/moquette">moquette</a></li>
          <li><a href="https://github.com/Wizzercn/MqttWk">MqttWk</a></li>
          <li><a href="https://github.com/hivemq/hivemq-mqtt-client">HiveMQ MQTT Client</a> - MQTT 5.0 and MQTT 3.1.1 compatible and feature-rich high-performance Java client library with different API flavours and backpressure support</li>
-         <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&uid=swg24006006&loc=en_US&cs=utf-8&lang=en">IA92</a> - <em>deprecated</em> IBM IA92 support pack, use Eclipse Paho GUI client instead. A useful MQTT Java swing GUI for publishing & subscribing. The Eclipse Paho GUI is identical but uses newer client code</li>
+         <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006006&amp;loc=en_US&amp;cs=utf-8&amp;lang=en">IA92</a> - <em>deprecated</em> IBM IA92 support pack, use Eclipse Paho GUI client instead. A useful MQTT Java swing GUI for publishing &amp; subscribing. The Eclipse Paho GUI is identical but uses newer client code</li>
          <li><a href="https://github.com/Qatja">Qatja</a> is a Java client library for MQTT 3.1.1 with specific implementation for Android and Processing</li>
          <li><a href="https://github.com/Sentienz/akiro-clients">Sentienz Akiro MQTT Client</a> - MQTT 3.1.1 compatible <a href="https://theakiro.com/">Akiro MQTT broker</a> Java client with callbacks.</li>
          <li><a href="https://vertx.io/docs/vertx-mqtt/java/#_vert_x_mqtt_client">vertx-mqtt-client</a> is an open-source, high performance, non-blocking MQTT client built as a part of vert.x's JVM toolkit.</li>
          <li><a href="https://github.com/TwoGuysFromKabul/xenqtt">Xenqtt</a> - <a href="http://xenqtt.sf.net/">documentation</a> Includes a client library, mock broker for unit/integration testing, and applications to support enterprise needs like using a cluster of servers as a single client, an HTTP gateway, etc.</li>
-         <li><a href="https://micronaut-projects.github.io/micronaut-mqtt/latest/guide/">Micronaut MQTT</a> - integration between <a href="https://micronaut.io">Micronaut Framework</a> and MQTT.etc.</li>       
+         <li><a href="https://micronaut-projects.github.io/micronaut-mqtt/latest/guide/">Micronaut MQTT</a> - integration between <a href="https://micronaut.io">Micronaut Framework</a> and MQTT.etc.</li>         
       </ul>
       <div class="subhead">Javascript / Node.js</div>
       <ul>
          <li><a href="https://github.com/mcollina/ascoltatori">Ascoltatori</a> - a node.js pub/sub library that allows access to Redis, AMQP, MQTT, and ZeroMQ with the same API.</li>
          <li><a href="https://github.com/eclipse/paho.mqtt.javascript">Eclipse Paho HTML5 JavaScript over WebSocket.</a></li>
-         <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&uid=swg24033580&loc=en_US&cs=utf-8&lang=en" >IBM-provided PhoneGap / Apache Cordova MQTT plug-in for Android</a> - JavaScript API is identical to Eclipse Paho HTML5 JavaScript</li>
+         <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24033580&amp;loc=en_US&amp;cs=utf-8&amp;lang=en" >IBM-provided PhoneGap / Apache Cordova MQTT plug-in for Android</a> - JavaScript API is identical to Eclipse Paho HTML5 JavaScript</li>
          <li><a href="https://github.com/adamvr/MQTT.js">mqtt.js</a></li>
          <li><a href="https://github.com/yilun/node_mqtt_client">node_mqtt_client</a></li>
       </ul>
@@ -460,7 +458,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/GrayWang/mqttIO-objC">mqttIO-objC</a></li>
          <li><a href="https://mosquitto.org">libmosquitto</a> - via wrappers (<a href="https:///github.com/njh/marquette">example</a>)</li>
          <li><a href="https://github.com/jmesnil/MQTTKit">MQTTKit</a> (<a href="https:///github.com/jmesnil/MQTTExample">sample app</a>)</li>
-         <li><a href="http://www-933.ibm.com/support/fixcentral/swg/selectFix?product=ibm%2FWebSphere%2FWebSphere+MQ&fixids=1.0.0.1-WS-MQCP-MA9B&source=dbluesearch&function=fixId&parent=ibm/WebSphere">"MA9B" zip of 1/2 dozen mobile clients source code including Objective-C</a></li>
+         <li><a href="http://www-933.ibm.com/support/fixcentral/swg/selectFix?product=ibm%2FWebSphere%2FWebSphere+MQ&amp;fixids=1.0.0.1-WS-MQCP-MA9B&amp;source=dbluesearch&amp;function=fixId&amp;parent=ibm/WebSphere">"MA9B" zip of 1/2 dozen mobile clients source code including Objective-C</a></li>
       </ul>
       <div class="subhead">OCaml</div>
       <ul>
@@ -539,7 +537,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="https://mqttboard.flespi.io">MQTT Board</a> - diagnostic oriented MQTT 5.0 client tool based on <a href="https://github.com/mqttjs">mqtt.js</a>. Available in <a href="https://github.com/flespi-software/mqtt-board">open source</a>.</li>
             <li><a href="https://mqtttiles.flespi.io">MQTT Tiles</a> - <a href="https://github.com/flespi-software/MQTT-Tiles">Open source</a> MQTT-based dashboard visualization tool.</li>
             <li><a href="http://test.mosquitto.org/ws.html">MQTT over websockets</a> (experimental) - from the mosquitto project.</li>
-            <li><a href="http://www.hivemq.com/demos/websocket-client/">HiveMQ Websockets Client</a> - a websocket based client for your browser which supports publishing & subscribing.</li>
+            <li><a href="http://www.hivemq.com/demos/websocket-client/">HiveMQ Websockets Client</a> - a websocket based client for your browser which supports publishing &amp; subscribing.</li>
             <li><a href="https://github.com/jpmens/mqtt-svg-dash">mqtt-svg-dash</a> - SVG "live" dashboard from MQTT.</li>
             <li><a href="https://github.com/fabaff/mqtt-panel">mqtt-panel</a> - a web interface for MQTT.</li>
             <li><a href="http://www.thingstud.io">ThingStudio</a> - ThingStudio allows you create real-time HTML5 user interfaces for MQTT devices by writing simple HTML templates.</li>
@@ -579,10 +577,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <ul>
             <li><a href="https://www.hivemq.com/hivemq-swarm/">HiveMQ Swarm</a> - provides the distributed simulation environment to successfully test millions of MQTT clients, millions of MQTT messages and hundreds of thousands MQTT topic names.</li>
             <li><a href="https://www.gambitcomm.com/site/mqttsimulator.php">MIMIC MQTT Simulator</a> - Thousands of publishers and/or subscribers for rapid prototyping of IoT Applications, performance testing and tuning of deployments.</li>
-            <li><a href="https://www.bevywise.com/iot-simulator/">Bevywise IoT Simulator</a> - IoT Simulator provides complete functional and performance testing tools for the MQTT Platform, Application & Devices Development.</li>
-            <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&uid=swg24006006&loc=en_US&cs=utf-8&lang=en">IA92</a> - IA92 support pack includes very useful MQTT Java swing GUI for publishing & subscribing.</li>
-             <li><a href="https://www.ioctrl.com/mqttdesk/">ioctrl -MqttDesk MQTT Client</a> - MqttDesk is a Cross-Platform MQTT desktop Client with an easy & customizable Dashboard, Connections & Widgets developed for Makers, Freelancers, Prototypes & Enterprises by ioCtrl.</li>
-             <li><a href="https://www.emqx.com/en/products/xmeter">XMeter</a> - Based on open-source Apache JMeter project and mqtt-jmeter plugin, XMeter provides a testing SaaS service to simulate millions of MQTT clients and MQTT messages.</li>          
+            <li><a href="https://www.bevywise.com/iot-simulator/">Bevywise IoT Simulator</a> - IoT Simulator provides complete functional and performance testing tools for the MQTT Platform, Application &amp; Devices Development.</li>
+            <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006006&amp;loc=en_US&amp;cs=utf-8&amp;lang=en">IA92</a> - IA92 support pack includes very useful MQTT Java swing GUI for publishing &amp; subscribing.</li>
+             <li><a href="https://www.ioctrl.com/mqttdesk/">ioctrl -MqttDesk MQTT Client</a> - MqttDesk is a Cross-Platform MQTT desktop Client with an easy &amp; customizable Dashboard, Connections &amp; Widgets developed for Makers, Freelancers, Prototypes &amp; Enterprises by ioCtrl.</li>
+             <li><a href="https://www.emqx.com/en/products/xmeter">XMeter</a> - Based on open-source Apache JMeter project and mqtt-jmeter plugin, XMeter provides a testing SaaS service to simulate millions of MQTT clients and MQTT messages.</li>            
          </ul>
          <div class="subhead">Desktop notification tools</div>
          <ul>
@@ -641,7 +639,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </p>
          <ul>
             <li><a href="http://www.consert.com">Consert</a> - Toshiba Consert smart grid solutions</li>
-            <li><a href="http://www.libelium.com/products/meshlium/">Libelium>Meshlium</a> - Libelium, specifically Meshlium uses MQTT natively to communicate from the field.</li>
+            <li><a href="http://www.libelium.com/products/meshlium/">Libelium&gt;Meshlium</a> - Libelium, specifically Meshlium uses MQTT natively to communicate from the field.</li>
             <li><a href="http://www.eurotech.com">Eurotech</a> - SCADA, monitoring, controllers, etc</li>
             <li><a href="http://www.celllabs.com/">Cell Labs</a> - Automated Meter Reading</li>
             <li><a href="http://www.cirrus-link.com">Cirrus Link</a> - Arlen Nipper's company (helped to produce ODB2 GSM/GPS/MQTT dongles for Mobile Devices</li>
@@ -656,6 +654,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    </div>
 </section>
 </section>
+
 
 {% include community-contributions.html %}
 
