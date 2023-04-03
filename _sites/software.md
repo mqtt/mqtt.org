@@ -445,6 +445,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </ul>
       <div class="subhead">.NET / dotNET</div>
       <ul>
+         <li><a href="https://github.com/hivemq/hivemq-mqtt-client-dotnet">HiveMQtt</a> - The Spectacular C# MQTT Client for .NET</li>
          <li><a href="https://github.com/mFourLabs/KittyHawkMQ">KittyHawkMQ</a></li>
          <li><a href="https://github.com/chkr1011/MQTTnet">MQTTnet</a></li>
          <li><a href="http://sourceforge.net/projects/mqttdotnet/">MqttDotNet</a></li>
