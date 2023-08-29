@@ -342,6 +342,11 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <ul>
          <li><a href="https://github.com/yangboz/as3MQTT">as3MQTT</a></li>
       </ul>
+      <div class="subhead">Ada</div>
+      <ul>
+         <li><a href="https://github.com/persan/mosquitto-ada">mosquitto-ada</a> - A binding to libmosquitto</li>
+         <li><a href="http://www.dmitry-kazakov.de/ada/components.htm#MQTT">Simple Components MQTT</a> - Pure Ada MQTT client and server/broker</li>
+      </ul>
       <div class="subhead">Bash</div>
       <ul>
          <li>see <a href="#shell-script">Shell Script</a>, below</li>
