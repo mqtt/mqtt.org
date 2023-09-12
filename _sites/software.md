@@ -354,6 +354,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/menudoproblema/libemqtt">libemqtt</a> - an embedded C client</li>
          <li><a href="https://github.com/LiamBindle/MQTT-C">MQTT-C</a> - A portable MQTT C client for embedded systems and PCs alike.</li>
          <li><a href="https://github.com/wolfSSL/wolfMQTT">wolfMQTT</a> - Embedded C client</li>
+         <li><a href="https://github.com/RealTimeLogic/SharkSSL/blob/main/src/SharkMQTT.c">SharkMQTT</a> - Embedded C client - <a href="https://realtimelogic.com/products/sharkmqtt/">more information</a> - <a href="https://realtimelogic.com/ba/doc/en/C/shark/group__MQTTLib.html">documentation</a></li>
          <li><a href="https://github.com/curl/curl">libcurl</a> - libcurl has basic support for publish and subscribe.</li>
          <li><a href="https://gitlab.com/rts_nepal/embedded/lwIP_mbedtls_mqtt_c">MQTT over lwIP</a> - MQTT C client for embedded systems using FreeRTOS, lwIP and mbedtls</li>
          <li><a href="http://smartfactory.openapc.com">libsmartfactory</a> - easy to use library for different Smart Factory/Industry 4.0 technologies including a MQTT client implementation</li>
@@ -439,6 +440,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </ul>
       <div class="subhead">Lua</div>
       <ul>
+          <li><a href="https://github.com/RealTimeLogic/BAS-Resources/blob/main/src/core/.lua/mqttc.lua">Barracuda App Server's MQTT Client</a> - <a href="https://realtimelogic.com/products/lua-mqtt/">more information</a> - <a href="https://realtimelogic.com/ba/doc/?url=MQTT.html">documentation</a></li>
          <li><a href="http://git.eclipse.org/c/paho/org.eclipse.paho.mqtt.lua.git/" >Eclipse Paho Lua</a></li>
          <li><a href="https://github.com/xHasKx/luamqtt/">luamqtt - Pure-lua MQTT client</a></li>
          <li><a href="https://github.com/zhaojh329/libumqtt">libumqtt</a></li>
