@@ -285,13 +285,6 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <!-- End of Servers / Brokers Panel -->
    <button id="cloud-brokers" class="accordion">Cloud Brokers</button>
    <div class="panel">
-      <!-- Entry -->
-      <div class="panel-item">
-         <img src="{{ 'assets/img/coreflux.png' | relative_url }}" class="software-logo" alt="Coreflux Logo">
-         <div class="panel-item-description"><a href="https://www.coreflux.org"><h3>Coreflux</h3></a>
-          Coreflux is a a Data Hub, based in MQTT 3.11 and 5.0,  designed to handle vast amounts of data from various sources, be it IoT devices, databases, applications, or external systems. As data flows in, the Flux DSL is able to do processes and orchestrates workflows based on predefined FLux Scripts. The Asset Management system ensures that each device is correctly configured and operating optimally. Check the <a href="https://doc.coreflux.org">documentation</a> how to setup it in your cloud system.</a> 
-         </div>
-      </div>
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/hivemq-cloud.svg' | relative_url }}" class="software-logo" style="height:95px; margin-top: 5px;" alt="HiveMQ Cloud Logo">
