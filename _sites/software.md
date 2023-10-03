@@ -349,7 +349,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </ul>
       <div class="subhead">Ballerina</div>
       <ul>
-         <li><a href="https://github.com/ballerina-platform/module-ballerina-mqtt">Ballerina MQTT</a> - The Ballerina MQTT client library which supports MQTTv5</li>
+         <li><a href="https://github.com/ballerina-platform/module-ballerina-mqtt">Ballerina MQTT</a> - The Ballerina MQTT client library which supports MQTTv5. More details on the client APIs can be read <a href="https://lib.ballerina.io/ballerina/mqtt/latest">here</a></li>
       </ul>
       <div class="subhead">Bash</div>
       <ul>
