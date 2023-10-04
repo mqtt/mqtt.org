@@ -354,6 +354,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/persan/mosquitto-ada">mosquitto-ada</a> - A binding to libmosquitto</li>
          <li><a href="http://www.dmitry-kazakov.de/ada/components.htm#MQTT">Simple Components MQTT</a> - Pure Ada MQTT client and server/broker</li>
       </ul>
+      <div class="subhead">Ballerina</div>
+      <ul>
+         <li><a href="https://github.com/ballerina-platform/module-ballerina-mqtt">Ballerina MQTT</a> - The Ballerina MQTT client library which supports MQTTv5. More details on the client APIs can be read <a href="https://lib.ballerina.io/ballerina/mqtt/latest">here</a></li>
+      </ul>
       <div class="subhead">Bash</div>
       <ul>
          <li>see <a href="#shell-script">Shell Script</a>, below</li>
@@ -618,6 +622,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="https://github.com/Koenkk/zigbee2mqtt">zigbee2mqtt</a> - ZigBee gateway that exposes ZigBee certified devices (Philis Hue, Xiaomi Aqara, ...) via mqtt. Commonly used for home automation. <a href="https://www.zigbee2mqtt.io/information/supported_devices.html">list of supported devices</a></li>
             <li><a href="https://mqtt.cool">MQTT.Cool</a> - A web gateway that optimizes any MQTT broker when sending real-time data to web clients with automatic throttling.</li>
             <li><a href="https://neugates.io/">Neuron</a> - An open-source, lightweight IIoT connectivity server that convert industrial protocol to MQTT, SparkPlugB etc.</li>
+            <li><a href="https://github.com/BlackZork/mqmgateway">MQM Gateway</a> - An open-source, lightweight C++ bidirectional Modbus RTU/TCP <=> MQTT Gateway with flexible data conversion on the fly</li>
          </ul>
          <div class="subhead">Misc</div>
             <ul>
