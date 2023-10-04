@@ -347,6 +347,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/persan/mosquitto-ada">mosquitto-ada</a> - A binding to libmosquitto</li>
          <li><a href="http://www.dmitry-kazakov.de/ada/components.htm#MQTT">Simple Components MQTT</a> - Pure Ada MQTT client and server/broker</li>
       </ul>
+      <div class="subhead">Ballerina</div>
+      <ul>
+         <li><a href="https://github.com/ballerina-platform/module-ballerina-mqtt">Ballerina MQTT</a> - The Ballerina MQTT client library which supports MQTTv5. More details on the client APIs can be read <a href="https://lib.ballerina.io/ballerina/mqtt/latest">here</a></li>
+      </ul>
       <div class="subhead">Bash</div>
       <ul>
          <li>see <a href="#shell-script">Shell Script</a>, below</li>
