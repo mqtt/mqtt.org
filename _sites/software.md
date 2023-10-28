@@ -57,7 +57,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
          <img src="{{ 'assets/img/coreflux.png' | relative_url }}" class="software-logo" alt="Coreflux Logo">
          <div class="panel-item-description"><a href="https://www.coreflux.org"><h3>Coreflux</h3></a>
-          Coreflux is a a Data Hub, based in MQTT 3.11 and 5.0,  designed to handle vast amounts of data from various sources, be it IoT devices, databases, applications, or external systems. As data flows in, the Flux DSL is able to do processes and orchestrates workflows based on predefined FLux Scripts. The Asset Management system ensures that each device is correctly configured and operating optimally. Check the <a href="https://doc.coreflux.org">documentation</a>!
+         Coreflux is a Data Hub, based on MQTT 3.1.1 and 5.0, designed to handle vast amounts of data from various sources, whether they be IoT devices, databases, applications, or external systems. The system can run flux assets that act as connectors, orchestrators, or model generators. Often considered an <b>MQTT Broker on Steroids</b>, you can check the <a href="https://docs.coreflux.org">documentation</a> for more information!
          </div>
       </div>
    <!-- Entry -->
