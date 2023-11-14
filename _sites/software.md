@@ -48,6 +48,14 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
+          <img src="{{ 'assets/img/software/bifromq.png' | relative_url }}" class="software-logo" alt="BifroMQ Logo">
+          <div class="panel-item-description">
+          <a href="https://bifromq.io"><h3>BifroMQ</h3></a>
+          <p><a href="https://bifromq.io">BifroMQ</a>, open-sourced by <b>Baidu</b>, is a distributed MQTT messaging middleware designed for high performance. Its standout feature is the native multi-tenancy support, which enhances resource sharing and workload isolation. The system's architecture integrates a distributed storage engine, tailored for environments with high load, reducing reliance on external middleware. BifroMQ is well-suited for developing large IoT networks and messaging systems, providing scalable, cloud-based, serverless solutions for extensive operations.</p>
+           </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
          <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="Cassandana Logo">
          <div class="panel-item-description"><a href="https://github.com/mtsoleimani/cassandana/"><h3>Cassandana</h3></a>
          Cassandana is an open source MQTT message broker which is entirely written in Java. This project began its life as a fork of <a href="https://github.com/andsel/moquette">Moquette</a> , and later underwent some cleanup, optimization and adding extra features. Now it’s ready to work as an enterprise message broker.
