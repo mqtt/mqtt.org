@@ -587,7 +587,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </ul>
          <div class="subhead">Desktop tools</div>
             <ul>
-            <li><a href="https://mqtt-studio.com">MQTT Studio</a> - A practical desktop and web client designed for developers to efficiently create, test, and manage MQTT-based applications, enhancing their development and support workflows.</li>
+            <li><a href="https://www.mqttstudio.com">MQTT Studio</a> - A practical desktop and web client designed for developers to efficiently create, test, and manage MQTT-based applications, enhancing their development and support workflows.</li>
             <li><a href="https://mqtt-explorer.com">MQTT Explorer</a> - MQTT client to visualize, publish, subscribe, plot topics. Visualizes topics in a topic hierarchy. Intended for service integration, maintenance and refactorings.</li>
             <li><a href="https://github.com/francoisvdm/TT3">TT3</a> - a full featured windows MQTT client application using Paho libs.  Several additional features like performance testing and alerts.</li>
             <li><a href="http://kamilfb.github.io/mqtt-spy/">mqtt-spy</a> - the most advanced open source utility for monitoring activity on MQTT topics; based on the Paho Java client; for details see the <a href="http://kamilfb.github.io/mqtt-spy/">project's home page</a>.</li>
