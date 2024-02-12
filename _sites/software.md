@@ -233,6 +233,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
+         <img src="{{ 'assets/img/software/rumqtt.png' | relative_url }}" class="software-logo" alt="Rumqtt Logo">
+         <div class="panel-item-description"><a href="https://github.com/bytebeamio/rumqtt"><h3>Rumqttd</h3></a>
+         Rumqttd is a high performance MQTT broker written in Rust. It's light weight and embeddable, meaning you can use it as a library in your code and extend functionality.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/solace.png' | relative_url }}" class="software-logo" alt="Solace Logo">
          <div class="panel-item-description"><a href="http://dev.solacesystems.com/tech/"><h3>Solace</h3></a>
          Solace Message Routers (available as hardware and software) are message brokers that support MQTT, JMS, and REST among other APIs, protocols and qualities of service for enterprise messaging, data collection and web/mobile streaming. They support very high connection counts and throughput with built-in buffering to handle bursty traffic, and offer enterprise-class monitoring, high availability and security.
@@ -537,6 +544,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </ul>
       <div class="subhead">Rust</div>
       <ul>
+         <li><a href="https://github.com/bytebeamio/rumqtt">rumqttc</a> - A pure rust MQTT client which strives to be robust, efficient and easy to use supporting v3.1.1 and v5.0</li>
          <li><a href="https://github.com/GunnarMorrigan/mqrstt">mqrstt</a> - Pure rust MQTTv5 client</li>
       </ul>
       <div class="subhead">Shell Script</div>
