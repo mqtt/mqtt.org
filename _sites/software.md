@@ -399,6 +399,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <li><a href="https://github.com/redboltz/mqtt_cpp">mqtt_cpp</a> - MQTT client and server library based on C++14 and Boost.Asio. It supports MQTT v3.1.1 and v5.</li>
       <li><a href="https://github.com/redboltz/async_mqtt">async_mqtt</a> - MQTT client and server library based on C++17 and Boost.Asio. It supports MQTT v3.1.1 and v5.0. This is an evolved mqtt_cpp.</li>
       <li><a href="https://github.com/X-Ryl669/eMQTT5">eMQTT5</a> - MQTT 5.0 client.</li>
+      <li><a href="https://github.com/mireo/async-mqtt5">Async.MQTT5</a> - A professional, industrial-grade C++17 MQTT v5.0 client built on Boost.Asio.</li> 
       </ul>
       <div class="subhead">Clojure</div>
       <ul>
