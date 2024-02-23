@@ -302,6 +302,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <div class="panel">
    <!-- Entry -->
       <div class="panel-item">
+         <img src="{{ 'assets/img/software/coreflux.png' | relative_url }}" class="software-logo" alt="Coreflux Logo">
+         <div class="panel-item-description"><a href="https://mqtt.coreflux.org"><h3>Coreflux Cloud Broker</h3></a>
+         The Coreflux Cloud Broker aims to deliver an experience akin to an edge broker, but with a focus on scalability, integration, and zero-trust policies. It supports MQTT versions 3.1.1 and 5.0, and is designed to manage vast quantities of data from a variety of sources, including IoT devices, databases, applications, or external systems. The system is capable of running "flux assets" that function as connectors, orchestrators, or model generators. Often referred to as an <b>"MQTT Broker on Steroids"</b>, you can check the <a href="https://docs.coreflux.org">documentation</a> for more details. Additionally, you have the opportunity to set up a <a href="https://mqtt.coreflux.org">free 14-day MQTT cloud broker trial</a> by visiting Coreflux Cloud Broker.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/hivemq-cloud.svg' | relative_url }}" class="software-logo" style="height:95px; margin-top: 5px;" alt="HiveMQ Cloud Logo">
          <div class="panel-item-description"><a href="https://www.hivemq.com/mqtt-cloud-broker"><h3>HiveMQ Cloud️</h3></a>
          HiveMQ Cloud is a free cloud native IoT messaging broker that enables you to connect up to 100 devices. It supports the entire <a href="/mqtt-specification">MQTT specification</a>. For larger projects HiveMQ Cloud can scale up to support business critical solutions. <a href="https://console.hivemq.cloud/?utm_source=mqtt-org&utm_medium=cloud-brokers&utm_campaign=cloud">Sign up</a>.
