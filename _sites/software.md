@@ -602,7 +602,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="http://kamilfb.github.io/mqtt-spy/">mqtt-spy</a> - the most advanced open source utility for monitoring activity on MQTT topics; based on the Paho Java client; for details see the <a href="http://kamilfb.github.io/mqtt-spy/">project's home page</a>.</li>
             <li><a href="http://mqttfx.org/">MQTT.fx</a> - MQTT.fx is a MQTT Client written in Java based on Eclipse Paho.</li>
             <li><a href="https://github.com/gambitcomminc/mqtt-stats">mqtt-stats</a> - MQTT Topic Statistics</li>
-            <li><a href="https://github.com/emqx/MQTTX">MQTT X</a> - MQTT X is a cross-platform MQTT desktop client open sourced by EMQ, which supports macOS, Linux, and Windows. MQTT X adopts the form of chat interface, which simplifies the page operation, facilitates the user to quickly test the MQTT/MQTTS connection, publish and subscribe to MQTT messages.</li>
+            <li><a href="https://github.com/emqx/MQTTX">MQTTX</a> - MQTTX is a cross-platform MQTT desktop client open sourced by EMQ, which supports macOS, Linux, and Windows. MQTTX adopts the form of chat interface, which simplifies the page operation, facilitates the user to quickly test the MQTT/MQTTS connection, publish and subscribe to MQTT messages.</li>
             <li><a href="https://github.com/ptma/mqtt-insight">MqttInsight</a> - MqttInsight is an open source cross platform MQTT desktop client. Supports two message views: table and dialogue. And you can use scripts compatible with Node.js to extend message decoding, message forwarding, and other functions.</li>
          </ul>
          <div class="subhead">Command line tools</div>
