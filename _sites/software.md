@@ -226,6 +226,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
+         <img src="{{ 'assets/img/software/Quix_Logo_RGB_Positive.png' | relative_url }}" class="software-logo" alt="Quix Logo">
+         <div class="panel-item-description"><a href="https://quix.io/docs/kb/what-is-quix.html"><h3>Quix</h3></a>
+         Quix is an <a href="https://github.com/quixio/quix-streams">open source</a>Python library for stream processing data in Kafka. Designed around DataFrames, it provides a best in class Python developer experience for building real-time data pipelines. Stateful, scalable and fault tolerant. No wrappers. No JVM. No cross-language debugging. Deploy pipelines on premise or on Quix Cloud for easy management. Ingest data with a ready-to-run <a href="https://quix.io/docs/connectors/mqtt-source.html">MQTT connector</a>for simple integration. 
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/rabbitmq.png' | relative_url }}" class="software-logo" alt="RabbitMQ Logo">
          <div class="panel-item-description"><a href="http://rabbitmq.com/"><h3>RabbitMQ</h3></a>
          RabbitMQ is an AMQP message broker – with an <a href="http://www.rabbitmq.com/blog/2012/09/12/mqtt-adapter/">MQTT plugin</a> (bundled in version 3.x onwards). A public test server is also available (<a href="https://github.com/mqtt/mqtt.github.io/wiki/public_brokers">more information</a>).
