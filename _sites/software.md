@@ -226,7 +226,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
-         <img src="{{ 'assets/img/software/Quix_Logo_RGB_Positive.png' | relative_url }}" class="software-logo" alt="Quix Logo">
+         <img src="{{ 'assets/img/software/Quix-logo_150x65.png' | relative_url }}" class="software-logo" alt="Quix Logo">
          <div class="panel-item-description"><a href="https://quix.io/docs/kb/what-is-quix.html"><h3>Quix</h3></a>
          Quix is an <a href="https://github.com/quixio/quix-streams">open source</a> Python library for stream processing data in Kafka. Designed around DataFrames, it provides a best in class Python developer experience for building real-time data pipelines. Stateful, scalable and fault tolerant. No wrappers. No JVM. No cross-language debugging. Deploy pipelines on premise or on Quix Cloud for easy management. Ingest data with a ready-to-run <a href="https://quix.io/docs/connectors/mqtt-source.html">MQTT connector</a> for simple integration. 
          </div>
