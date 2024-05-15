@@ -404,6 +404,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://gitlab.com/rts_nepal/embedded/lwIP_mbedtls_mqtt_c">MQTT over lwIP</a> - MQTT C client for embedded systems using FreeRTOS, lwIP and mbedtls</li>
          <li><a href="http://smartfactory.openapc.com">libsmartfactory</a> - easy to use library for different Smart Factory/Industry 4.0 technologies including a MQTT client implementation</li>
          <li><a href="https://github.com/zhaojh329/libumqtt">libumqtt</a> - A Lightweight and fully asynchronous MQTT client C library based on libev</li>
+         <li><a href="https://github.com/innovasoft-org/libmqttcli">libmqttcli</a> - Easy to use, flexible and powerfull client library</li>
       </ul>
       <div class="subhead">C++</div>
       <ul>
