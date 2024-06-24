@@ -15,7 +15,7 @@ MQTT is used in a large variety of use cases and industries.
             <h2 id="automotive">Automotive</h2>
             <ul>
                <li>HiveMQ: <a href="https://www.hivemq.com/case-studies/bmw-mobility-services/">BMW Car-Sharing application</a> relies on HiveMQ for reliable connectivity.</li>
-               <li>EMQ helps <a href="https://www.emqx.com/en/blog/emqx-in-volkswagen-iov">SAIC Volkswagen building IoV platform</a>.</li>
+               <li>EMQ helps <a href="https://www.emqx.com/en/customers/saic-volkswagen">SAIC Volkswagen building IoV platform</a>.</li>
             </ul>
          </div>
       </article>
@@ -25,7 +25,7 @@ MQTT is used in a large variety of use cases and industries.
          <div class="use-case-description">
             <h2 id="logistics">Logistics</h2>
             <ul>
-               <li>Reliable IoT communication enables real-time monitoring of <a href="https://www.hivemq.com/case-studies/matternet/">Matternet’s autonomous drones</a>.</li>
+               <li><a href="https://www.hivemq.com/case-studies/large-transportation/">Transportation & Logistics</a> company cuts costs and improves asset tracking</a>.</li>
             </ul>
          </div>
       </article>
@@ -61,6 +61,8 @@ MQTT is used in a large variety of use cases and industries.
             <h2 id="oil-gas">Oil &amp; Gas</h2>
             <ul>
                <li>EMQ <a href="https://www.emqx.com/en/customers/emq-helps-innovation-in-the-oil-iot">helps IoT innovation in the petrochemical industry</a></li>
+               <li><a href="https://cirrus-link.com/wp-content/uploads/2022/05/Case-Study-Energy-Company-Maximizing-MQTT-for-Control-and-Efficient-Image-Data-Transfer-Final.pdf">Energy Company</a>maximizing MQTT for control</li>
+               <li>MQTT Implementation on Celikler Holding's <a href="https://www.bevywise.com/blog/iot-success-stories-mqtt-broker-celikler-holding/">power plant monitoring</a></li>
             </ul>
          </div>
       </article>
@@ -81,6 +83,7 @@ MQTT is used in a large variety of use cases and industries.
          <h2 id="transportation">Transportation</h2>
          <ul>
             <li>Deploying IoT on Germany's <a href="https://iot.eclipse.org/community/resources/case-studies/iot-on-railway-systems-db/">DB Railway System</a>.</li>
+            <li><a href="https://www.hivemq.com/case-studies/air-france-klm/">Air France-KLM Group</a>Improves Efficiency and Passenger Experience.</li>
          </ul>
       </div>
       </article>
