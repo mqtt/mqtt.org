@@ -41,8 +41,8 @@ MQTT is an OASIS standard. The specification is managed by the OASIS MQTT Techni
       formerly known as MQTT-S, is available<br/>
       &gt; <a href="https://www.oasis-open.org/committees/document.php?document_id=66091&wg_abbrev=mqtt">here</a>
       <br/><br/>
-      MQTT for Sensor Networks is aimed at embedded devices on non-TCP/IP networks, such as Zigbee. MQTT-SN is a publish/subscribe messaging protocol for wireless sensor networks (WSN), with the aim of extending the MQTT protocol beyond the reach of TCP/IP infrastructure for Sensor and Actuator solutions.<br/>
-      <a href="http://www.zurich.ibm.com/sys/energy/middleware.html">Read more about it at the IBM Zurich Research website</a>.
+      MQTT for Sensor Networks is aimed at embedded devices on non-TCP/IP networks, such as Zigbee. MQTT-SN is a publish/subscribe messaging protocol for wireless sensor networks (WSN), with the aim of extending the MQTT protocol beyond the reach of TCP/IP infrastructure for Sensor and Actuator solutions.
+      Read more about it on <a href="https://www.hivemq.com/blog/mqtt-sn-smart-choice-for-iiot/" target="_blank">HiveMQ’s blog</a>. 
    </article>
 </section>
 </section>
