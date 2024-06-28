@@ -25,7 +25,6 @@ MQTT is used in a large variety of use cases and industries.
          <div class="use-case-description">
             <h2 id="logistics">Logistics</h2>
             <ul>
-                <li>Reliable IoT communication enables real-time monitoring of <a href="https://www.hivemq.com/case-studies/matternet/" target="_blank">Matternet’s autonomous drones</a></li>
                <li><a href="https://www.hivemq.com/case-studies/large-transportation/" target="_blank">Transportation & Logistics company</a> cuts costs and improves asset tracking</li>
             </ul>
          </div>
