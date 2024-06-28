@@ -25,7 +25,7 @@ MQTT is used in a large variety of use cases and industries.
          <div class="use-case-description">
             <h2 id="logistics">Logistics</h2>
             <ul>
-               <li><a href="https://www.hivemq.com/case-studies/large-transportation/">Transportation & Logistics</a> company cuts costs and improves asset tracking</a>.</li>
+               <li><a href="https://www.hivemq.com/case-studies/large-transportation/">Transportation & Logistics company</a> cuts costs and improves asset tracking.</li>
             </ul>
          </div>
       </article>
@@ -50,7 +50,7 @@ MQTT is used in a large variety of use cases and industries.
             <ul>
                <li>IBM Telemetry use case: <a href="https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_8.0.0/com.ibm.mq.pro.doc/q002790_.htm">Home energy monitoring and control</a></li>
                <li>IBM Telemetry use case: <a href="https://www.ibm.com/support/knowledgecenter/en/SSFKSJ_8.0.0/com.ibm.mq.pro.doc/q002780_.htm">Home patient monitoring</a></li>
-               <li>The eFon Technology's <a href="https://www.bevywise.com/blog/iot-home-security-system-mqtt-broker/">Smart Home security system</a> trusts Bevywise MQTT Solution</li>
+               <li>The eFon Technology's <a href="https://www.bevywise.com/blog/iot-home-security-system-mqtt-broker/">Smart Home security system</a> trusts Bevywise MQTT solution</li>
             </ul>
          </div>
       </article>
@@ -58,11 +58,11 @@ MQTT is used in a large variety of use cases and industries.
       <article class="use-case">
          <img src="{{ '/assets/img/oil-and-gas.jpg' | relative_url }}" class="use-case-img">
          <div class="use-case-description">
-            <h2 id="oil-gas">Oil &amp; Gas</h2>
+            <h2 id="oil-gas">Energy</h2>
             <ul>
-               <li>EMQ <a href="https://www.emqx.com/en/customers/emq-helps-innovation-in-the-oil-iot">helps IoT innovation in the petrochemical industry</a></li>
-               <li><a href="https://cirrus-link.com/wp-content/uploads/2022/05/Case-Study-Energy-Company-Maximizing-MQTT-for-Control-and-Efficient-Image-Data-Transfer-Final.pdf">Energy Company</a>maximizing MQTT for control</li>
-               <li>MQTT Implementation on Celikler Holding's <a href="https://www.bevywise.com/blog/iot-success-stories-mqtt-broker-celikler-holding/">power plant monitoring</a></li>
+               <li>EMQ helps IoT innovation in the <a href="https://www.emqx.com/en/customers/emq-helps-innovation-in-the-oil-iot">petrochemical industry</a></li>
+               <li><a href="https://cirrus-link.com/wp-content/uploads/2022/05/Case-Study-Energy-Company-Maximizing-MQTT-for-Control-and-Efficient-Image-Data-Transfer-Final.pdf" target="_blank">Energy company</a> maximizing MQTT for control</li>
+               <li>MQTT implementation on Celikler Holding's <a href="https://www.bevywise.com/blog/iot-success-stories-mqtt-broker-celikler-holding/">power plant monitoring</a></li>
             </ul>
          </div>
       </article>
@@ -72,7 +72,7 @@ MQTT is used in a large variety of use cases and industries.
          <div class="use-case-description">
             <h2 id="consumer-products">Consumer Products</h2>
             <ul>
-               <li>CASO Design creates <a href="https://www.hivemq.com/case-studies/caso/">Smart Kitchen Appliances</a>.</li>
+               <li>CASO Design creates <a href="https://www.hivemq.com/case-studies/caso/">smart kitchen appliances</a>.</li>
             </ul>
          </div>
       </article>
@@ -82,8 +82,8 @@ MQTT is used in a large variety of use cases and industries.
          <div class="use-case-description">
          <h2 id="transportation">Transportation</h2>
          <ul>
-            <li>Deploying IoT on Germany's <a href="https://iot.eclipse.org/community/resources/case-studies/iot-on-railway-systems-db/">DB Railway System</a>.</li>
-            <li><a href="https://www.hivemq.com/case-studies/air-france-klm/">Air France-KLM Group</a>Improves Efficiency and Passenger Experience.</li>
+            <li>Deploying IoT on Germany's <a href="https://iot.eclipse.org/community/resources/case-studies/pdf/Eclipse%20IoT%20Success%20Story%20-%20DB.pdf">DB Railway System</a>.</li>
+            <li><a href="https://www.hivemq.com/case-studies/air-france-klm/">Air France-KLM Group</a> improves efficiency and passenger experience.</li>
          </ul>
       </div>
       </article>
