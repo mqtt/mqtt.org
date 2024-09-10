@@ -42,8 +42,8 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
    <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/mqtt-route.png' | relative_url }}" class="software-logo" alt="Bevywise Logo">
-         <div class="panel-item-description"><a href="https://www.bevywise.com/mqtt-broker/"><h3>Bevywise MQTT Broker</h3></a>
-         <a href="https://www.bevywise.com/mqtt-broker/">MQTTRoute</a> is a high performance broker.  The Secure MQTT Broker is written in C &amp; Python and works with all standard MQTT Clients. Bevywise MQTT Broker has a FREE and affordable premium version. MQTTRoute can be customized to write data to any data store using <a href="https://github.com/bevywise-networks/">standard connectors</a> or custom implementations. Try the <a href="https://www.bevywise.com/mqtt-broker/download.html">fully FREE version here</a>.
+         <div class="panel-item-description"><a href="https://www.bevywise.com/mqtt-broker/"><h3>Bevywise CrystalMQ (Formerly MQTTRoute)</h3></a>
+         <a href="https://www.bevywise.com/mqtt-broker/">CrystalMQ</a>, A high-performance MQTT broker designed for large-scale IoT deployments. Supports millions of connections with advanced features like multi-tenancy, clustering for high availability, and robust security controls. Ideal for industries needing real-time, low-latency communication. Broker can be customized to write data to any data store using <a href="https://github.com/bevywise-networks/">standard connectors</a> or custom implementations. Try the <a href="https://www.bevywise.com/mqtt-broker/download.html">fully FREE version here</a>.
          </div>
       </div>
    <!-- Entry -->
@@ -345,8 +345,8 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <!-- Entry -->
       <div class="panel-item">
          <img src="{{ 'assets/img/software/mqtt-route.png' | relative_url }}" class="software-logo" alt="MQTTRoute Logo">
-         <div class="panel-item-description"><a href="https://www.bevywise.com/hosted-mqtt-server/"><h3>CrystalMQ</h3></a>
-            <a href="https://www.bevywise.com/hosted-mqtt-server/">CrystalMQ, the Cloud MQTT Broker</a> provides a completely managed service that can smoothly scale to meet the demands of large IoT applications and provides the reliability business-critical systems require without any intricate set up & deployment. Try the <a href="https://www.bevywise.com/hosted-mqtt-server/signup.html">hosted version for FREE</a>.
+         <div class="panel-item-description"><a href="https://www.bevywise.com/hosted-mqtt-server/"><h3>CrystalMQ Cloud</h3></a>
+            <a href="https://www.bevywise.com/hosted-mqtt-server/">CrystalMQ, the Cloud MQTT Broker</a> is a fully hosted and managed MQTT broker solution designed for seamless IoT communication. Supports unlimited client connections with built-in scalability, real-time monitoring, and advanced security features. Ideal for businesses seeking hassle-free, cloud-native infrastructure for their IoT deployments. Try the <a href="https://myaccount.crystalmq.com/">cloud version for FREE</a>.
          </div>
       </div>
       <!-- Entry -->
