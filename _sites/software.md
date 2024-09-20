@@ -632,6 +632,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             </ul>
          <div class="subhead">Commercial Applications</div>
          <ul>
+            <li><a href="https://i-flow.io">i-flow</a> - is a tool that simplifies complex data handling between OT and IT systems through an MQTT based Industrial Unified Namespace (UNS), enabling seamless, scalable, and event-based communication across factory boundaries. </li>
             <li><a href="https://www.hivemq.com/hivemq-swarm/">HiveMQ Swarm</a> - provides the distributed simulation environment to successfully test millions of MQTT clients, millions of MQTT messages and hundreds of thousands MQTT topic names.</li>
             <li><a href="https://www.gambitcomm.com/site/mqttsimulator.php">MIMIC MQTT Simulator</a> - Thousands of publishers and/or subscribers for rapid prototyping of IoT Applications, performance testing and tuning of deployments.</li>
             <li><a href="https://www.bevywise.com/iot-simulator/">Bevywise IoT Simulator</a> - IoT Simulator provides complete functional and performance testing tools for the MQTT Platform, Application &amp; Devices Development.</li>
