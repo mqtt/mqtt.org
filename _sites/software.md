@@ -41,6 +41,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
+         <img src="{{ 'assets/img/software/async-mqtt.png' | relative_url }}" class="software-logo" alt="async_mqtt Logo">
+         <div class="panel-item-description"><a href="https://github.com/redboltz/async_mqtt"><h3>async_mqtt</h3></a>
+            An open-source MQTT broker using C++17 that supports MQTT v3.1.1 and v5.0. It also supports TLS, WebSocket, and multi-core scale-out. Licensed under the Boost Software License - Version 1.0.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/mqtt-route.png' | relative_url }}" class="software-logo" alt="Bevywise Logo">
          <div class="panel-item-description"><a href="https://www.bevywise.com/mqtt-broker/"><h3>Bevywise CrystalMQ (Formerly MQTTRoute)</h3></a>
          <a href="https://www.bevywise.com/mqtt-broker/">CrystalMQ</a>, A high-performance MQTT broker designed for large-scale IoT deployments. Supports millions of connections with advanced features like multi-tenancy, clustering for high availability, and robust security controls. Ideal for industries needing real-time, low-latency communication. Broker can be customized to write data to any data store using <a href="https://github.com/bevywise-networks/">standard connectors</a> or custom implementations. Try the <a href="https://www.bevywise.com/mqtt-broker/download.html">fully FREE version here</a>.
@@ -412,7 +419,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <li><a href="http://mosquitto.org">libmosquittopp</a></li>
       <li><a href="https://www.eclipse.org/paho/clients/c/embedded/">Eclipse Paho Embedded C++</a></li>
       <li><a href="https://github.com/redboltz/mqtt_cpp">mqtt_cpp</a> - MQTT client and server library based on C++14 and Boost.Asio. It supports MQTT v3.1.1 and v5.</li>
-      <li><a href="https://github.com/redboltz/async_mqtt">async_mqtt</a> - MQTT client and server library based on C++17 and Boost.Asio. It supports MQTT v3.1.1 and v5.0. This is an evolved mqtt_cpp.</li>
+      <li><a href="https://github.com/redboltz/async_mqtt">async_mqtt</a> - An I/O-independent (also known as Sans-I/O) MQTT protocol library for C++17. Additionally, it includes a Boost.Asio binding for asynchronous MQTT communication and can be used for developing both MQTT clients and servers. Licensed under the Boost Software License - Version 1.0.</li>
       <li><a href="https://github.com/X-Ryl669/eMQTT5">eMQTT5</a> - MQTT 5.0 client.</li>
       <li><a href="https://github.com/mireo/async-mqtt5">Async.MQTT5</a> - A professional, industrial-grade C++17 MQTT v5.0 client built on Boost.Asio.</li> 
       </ul>
