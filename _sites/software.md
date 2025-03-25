@@ -404,6 +404,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://www.eclipse.org/paho/clients/c/embedded/">Eclipse Paho Embedded C</a></li>
          <li><a href="http://mosquitto.org">libmosquitto</a></li>
          <li><a href="https://github.com/menudoproblema/libemqtt">libemqtt</a> - an embedded C client</li>
+         <li><a href="https://mongoose.ws">Mongoose Web Server</a> - Embedded Web Server for C/C++ - <a href="https://mongoose.ws/documentation/tutorials/mqtt/mqtt-client/">MQTT client</a> - <a href="https://mongoose.ws/documentation/tutorials/mqtt/mqtt-server/">MQTT Server</a></li>
          <li><a href="https://github.com/LiamBindle/MQTT-C">MQTT-C</a> - A portable MQTT C client for embedded systems and PCs alike.</li>
          <li><a href="https://github.com/wolfSSL/wolfMQTT">wolfMQTT</a> - Embedded C client</li>
          <li><a href="https://github.com/RealTimeLogic/SharkSSL/blob/main/src/SharkMQTT.c">SharkMQTT</a> - Embedded C client - <a href="https://realtimelogic.com/products/sharkmqtt/">more information</a> - <a href="https://realtimelogic.com/ba/doc/en/C/shark/group__MQTTLib.html">documentation</a></li>
