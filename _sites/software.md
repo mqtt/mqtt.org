@@ -309,6 +309,14 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
           The <a href="https://harksys.com">Hark</a> broker is an MQTT broker written in C# for edge to cloud communication. This broker supports TLS/SSL for layered security and functions as a stand alone broker that can subscribe to topics from other applications (not just The Hark Platform). Hark's low-code solution supports an extremely large number of connections while maintaining security at its core.
         </div>
       </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="Easy MQTT Logo">
+         <div class="panel-item-description"><a href="https://github.com/EasyProgramming/easy-mqtt"><h3>Easy MQTT</h3></a>
+            A simple, practical, and high-performance MQTT broker that supports both standalone and clustered modes, as well as data persistence.
+            Easy MQTT is built around the core concept of "minimalism," aiming to provide a stable and reliable messaging service for scenarios such as IoT, industrial automation, and instant messaging.
+         </div>
+      </div>
    <!-- closing div -->
    </div>
    <!-- End of Servers / Brokers Panel -->
