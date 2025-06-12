@@ -371,6 +371,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
           The <a href="https://harksys.com">Hark</a> Platform provides a cloud native hosted MQTT services with support for managing users, ACLs at a tennanted level. Additional features such as triggers, automations and integrations allow users to rapidly deploy IoT solutions in a serverless fashion. Use cases include sensors, industrial assets and other internet connected devices. <a href="https://harksys.com/contact/">Get a free trial.</a>
         </div>
       </div>
+      <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/cloudamqp-logo.svg' | relative_url }}" class="software-logo" alt="CloudAMQP Logo">
+        <div class="panel-item-description"><a href="https://cloudamqp.com/"><h3>CloudAMQP</h3></a>
+          CloudAMQP provides fully managed LavinMQ and RabbitMQ clusters with MQTT support. Free plans are available!
+        </div>
+      </div>
    <!-- closing div -->
    </div>
    <!-- Cloud Brokers End -->
