@@ -437,6 +437,10 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="http://clojuremqtt.info">Machine Head</a></li>
          <li><a href="https://github.com/xively/clj-mqtt/">Clojure MQTT Codec for Netty</a></li>
       </ul>
+      <div class="subhead">Crystal</div>
+      <ul>
+         <li><a href="https://github.com/cloudamqp/mqtt-client.cr">mqtt-client.cr</a></li>
+      </ul>
       <div class="subhead">Dart</div>
       <ul>
          <li><a href="http://pub.dartlang.org/packages/mqtt">mqtt.dart</a></li>
