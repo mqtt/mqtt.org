@@ -317,6 +317,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             Easy MQTT is built around the core concept of "minimalism," aiming to provide a stable and reliable messaging service for scenarios such as IoT, industrial automation, and instant messaging.
          </div>
       </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/lavinmq-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="LavinMQ Logo">
+         <div class="panel-item-description"><a href="https://lavinmq.com"><h3>LavinMQ</h3></a>
+            LavinMQ is designed as a lightweight and fast message broker that can support millions of connections.
+         </div>
+      </div>
    <!-- closing div -->
    </div>
    <!-- End of Servers / Brokers Panel -->
