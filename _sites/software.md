@@ -57,8 +57,8 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       <div class="panel-item">
           <img src="{{ 'assets/img/software/bifromq.png' | relative_url }}" class="software-logo" alt="BifroMQ Logo">
           <div class="panel-item-description">
-          <a href="https://bifromq.io"><h3>BifroMQ</h3></a>
-          <p><a href="https://bifromq.io">BifroMQ</a>, open-sourced by <b>Baidu</b>, is a distributed MQTT messaging middleware designed for high performance. Its standout feature is the native multi-tenancy support, which enhances resource sharing and workload isolation. The system's architecture integrates a distributed storage engine, tailored for environments with high load, reducing reliance on external middleware. BifroMQ is well-suited for developing large IoT networks and messaging systems, providing scalable, cloud-based, serverless solutions for extensive operations.</p>
+          <a href="https://bifromq.apache.org"><h3>Apache BifroMQ</h3></a>
+          <p><a href="https://bifromq.apache.org">Apache BifroMQ</a> is a distributed MQTT messaging middleware optimized for high-performance scenarios. Its key feature is native multi-tenancy, enabling efficient resource sharing and strict workload isolation across tenants. The architecture incorporates a purpose-built distributed storage engine, minimizing dependency on external middleware components, even under heavy load. BifroMQ is particularly well-suited for building large-scale IoT infrastructures and messaging platforms, offering scalable, cloud-native, and serverless deployment options for demanding production environments.</p>
            </div>
       </div>
    <!-- Entry -->
