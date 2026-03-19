@@ -684,6 +684,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
              <li><a href="https://www.ioctrl.com/mqttdesk/">ioctrl -MqttDesk MQTT Client</a> - MqttDesk is a Cross-Platform MQTT desktop Client with an easy &amp; customizable Dashboard, Connections &amp; Widgets developed for Makers, Freelancers, Prototypes &amp; Enterprises by ioCtrl.</li>
              <li><a href="https://www.emqx.com/en/products/xmeter">XMeter</a> - Based on open-source Apache JMeter project and mqtt-jmeter plugin, XMeter provides a testing SaaS service to simulate millions of MQTT clients and MQTT messages.</li> 
             <li><a href="https://mqtt-ble.com">MQTTfy AI Powered -MQTT Client</a> - MQTTfy provides a powerful, real-time, and configurable dashboard to monitor and interact with your MQTT devices and applications. Perfect for IoT, IIoT, and home automation..</li>
+            <li><a href="https://iotellect.com">Iotellect</a> - A low-code IoT platform with built-in MQTT support for device connectivity, data collection, and real-time visualization. Enables rapid development of IoT solutions with drag-and-drop UI building, protocol translation (MQTT, OPC UA, Modbus), and edge-to-cloud data processing.</li>
          </ul>
          <div class="subhead">Desktop notification tools</div>
          <ul>
