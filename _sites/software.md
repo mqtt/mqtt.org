@@ -325,10 +325,17 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </div>
       </div>
     <!-- Entry -->
-      <div class="panel-item last">
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/tbmq.svg' | relative_url }}" class="software-logo mqtt-logo" alt="TBMQ Logo">
          <div class="panel-item-description"><a href="https://thingsboard.io/products/mqtt-broker"><h3>TBMQ</h3></a>
             <a href="https://github.com/thingsboard/tbmq">TBMQ</a> is an open-source, highly scalable, and durable MQTT message broker developed by <a href="https://thingsboard.io">ThingsBoard</a> for real-time data processing across IoT ecosystems of any scale. It efficiently handles millions of concurrent client connections and processes millions of messages per second while maintaining low latency and reliable delivery. Designed for horizontal scalability, TBMQ seamlessly expands across cluster nodes to support massive deployments with millions of connected devices.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item last">
+         <img src="{{ 'assets/img/mqtt-logo.svg' | relative_url }}" class="software-logo mqtt-logo" alt="mqtt5 Logo">
+         <div class="panel-item-description"><a href="https://github.com/LabOverWire/mqtt-lib"><h3>mqtt5</h3></a>
+            mqtt5 is an async MQTT v5.0 broker written in Rust. It supports TCP, TLS, WebSocket, and QUIC transports with authentication, ACL, topic-based authorization, bridging, and persistent sessions.
          </div>
       </div>
    <!-- closing div -->
