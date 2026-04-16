@@ -6,8 +6,20 @@ description: Useful resources to get you started with MQTT, the standard messagi
 
 <div class="content-floating">
    <h1>Getting started</h1>
+
    <section style="margin: 50px 0;">
-      <div class="round-number">1</div>
+      <div class="round-number" style="background-color: #ff8800;">1</div>
+      <article class="indented">
+         <h2>The Strategic Case for MQTT</h2>
+         <h3><a href="{{ '/why-mqtt/' | relative_url }}" alt="Why MQTT" title="Why MQTT">Why Technical Leaders Choose MQTT</a></h3>
+         Learn why CTOs and decision-makers utilize MQTT for scalable, reliable IoT and event-driven architectures.
+         <br/><br/>
+         <a href="{{ '/why-mqtt/' | relative_url }}" style="font-weight: bold; padding: 10px 15px; background: #660066; color: white; border-radius: 5px; display: inline-block; margin-top: 5px;">Read the Strategic Guide</a>
+      </article>
+   </section>
+
+   <section style="margin: 50px 0;">
+      <div class="round-number">2</div>
       <article class="indented">
          <h2>Basic Concepts</h2>
          <h3><a href="https://www.hivemq.com/mqtt-essentials/" alt="HiveMQ MQTT Essentials" title="HiveMQ MQTT Essentials">MQTT Essentials</a></h3>
@@ -19,7 +31,7 @@ description: Useful resources to get you started with MQTT, the standard messagi
    </section>
 
    <section style="margin-bottom: 200px;">
-      <div class="round-number">2</div>
+      <div class="round-number">3</div>
       <article class="indented">
          <h2>Getting started tutorials</h2>
          <h3><a href="http://www.steves-internet-guide.com/mqtt-works/" alt="Steve‘s internet guide" title="Steve‘s internet guide">How MQTT Works - Beginners Course</a></h3>
