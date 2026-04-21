@@ -673,6 +673,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
                <li><a href="https://everything.curl.dev/usingcurl/mqtt">curl</a> - Basic support for publish and subscribe.</li>
                <li><a href="https://nanomq.io">NanoMQ pub/sub</a> - A high performance command-line toolkit for MQTT debugging and benchmarking, provided with nanomq package, backed by EMQ.</li>
                <li><a href="https://github.com/volkanalkilic/ThingsOn.MQTT.Bench">ThingsOn MQTT Bench</a> - ThingsOn MQTT Bench is a simple Cross-platform .NET Core benchmark tool for MQTT brokers. It measures the maximum number of messages that can be sent to the broker in a specified amount of time.</li>
+               <li><a href="https://github.com/LabOverWire/mqtt-lib">mqttv5</a> - A unified MQTT v5.0 CLI for publishing, subscribing, running a broker, and benchmarking over TCP, TLS, WebSocket, and QUIC.</li>
             </ul>
          <div class="subhead">Commercial Applications</div>
          <ul>
