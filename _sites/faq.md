@@ -9,7 +9,7 @@ description: Frequently asked questions about MQTT and a dictionary of terms and
 <div class="accordion-wrapper" style="margin-bottom: 50px;">
    <button class="accordion">What is MQTT?</button>
    <div class="panel">
-      <p>MQTT is an OASIS standard for IoT connectivity. It is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for constrained devices and low-bandwidth, high-latency or unreliable networks. The design principles are to minimise network bandwidth and device resource requirements whilst also attempting to ensure reliability and some degree of assurance of delivery. These principles also turn out to make the protocol ideal of the “Internet of Things” world of connected devices, and for mobile applications where bandwidth and battery power are at a premium.</p>
+      <p>MQTT is an OASIS standard for IoT connectivity. It is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for constrained devices and low-bandwidth, high-latency or unreliable networks. The design principles are to minimise network bandwidth and device resource requirements whilst also attempting to ensure reliability and some degree of assurance of delivery. These principles also turn out to make the protocol ideal for the “Internet of Things” world of connected devices, and for mobile applications where bandwidth and battery power are at a premium.</p>
    </div>
    <button class="accordion">Who invented MQTT?</button>
    <div class="panel">
