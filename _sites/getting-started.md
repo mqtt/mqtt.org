@@ -6,6 +6,7 @@ description: Useful resources to get you started with MQTT, the standard messagi
 
 <div class="content-floating">
    <h1>Getting started</h1>
+
    <section style="margin: 50px 0;">
       <div class="round-number">1</div>
       <article class="indented">
