@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 vendor
 version-2.md
+.bundle/
