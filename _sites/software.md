@@ -580,6 +580,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/adamvr/MQTT-For-Twisted-Python">MQTT for twisted python</a></li>
          <li><a href="https://github.com/beerfactory/hbmqtt">HBMQTT</a></li>
          <li><a href="https://github.com/eerimoq/mqttools">mqttools</a></li>
+         <li><a href="https://github.com/faststream-community/zMQTT">zmqtt</a></li>
       </ul>
       <div class="subhead">REXX</div>
       <ul>
