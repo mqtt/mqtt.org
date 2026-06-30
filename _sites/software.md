@@ -605,6 +605,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/GunnarMorrigan/mqrstt">mqrstt</a> - Pure rust MQTTv5 client</li>
          <li><a href="https://github.com/redboltz/mqtt-protocol-core">mqtt-protocol-core</a> - A Sans-I/O style MQTT protocol library for Rust that supports both MQTT v5.0 and v3.1.1.</li>
          <li><a href="https://github.com/redboltz/mqtt-endpoint-tokio">mqtt-endpoint-tokio</a> - A high-performance async MQTT client/server library for Rust with tokio, supporting MQTT v5.0 and v3.1.1 with TCP, TLS, and WebSocket transports.</li>
+         <li><a href="https://github.com/holovskyi/mqtt-typed-client">mqtt-typed-client</a> - Type-safe async MQTT client built on rumqttc, with derive macros for typed topics, automatic (de)serialization and tree-based message routing.</li>
       </ul>
       <div class="subhead">Shell Script</div>
       <ul>
