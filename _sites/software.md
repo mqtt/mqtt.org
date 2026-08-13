@@ -664,6 +664,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="https://github.com/ptma/mqtt-insight">MqttInsight</a> - MqttInsight is an open source cross platform MQTT desktop client. Supports two message views: table and dialogue. And you can use scripts compatible with Node.js to extend message decoding, message forwarding, and other functions.</li>
             <li><a href="https://github.com/ChxGuillaume/MQ3T">MQ3T</a> - A simple MQTT Desktop Client for developers. It allows you to visualize your MQTT Broker in a tree view, it also has an action system that helps you to repeat actions with the click of a button.</li>
             <li><a href="https://mqttviewer.app/">MQTT Viewer</a> - The modern and open-source MQTT debugging and visualisation tool for Windows, Mac and Linux.</li>
+            <li><a href="https://github.com/zouri/mqtt-plus">MQTT Plus</a> - An open-source, cross-platform desktop MQTT client for Windows, macOS, and Linux. It supports MQTT 5.0 and 3.1.1, multi-connection workflows, payload decoding, persistent message history, and Lua and JavaScript message processors.</li>
          </ul>
          <div class="subhead">Command line tools</div>
             <ul>
