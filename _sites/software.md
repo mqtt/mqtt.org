@@ -673,6 +673,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
                <li><a href="https://everything.curl.dev/usingcurl/mqtt">curl</a> - Basic support for publish and subscribe.</li>
                <li><a href="https://nanomq.io">NanoMQ pub/sub</a> - A high performance command-line toolkit for MQTT debugging and benchmarking, provided with nanomq package, backed by EMQ.</li>
                <li><a href="https://github.com/volkanalkilic/ThingsOn.MQTT.Bench">ThingsOn MQTT Bench</a> - ThingsOn MQTT Bench is a simple Cross-platform .NET Core benchmark tool for MQTT brokers. It measures the maximum number of messages that can be sent to the broker in a specified amount of time.</li>
+               <li><a href="https://github.com/Onizuka893/lazymqtt">lazymqtt</a> - an open source, keyboard-driven terminal UI (TUI) MQTT client for Linux and macOS, in the spirit of lazygit and lazydocker. Shipped as a single static Go binary, it provides a live topic tree with per-topic message history, pretty-printed and syntax-highlighted JSON payloads, runtime publish/subscribe/unsubscribe, incremental filtering and clipboard copy over OSC52 for use across SSH.</li>
             </ul>
          <div class="subhead">Commercial Applications</div>
          <ul>
