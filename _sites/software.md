@@ -667,6 +667,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </ul>
          <div class="subhead">Command line tools</div>
             <ul>
+               <li><a href="https://github.com/ScottFelder/lazymqtt">LazyMQTT</a> - Terminal UI MQTT client with features like saved connections, live topic tree, message inspector, and plugins.</li>
                <li><a href="http://mosquitto.org">mosquitto_pub/mosquitto_sub</a> - Publish/Subscribe command line clients, provided with the mosquitto package.</li>
                <li><a href="http://kamilfb.github.io/mqtt-spy/">mqtt-spy-daemon</a> - a headless (command-line) version of mqtt-spy; for details see the <a href="http://kamilfb.github.io/mqtt-spy/">project's home page</a>.</li>
                <li><a href="https://github.com/hivemq/mqtt-cli/">MQTT CLI</a> is a useful command line interface for connecting various MQTT clients supporting MQTT 5.0 and 3.1.1 backed by the HiveMQ team.</li>
