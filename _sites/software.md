@@ -650,6 +650,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </ul>
          <div class="subhead">Mobile tools</div>
          <ul>
+            <li><a href="https://mqttcommander.com">MQTT Commander</a> - Native iPhone and iPad client. Builds the broker's topic tree with the latest value next to each topic, pins topics to a live board, and inspects JSON payloads field by field. Connection Doctor walks a failed connection in 13 stages and names the one that broke: DNS, TCP, TLS, certificate chain, hostname, ALPN/SNI, CONNACK, authentication. Supports MQTT 3.1.1 and 5.0 over TCP, TLS, mTLS and WebSocket.</li>
             <li><a href="https://mymqtt.app">MyMQTT</a> - The simple Message Queuing Telemetry Transport client for Android and iOS</li>
          </ul>
          <div class="subhead">Desktop tools</div>
