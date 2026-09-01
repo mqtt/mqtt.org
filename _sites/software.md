@@ -650,6 +650,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </ul>
          <div class="subhead">Mobile tools</div>
          <ul>
+            <li><a href="https://mqttcommander.com">MQTT Commander</a> - Native MQTT client for iPhone and iPad. Shows live values in a broker topic tree, pins topics to a board, and inspects JSON payloads. Connection Doctor tests 13 stages from DNS and TCP through TLS, certificates, CONNACK, authentication, and broker write access. Supports MQTT 3.1.1 and 5.0 over TCP, TLS, mTLS and WebSocket.</li>
             <li><a href="https://mymqtt.app">MyMQTT</a> - The simple Message Queuing Telemetry Transport client for Android and iOS</li>
          </ul>
          <div class="subhead">Desktop tools</div>
