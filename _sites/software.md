@@ -331,6 +331,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <a href="https://github.com/thingsboard/tbmq">TBMQ</a> is an open-source, highly scalable, and durable MQTT message broker developed by <a href="https://thingsboard.io">ThingsBoard</a> for real-time data processing across IoT ecosystems of any scale. It efficiently handles millions of concurrent client connections and processes millions of messages per second while maintaining low latency and reliable delivery. Designed for horizontal scalability, TBMQ seamlessly expands across cluster nodes to support massive deployments with millions of connected devices.
          </div>
       </div>
+   <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/mica-mqtt.png' | relative_url }}" class="software-logo" alt="mica-mqtt Logo" style="object-fit: contain;">
+         <div class="panel-item-description"><a href="https://github.com/dromara/mica-mqtt"><h3>mica-mqtt</h3></a>
+         mica-mqtt is an open-source, simple, easy-to-use, low-latency, and high-performance Java MQTT client component and Java MQTT broker service based on Java AIO. It supports MQTT v3.1, v3.1.1, and v5.0, WebSocket, HTTP REST APIs, and integrations for Spring Boot, Solon, and JFinal.
+         </div>
+      </div>
    <!-- closing div -->
    </div>
    <!-- End of Servers / Brokers Panel -->
@@ -513,6 +520,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://vertx.io/docs/vertx-mqtt/java/#_vert_x_mqtt_client">vertx-mqtt-client</a> is an open-source, high performance, non-blocking MQTT client built as a part of vert.x's JVM toolkit.</li>
          <li><a href="https://github.com/TwoGuysFromKabul/xenqtt">Xenqtt</a> - <a href="http://xenqtt.sf.net/">documentation</a> Includes a client library, mock broker for unit/integration testing, and applications to support enterprise needs like using a cluster of servers as a single client, an HTTP gateway, etc.</li>
          <li><a href="https://micronaut-projects.github.io/micronaut-mqtt/latest/guide/">Micronaut MQTT</a> - integration between <a href="https://micronaut.io">Micronaut Framework</a> and MQTT.etc.</li>         
+         <li><a href="https://github.com/dromara/mica-mqtt">mica-mqtt</a> - an open-source, low-latency, high-performance Java MQTT client component and broker service based on Java AIO, with support for MQTT v3.1, v3.1.1, and v5.0.</li>
       </ul>
       <div class="subhead">Javascript / Node.js</div>
       <ul>
