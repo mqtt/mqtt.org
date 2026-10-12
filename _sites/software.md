@@ -490,6 +490,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/eclipse/paho.mqtt.golang">Eclipse Paho Go</a></li>
          <li><a href="https://github.com/jeffallen/mqtt">mqtt by jeffallen</a></li>
          <li><a href="https://github.com/pascaldekloe/mqtt">MQTT🤖</a></li>
+         <li><a href="https://github.com/ashtonian/mqttv5">mqttv5</a> - MQTT v5 client with allocation-free PUBLISH decoding, session resume, file-backed QoS 1/2 persistence and multi-broker failover</li>
          <li><a href="https://github.com/soypat/natiu-mqtt">natiu-mqtt</a> - Dead simple, small MQTT implementation well suited for embedded systems</li>
       </ul>
       <div class="subhead">Haskell</div>
