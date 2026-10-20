@@ -276,6 +276,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
       </div>
    <!-- Entry -->
       <div class="panel-item">
+         <img src="{{ 'assets/img/software/velamq.png' | relative_url }}" class="software-logo" alt="VelaMQ Logo">
+         <div class="panel-item-description"><a href="https://www.velamq.com/"><h3>VelaMQ</h3></a>
+            VelaMQ is a self-hosted MQTT broker built in Rust. It supports MQTT 3.1.1 and 5.0, TLS and WebSocket connections, clustering, authentication and topic ACLs, and a SQL rule engine for integrating device data with external systems.
+         </div>
+      </div>
+   <!-- Entry -->
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/vernemq.png' | relative_url }}" class="software-logo" alt="VerneMQ Logo">
          <div class="panel-item-description"><a href="http://verne.mq/"><h3>VerneMQ</h3></a>
          VerneMQ is an enterprise ready, high-performance, distributed MQTT message broker. It scales horizontally and vertically on commodity hardware to support a high number of concurrent publishers and consumers while maintaining low and predictable latency and fault tolerance. VerneMQ plugins can be developed in Erlang, Elixir, Lua, and any programming language that can implement HTTP WebHooks. VerneMQ uses modern broadcast protocols and LevelDB for state replication in a cluster. VerneMQ is Open Source and Apache2 licensed.
