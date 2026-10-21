@@ -325,10 +325,17 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          </div>
       </div>
     <!-- Entry -->
-      <div class="panel-item last">
+      <div class="panel-item">
          <img src="{{ 'assets/img/software/tbmq.svg' | relative_url }}" class="software-logo mqtt-logo" alt="TBMQ Logo">
          <div class="panel-item-description"><a href="https://thingsboard.io/products/mqtt-broker"><h3>TBMQ</h3></a>
             <a href="https://github.com/thingsboard/tbmq">TBMQ</a> is an open-source, highly scalable, and durable MQTT message broker developed by <a href="https://thingsboard.io">ThingsBoard</a> for real-time data processing across IoT ecosystems of any scale. It efficiently handles millions of concurrent client connections and processes millions of messages per second while maintaining low latency and reliable delivery. Designed for horizontal scalability, TBMQ seamlessly expands across cluster nodes to support massive deployments with millions of connected devices.
+         </div>
+      </div>
+    <!-- Entry -->
+      <div class="panel-item last">
+         <img src="{{ 'assets/img/software/straum.svg' | relative_url }}" class="software-logo mqtt-logo" alt="Straum Logo">
+         <div class="panel-item-description"><a href="https://straum-io.github.io/"><h3>Straum</h3></a>
+            <a href="https://github.com/straum-io/straum">Straum</a> is an experimental, open-source (Apache 2.0) clustered MQTT 3.1.1 and 5 broker. It sends a PUBACK only after a majority of its nodes has committed the message to one replicated log, so a three-node cluster keeps every acknowledged message when one node dies.
          </div>
       </div>
    <!-- closing div -->
