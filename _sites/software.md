@@ -392,6 +392,13 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
           CloudAMQP provides fully managed LavinMQ and RabbitMQ clusters with MQTT support. Free plans are available!
         </div>
       </div>
+      <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/connectmq.svg' | relative_url }}" class="software-logo" alt="ConnectMQ Logo">
+         <div class="panel-item-description"><a href="https://connectmq.com/"><h3>ConnectMQ</h3></a>
+            ConnectMQ is a managed MQTT broker for IoT: a private MQTT 3.1.1 and MQTT 5.0 broker with TLS and WebSockets, without running servers. Paid plans add per-topic access control (ACL). <a href="https://connectmq.com/">Start with the free plan</a>, no credit card required.
+         </div>
+      </div>
    <!-- closing div -->
    </div>
    <!-- Cloud Brokers End -->
@@ -642,6 +649,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="http://mqttlab.iotsim.io">IOTSIM.IO</a> - SaaS MQTT lab for web-based MQTT testing.</li>
             <li><a href="http://tools.emqx.io">MQTT WebSocket Toolkit</a> - MQTT WebSocket Toolkit adopts the form of chat interface, simplifies the page operation logic, and facilitates users to test and verify MQTT application scenarios quickly.</li>
             <li><a href="https://testclient-cloud.mqtt.cool/">MQTT.Cool Test Client</a> - A web interface for testing interaction between MQTT.Cool and any MQTT broker.</li>
+            <li><a href="https://testmqtt.com/">TestMQTT</a> - Free browser-based MQTT client for testing any broker over WebSockets: connect, subscribe, publish and debug topics with no install or sign-up.</li>
          </ul>
          <div class="subhead">Mobile platforms</div>
          <ul>
