@@ -642,6 +642,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
             <li><a href="http://mqttlab.iotsim.io">IOTSIM.IO</a> - SaaS MQTT lab for web-based MQTT testing.</li>
             <li><a href="http://tools.emqx.io">MQTT WebSocket Toolkit</a> - MQTT WebSocket Toolkit adopts the form of chat interface, simplifies the page operation logic, and facilitates users to test and verify MQTT application scenarios quickly.</li>
             <li><a href="https://testclient-cloud.mqtt.cool/">MQTT.Cool Test Client</a> - A web interface for testing interaction between MQTT.Cool and any MQTT broker.</li>
+            <li><a href="https://github.com/libredb/libredb-studio">LibreDB Studio</a> - Open source web database IDE with a read-only MQTT 5.0 connection: browse a broker's live topic tree with retained messages and read topics, including Sparkplug B payloads.</li>
          </ul>
          <div class="subhead">Mobile platforms</div>
          <ul>
