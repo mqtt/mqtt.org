@@ -651,6 +651,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <div class="subhead">Mobile tools</div>
          <ul>
             <li><a href="https://mymqtt.app">MyMQTT</a> - The simple Message Queuing Telemetry Transport client for Android and iOS</li>
+            <li><a href="https://routix-dash.com">Routix Dash</a> - Live dashboard app for iPhone and iPad. Shows MQTT topics (and HTTP, WebSocket and SSE data) as cards with gauges, charts, switches and sliders, and publishes back to the broker from taps.</li>
          </ul>
          <div class="subhead">Desktop tools</div>
             <ul>
