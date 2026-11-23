@@ -508,6 +508,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/Wizzercn/MqttWk">MqttWk</a></li>
          <li><a href="https://github.com/hivemq/hivemq-mqtt-client">HiveMQ MQTT Client</a> - MQTT 5.0 and MQTT 3.1.1 compatible and feature-rich high-performance Java client library with different API flavours and backpressure support</li>
          <li><a href="http://www-01.ibm.com/support/docview.wss?rs=171&amp;uid=swg24006006&amp;loc=en_US&amp;cs=utf-8&amp;lang=en">IA92</a> - <em>deprecated</em> IBM IA92 support pack, use Eclipse Paho GUI client instead. A useful MQTT Java swing GUI for publishing &amp; subscribing. The Eclipse Paho GUI is identical but uses newer client code</li>
+         <li><a href="https://www.indi-an.com/en/plccom/mqtt/mqtt-overview/">PLCcom MQTT SDK</a> - Commercial MQTT client and broker library for Java, MQTT 5.0 and 3.1.1, TLS, embeddable broker.</li>
          <li><a href="https://github.com/Qatja">Qatja</a> is a Java client library for MQTT 3.1.1 with specific implementation for Android and Processing</li>
          <li><a href="https://github.com/Sentienz/akiro-clients">Sentienz Akiro MQTT Client</a> - MQTT 3.1.1 compatible <a href="https://theakiro.com/">Akiro MQTT broker</a> Java client with callbacks.</li>
          <li><a href="https://vertx.io/docs/vertx-mqtt/java/#_vert_x_mqtt_client">vertx-mqtt-client</a> is an open-source, high performance, non-blocking MQTT client built as a part of vert.x's JVM toolkit.</li>
@@ -543,6 +544,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <li><a href="https://github.com/markallanson/nmqtt">nMQTT</a></li>
          <li><a href="https://github.com/eclipse/paho.mqtt.m2mqtt">M2MQTT</a></li>
          <li><a href="https://github.com/xljiulang/Paho.MqttDotnet/">Paho.MqttDotnet</a></li>
+         <li><a href="https://www.indi-an.com/en/plccom/mqtt/mqtt-overview/">PLCcom MQTT SDK</a> - Commercial MQTT client and broker library for .NET (C#, VB.NET), MQTT 5.0 and 3.1.1, TLS, embeddable broker.</li>
          <li><a href="https://github.com/ericvoid/StriderMqtt">StriderMqtt</a></li>
          <li><a href="https://github.com/xamarin/mqtt">xamarin mqtt</a></li>
       </ul>
