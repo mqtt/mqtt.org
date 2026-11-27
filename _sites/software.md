@@ -404,7 +404,7 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
          <br><br>
          Pricing is transparent and known in advance: one fixed monthly price per plan, from 19 EUR/USD for 200 simultaneous connections. See the <a href="https://www.stackhero.io/en-US/services/Mosquitto/pricing">MQTT cloud broker pricing</a>.
          <br><br>
-         Customers choose Europe (France) or the USA. Daily backups and a 99.9% SLA are included, and Stackhero is ISO 27001 certified.
+         Customers choose Europe or the USA. Daily backups and a 99.9% SLA are included, and Stackhero is ISO 27001 certified.
          </div>
       </div>
    <!-- closing div -->
