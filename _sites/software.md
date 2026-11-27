@@ -392,6 +392,21 @@ description: A collection of links to all important MQTT brokers/servers, MQTT c
           CloudAMQP provides fully managed LavinMQ and RabbitMQ clusters with MQTT support. Free plans are available!
         </div>
       </div>
+      <!-- Entry -->
+      <div class="panel-item">
+         <img src="{{ 'assets/img/software/stackhero.svg' | relative_url }}" class="software-logo" alt="Stackhero Logo">
+         <div class="panel-item-description"><a href="https://www.stackhero.io/en-US/services/Mosquitto/benefits"><h3>Stackhero MQTT Cloud (Mosquitto)</h3></a>
+         Stackhero offers a fully managed <a href="https://www.stackhero.io/en-US/services/Mosquitto/benefits">hosted Mosquitto MQTT broker</a> on a dedicated and private virtual machine, ready in 2 minutes.
+         <br><br>
+         Every broker runs alone on its own virtual machine, never in a container shared with other customers. Performance is predictable, on servers with NVMe disks, ECC RAM and server-grade CPUs.
+         <br><br>
+         Devices connect with MQTT over TLS, or over WebSocket on port 443 for web dashboards. Accounts with ACLs per topic, or authentication against your own API, decide who publishes and subscribes. Messages and transfers are unlimited.
+         <br><br>
+         Pricing is transparent and known in advance: one fixed monthly price per plan, from 19 EUR/USD for 200 simultaneous connections. See the <a href="https://www.stackhero.io/en-US/services/Mosquitto/pricing">MQTT cloud broker pricing</a>.
+         <br><br>
+         Customers choose Europe or the USA. Daily backups and a 99.9% SLA are included, and Stackhero is ISO 27001 certified.
+         </div>
+      </div>
    <!-- closing div -->
    </div>
    <!-- Cloud Brokers End -->
